@@ -7,6 +7,7 @@
     * [项目环境配置](pythonxiang-mu-fen-zu/xiang-mu-huan-jing-pei-zhi.md)
     * [pycharm数据库配置](pythonxiang-mu-fen-zu/pycharmshu-ju-ku-pei-zhi.md)
     * [项目执行帮助文档](pythonxiang-mu-fen-zu/xiang-mu-zhi-xing-bang-zhu-wen-dang.md)
+  * [dictionary和json类型转换](dictionaryhe-json-lei-xing-zhuan-huan.md)
 * [Scrapy](scrapy/README.md)
   * [Install](scrapy/introduction.md)
     * [windows电脑安装scrapy报错缺少VisualC++](scrapy/introduction/windowsdian-nao-an-zhuang-scrapy-bao-cuo-que-shao-visualc-++.md)
