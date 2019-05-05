@@ -15,6 +15,7 @@
   * [Spider](scrapy/spider.md)
   * [Xpath](scrapy/xpath.md)
     * [Xpath爬虫写法优化](scrapy/xpath/xpathpa-chong-xie-fa-you-hua.md)
+    * [Chrome使用Xpath](scrapy/xpath/chromeshi-yong-xpath.md)
   * [代理](scrapy/dai-li.md)
     * [代理推荐](scrapy/dai-li/dai-li-tui-jian.md)
   * [Scrapy生产部署](scrapy/scrapysheng-chan-bu-shu.md)
