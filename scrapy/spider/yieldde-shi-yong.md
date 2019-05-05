@@ -42,4 +42,4 @@ class myspiderPipeline(object):
             print item
             return item
 
-  转自——https://blog.csdn.net/weixin_38859557/article/details/86220472 
+> 转自——https://blog.csdn.net/weixin_38859557/article/details/86220472 
