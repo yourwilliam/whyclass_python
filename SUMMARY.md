@@ -13,6 +13,7 @@
   * [The first scrapy project](scrapy/the-first-scrapy-project.md)
   * [Pipeline](scrapy/pipeline.md)
   * [Spider](scrapy/spider.md)
+    * [yield的使用](scrapy/spider/yieldde-shi-yong.md)
   * [Xpath](scrapy/xpath.md)
     * [Xpath爬虫写法优化](scrapy/xpath/xpathpa-chong-xie-fa-you-hua.md)
     * [Chrome使用Xpath](scrapy/xpath/chromeshi-yong-xpath.md)
