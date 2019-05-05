@@ -13,4 +13,7 @@
   * [Pipeline](scrapy/pipeline.md)
   * [Spider](scrapy/spider.md)
   * [Xpath](scrapy/xpath.md)
+* [Python Web](python-web.md)
+  * [HTML](python-web/html.md)
+    * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
 
