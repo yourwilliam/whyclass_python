@@ -17,4 +17,4 @@ class Product(scrapy.Item):
     last_updated = scrapy.Field(serializer=str)
 ```
 
-scrapy的item比django的Model要简单很多，没有很多复杂的字段类型    
+scrapy的item比django的Model要简单很多，没有很多复杂的字段类型。只有Field()方法即可。 
