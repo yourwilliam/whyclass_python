@@ -108,6 +108,7 @@ Product(name='Desktop PC', price=1000)
 >>> product3 = product2.copy()
 >>> print product3
 Product(name='Desktop PC', price=1000)
+```
 根据item创建字典(dict):
 
 >>> dict(product) # create a dict from all populated values
