@@ -76,7 +76,9 @@ True
 >>> 'lala' in product.fields  # is lala a declared field?
 False
 ```
-设置字段的值
+
+## 设置字段的值
+```sh
 >>> product['last_updated'] = 'today'
 >>> product['last_updated']
 today
@@ -85,6 +87,7 @@ today
 Traceback (most recent call last):
     ...
 KeyError: 'Product does not support field: lala'
+```
 获取所有获取到的值
 您可以使用 dict API 来获取所有的值:
 
