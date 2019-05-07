@@ -88,14 +88,16 @@ Traceback (most recent call last):
     ...
 KeyError: 'Product does not support field: lala'
 ```
-获取所有获取到的值
-您可以使用 dict API 来获取所有的值:
 
+## 获取所有获取到的值
+您可以使用 dict API 来获取所有的值:
+```sh
 >>> product.keys()
 ['price', 'name']
 
 >>> product.items()
 [('price', 1000), ('name', 'Desktop PC')]
+```
 其他任务
 复制item:
 
