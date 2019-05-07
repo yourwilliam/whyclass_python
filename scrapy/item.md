@@ -100,7 +100,7 @@ KeyError: 'Product does not support field: lala'
 ```
 ### 其他任务
 复制item:
-
+```sh
 >>> product2 = Product(product)
 >>> print product2
 Product(name='Desktop PC', price=1000)
