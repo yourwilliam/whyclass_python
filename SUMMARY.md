@@ -12,6 +12,7 @@
   * [Install](scrapy/introduction.md)
     * [windows电脑安装scrapy报错缺少VisualC++](scrapy/introduction/windowsdian-nao-an-zhuang-scrapy-bao-cuo-que-shao-visualc-++.md)
   * [The first scrapy project](scrapy/the-first-scrapy-project.md)
+  * [Item](scrapy/item.md)
   * [Pipeline](scrapy/pipeline.md)
   * [Spider](scrapy/spider.md)
     * [yield的使用](scrapy/spider/yieldde-shi-yong.md)
