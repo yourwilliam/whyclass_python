@@ -129,7 +129,8 @@ Traceback (most recent call last):
     ...
 KeyError: 'Product does not support field: lala'
 ```
-扩展Item
+
+### 扩展Item
 您可以通过继承原始的Item来扩展item(添加更多的字段或者修改某些字段的元数据)。
 
 例如:
