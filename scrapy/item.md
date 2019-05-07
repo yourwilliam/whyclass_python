@@ -135,6 +135,7 @@ KeyError: 'Product does not support field: lala'
 
 例如:
 
+```sh
 class DiscountedProduct(Product):
     discount_percent = scrapy.Field(serializer=str)
     discount_expiration_date = scrapy.Field()
