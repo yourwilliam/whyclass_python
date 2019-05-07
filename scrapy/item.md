@@ -135,15 +135,17 @@ KeyError: 'Product does not support field: lala'
 
 例如:
 
-```sh
+```py
 class DiscountedProduct(Product):
     discount_percent = scrapy.Field(serializer=str)
     discount_expiration_date = scrapy.Field()
 ```
 您也可以通过使用原字段的元数据,添加新的值或修改原来的值来扩展字段的元数据:
 
+```py
 class SpecificProduct(Product):
     name = scrapy.Field(Product.fields['name'], serializer=my_serializer)
+```
 这段代码在保留所有原来的元数据值的情况下添加(或者覆盖)了 name 字段的 serializer 。
 
 Item对象
