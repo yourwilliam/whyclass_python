@@ -100,6 +100,7 @@ KeyError: 'Product does not support field: lala'
 ```
 ### 其他任务
 复制item:
+
 ```sh
 >>> product2 = Product(product)
 >>> print product2
@@ -109,12 +110,17 @@ Product(name='Desktop PC', price=1000)
 >>> print product3
 Product(name='Desktop PC', price=1000)
 ```
+
 根据item创建字典(dict):
 
+```sh
 >>> dict(product) # create a dict from all populated values
 {'price': 1000, 'name': 'Desktop PC'}
+```
+
 根据字典(dict)创建item:
 
+```sh
 >>> Product({'name': 'Laptop PC', 'price': 1500})
 Product(price=1500, name='Laptop PC')
 
@@ -122,6 +128,7 @@ Product(price=1500, name='Laptop PC')
 Traceback (most recent call last):
     ...
 KeyError: 'Product does not support field: lala'
+```
 扩展Item
 您可以通过继承原始的Item来扩展item(添加更多的字段或者修改某些字段的元数据)。
 
