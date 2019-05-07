@@ -149,14 +149,21 @@ class SpecificProduct(Product):
 这段代码在保留所有原来的元数据值的情况下添加(或者覆盖)了 name 字段的 serializer 。
 
 Item对象
+
+```py
 classscrapy.item.Item([arg])
 返回一个根据给定的参数可选初始化的item。
+```
 
 Item复制了标准的 dict API 。包括初始化函数也相同。Item唯一额外添加的属性是:
 
+```py
 fields
 一个包含了item所有声明的字段的字典，而不仅仅是获取到的字段。该字典的key是字段(field)的名字，值是 Item声明 中使用到的 Field 对象。
-
+```
 字段(Field)对象
+
+```py
 classscrapy.item.Field([arg])
 Field 仅仅是内置的 dict 类的一个别名，并没有提供额外的方法或者属性。换句话说， Field 对象完完全全就是Python字典(dict)。被用来基于类属性(class attribute)的方法来支持 item声明语法 。
+```
