@@ -24,6 +24,7 @@
       * [在chrome中能查到，在代码中无法查询](scrapy/xpath/zai-chrome-zhong-neng-cha-dao-ff0c-zai-dai-ma-zhong-wu-fa-cha-xun.md)
   * [Spider中间件](scrapy/spiderzhong-jian-jian.md)
   * [下载器中间件](scrapy/xia-zai-qi-zhong-jian-jian.md)
+  * [Item Export](scrapy/item-export.md)
   * [代理](scrapy/dai-li.md)
     * [代理推荐](scrapy/dai-li/dai-li-tui-jian.md)
   * [Scrapy生产部署](scrapy/scrapysheng-chan-bu-shu.md)
