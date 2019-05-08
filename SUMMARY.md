@@ -24,6 +24,7 @@
       * [在chrome中能查到，在代码中无法查询](scrapy/xpath/zai-chrome-zhong-neng-cha-dao-ff0c-zai-dai-ma-zhong-wu-fa-cha-xun.md)
   * [代理](scrapy/dai-li.md)
     * [代理推荐](scrapy/dai-li/dai-li-tui-jian.md)
+  * [生产部署](scrapy/scrapysheng-chan-bu-shu.md)
 * [Python Web](python-web.md)
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
