@@ -35,4 +35,5 @@
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
 * [工具使用](gong-ju-shi-yong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
+* [学习路径](xue-xi-lu-jing.md)
 
