@@ -33,8 +33,11 @@
 * [Python Web](python-web.md)
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
+  * [Django](python-web/django.md)
+    * 安装Django
 * [工具使用](gong-ju-shi-yong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
+  * [Pip](gong-ju-shi-yong/pip.md)
 * [学习路径](xue-xi-lu-jing.md)
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
 
