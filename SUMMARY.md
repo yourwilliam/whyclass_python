@@ -35,6 +35,7 @@
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
   * [Django](python-web/django.md)
     * 安装Django
+    * [DjangoTrails01编写一个Django 应用](python-web/django/djangotrails01bian-xie-yi-ge-django-ying-yong.md)
 * [工具使用](gong-ju-shi-yong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
   * [Pip](gong-ju-shi-yong/pip.md)
