@@ -34,7 +34,7 @@
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
   * [Django](python-web/django.md)
-    * 安装Django
+    * [安装Django](python-web/django/an-zhuang-django.md)
     * [DjangoTrails01编写一个Django 应用](python-web/django/djangotrails01bian-xie-yi-ge-django-ying-yong.md)
     * [DjangoTrails02初始化模型](python-web/django/djangotrails02chu-shi-hua-mo-xing.md)
     * [DjangoTrails03Admin页面](python-web/django/djangotrails03adminye-mian.md)
