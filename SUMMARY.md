@@ -8,6 +8,7 @@
     * [pycharm数据库配置](pythonxiang-mu-fen-zu/pycharmshu-ju-ku-pei-zhi.md)
     * [项目执行帮助文档](pythonxiang-mu-fen-zu/xiang-mu-zhi-xing-bang-zhu-wen-dang.md)
   * [dictionary和json类型转换](dictionaryhe-json-lei-xing-zhuan-huan.md)
+  * [python cheatsheet](python-cheatsheet.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
