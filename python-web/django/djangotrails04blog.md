@@ -256,7 +256,7 @@ urlpatterns = [
 
 修改html 
 
-```py
+```html
 <div class="ed_blog_item ed_bottompadder50">
 						<div class="ed_blog_image_rs">
 							<img src="{{article.banner}}" alt="blog image" />
