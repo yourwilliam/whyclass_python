@@ -149,7 +149,7 @@ def blog_single(request, question_id):
 使用了Django的Template模型之后，对于静态文件的引入不能在使用HTML的文件引入方式，需要遵循django的设计方式。这里通过修改Template下的HTML文件修改。
 
 修改blog_image_rs.html文件
-最上面添加`{% load static %} 
+最上面添加`{% load static %}`
 ```html
 {% load static %}
 <!DOCTYPE html>
