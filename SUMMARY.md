@@ -41,6 +41,7 @@
     * [DjangoTrails02初始化模型](python-web/django/djangotrails02chu-shi-hua-mo-xing.md)
     * [DjangoTrails03Admin页面](python-web/django/djangotrails03adminye-mian.md)
     * [DjangoTrails04博客建立](python-web/django/djangotrails04blog.md)
+    * [DjangoTrails05admin初探](python-web/django/djangotrails05adminchu-tan.md)
 * [工具使用](gong-ju-shi-yong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
   * [Pip](gong-ju-shi-yong/pip.md)
