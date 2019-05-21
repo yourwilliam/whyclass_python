@@ -42,6 +42,8 @@
     * [DjangoTrails03Admin页面](python-web/django/djangotrails03adminye-mian.md)
     * [DjangoTrails04博客建立](python-web/django/djangotrails04blog.md)
     * [DjangoTrails05admin初探](python-web/django/djangotrails05adminchu-tan.md)
+  * Django插件
+    * [django-admin-bootstrapped](python-web/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
   * [Pip](gong-ju-shi-yong/pip.md)
