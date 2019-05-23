@@ -78,7 +78,7 @@ admin.site.register(Category, CategoryAdmin)
 
 这种模式的多对多关系看起来比较简单， 有时候比较难看清楚具体的选择情况，可以提供更方便的管理方式。
 
-```
+```py
 from django.contrib import admin
 
 # Register your models here.
