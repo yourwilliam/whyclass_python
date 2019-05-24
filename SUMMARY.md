@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [武器建议](wu-qi-jian-yi.md)
 * [Python基础](pythonji-chu.md)
   * [pycharm配置github](pycharmpei-zhi-github.md)
   * [python项目](pythonxiang-mu-fen-zu.md)
