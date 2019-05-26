@@ -45,6 +45,7 @@
     * [DjangoTrails05admin初探](python-web/django/djangotrails05adminchu-tan.md)
     * [Django模型详解](python-web/django/djangomo-xing-xiang-jie.md)
     * [DjangoAdmin详解](python-web/django/djangoadminxiang-jie.md)
+    * [DjangoTemplate详解](python-web/django/djangotemplatexiang-jie.md)
   * Django插件
     * [django-admin-bootstrapped](python-web/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong.md)
