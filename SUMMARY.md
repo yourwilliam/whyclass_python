@@ -46,6 +46,7 @@
     * [Django模型详解](python-web/django/djangomo-xing-xiang-jie.md)
     * [DjangoAdmin详解](python-web/django/djangoadminxiang-jie.md)
     * [DjangoTemplate详解](python-web/django/djangotemplatexiang-jie.md)
+    * [DjangoURL详解](python-web/django/djangourl.md)
   * Django插件
     * [django-admin-bootstrapped](python-web/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong.md)
