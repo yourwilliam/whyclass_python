@@ -58,6 +58,7 @@
   * [Brackets](gong-ju-shi-yong/brackets.md)
   * [Shadowsocks](gong-ju-shi-yong/shadowsocks.md)
     * [梯云翻墙指导文档windows版本](gong-ju-shi-yong/shadowsocks/ti-yun-fan-qiang-zhi-dao-wen-dang-windows-ban-ben.md)
+    * [梯云翻墙指导文档mac版本](gong-ju-shi-yong/shadowsocks/ti-yun-fan-qiang-zhi-dao-wen-dang-mac-ban-ben.md)
 * [学习路径](xue-xi-lu-jing.md)
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
 
