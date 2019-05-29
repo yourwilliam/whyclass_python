@@ -52,10 +52,12 @@
   * Django插件
     * [django-admin-bootstrapped](python-web/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong.md)
+  * [工具安装汇总](gong-ju-shi-yong/gong-ju-an-zhuang-hui-zong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
   * [Pip](gong-ju-shi-yong/pip.md)
   * [Brackets](gong-ju-shi-yong/brackets.md)
-  * [工具安装汇总](gong-ju-shi-yong/gong-ju-an-zhuang-hui-zong.md)
+  * Shadowsocks
+
 * [学习路径](xue-xi-lu-jing.md)
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
 
