@@ -78,7 +78,7 @@ admin.site.register(Category, CategoryAdmin)
 
 这种模式的多对多关系看起来比较简单， 有时候比较难看清楚具体的选择情况，可以提供更方便的管理方式。
 
-```py
+```
 from django.contrib import admin
 
 # Register your models here.
@@ -146,3 +146,37 @@ list_filter负责配置右侧的过滤组件。
     search_fields = ['title', 'description']
 ```
 
+
+## 修改admin list默认绑定事件 
+<div id="admin_list_band"></div>
+
+我们在Article中做了软删除，并修改了delete事件，所以当我们在admin中删除一个Article的时候，还能看到这个Article在列表页面中。这时需要在admin的列表页面返回的时候，删掉哪些deletedAt字段不为NULL的项，保证不看到已经删除的内容。
+
+admin支持重写默认的get_queryset方法，来修改列表里面内容，所以我们可以按照如下的方法来修改deletedAt事件
+
+修改admin.py
+```py
+class ArticleAdmin(admin.ModelAdmin):
+    fieldsets = [
+        ('basic content', {'fields': ['title', 'description', 'content', 'status']}),
+        ('banner', {'fields': ['header_image_url', 'header_image']}),
+        ('category', {'fields': ['categories', ]}),
+    ]
+    list_display = ('title', 'description', 'content', 'status', 'createdAt', 'updatedAt')
+    list_filter = ['categories', 'createdAt', 'updatedAt']
+    search_fields = ['title', 'description']
+    filter_horizontal = ('categories',)
+
+    def get_queryset(self, request):
+        qs = super(ArticleAdmin, self).get_queryset(request)
+        qs = qs.filter(deletedAt=None)
+        return qs
+
+```
+
+所以重写get_queryset方法，并过滤掉其中的deletedAt方法就可以获得想要的返回值。 这时可以在admin页面中去查看，删除的部分是否已经没有了
+
+
+
+> 可参考文档
+> [django-admin文档](https://docs.djangoproject.com/en/2.2/ref/contrib/admin/)
