@@ -77,7 +77,7 @@ def index(request):
 
 经常我们在使用查询语句的时候，希望看一下最终的sql的查询语句是什么。
 比较好的方式是在debug的断点中停住查看，这样更方便调试
-![-w1261](media/15586016388125/15591895495754.jpg)
+![-w1261](http://ossp.pengjunjie.com/mweb/15591895495754.jpg)
 
 
 同时我们希望在页面中过只显示publish状态的文章。同样需要添加我们的查询条件
@@ -96,7 +96,7 @@ def index(request):
 ```
 这样就能再次过滤我们的状态为publish的文章
 
-同时在修改deletedAt的时候，也记得将admin中的部分修改。 具体可以参考[DjangoAdmin详解](python-web/django/djangoadminxiang-jie.md#admin_list_band)
+同时在修改deletedAt的时候，也记得将admin中的部分修改。 具体可以参考[DjangoAdmin详解](djangoadminxiang-jie.md#admin_list_band)
 
 
 Chaining filters
