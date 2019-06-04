@@ -51,6 +51,7 @@
     * [DjangoURL详解](python-web/django/djangourl.md)
     * [DjangoModelQuery详解](python-web/django/djangomodelqueryxiang-jie.md)
     * [DjangoCategory列表页面](python-web/django/djangocategorylie-biao-ye-mian.md)
+    * [django-tagging](python-web/django/django-tagging.md)
   * Django插件
     * [django-admin-bootstrapped](python-web/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong.md)
