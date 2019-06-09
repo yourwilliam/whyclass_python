@@ -377,3 +377,95 @@ print('My name is {}.'.format(name))
 ![](http://ossp.pengjunjie.com/mweb/15597281180483.jpg)
 
 
+\a  响铃
+
+## Trails12
+
+### pydoc 
+
+Pydoc是python自带的一个文档生成工具，使用pydoc可以很方便的查看类和方法结构
+
+mac 启动pydoc 
+
+```sh
+(venv) williamtekiMBP:code valentine$ pydoc3.6 -w atexit
+wrote atexit.html
+(venv) williamtekiMBP:code valentine$ pydoc3.6 -p 5000
+Server ready at http://localhost:5000/
+Server commands: [b]rowser, [q]uit
+server> 
+
+```
+
+windows启动pydoc
+
+```sh
+python -m pydoc -w atexit   //在当前目录创建atexit.html
+python -m pydoc -p 5000    //启动一个Web服务器监听http://localhost:5000/
+```
+
+### python sdk
+
+#### [dash](https://kapeli.com/dash)
+
+[dash xclient 下载点](https://xclient.info/s/dash.html)
+
+Dash 是适用于Mac OS平台的软件编程文档管理工具，可以浏览API文档，以及管理代码片段工具。Dash自带了丰富的API文档，涉及各种主流的编程语言和框架。
+
+通过Dash可以浏览API文档，以及管理代码片段工具。Dash自带了丰富的API文档，涉及各种主流的编程语言和框架，包括:ActionScript, Android, C++, CAppuccino, Cocos2D, Cocos3D, Corona, CSS, Django, Groovy, HTML, Java, JavaFX, JavaScript, jQuery, Kobold2D, Lua, MySQL, Node.js, Man Pages, Perl, PHP, Python, Ruby, Ruby on Rails, Scala, Sparrow, SQLite, Unity 3D, WordPress, XSLT, XUL。
+
+利用Dash的代码片段管理功能，你可以把日常使用频繁的代码保存起来，然后为其设置一个独一无二的缩写，这样一来原本需要一遍又一遍的敲击键盘重复录入的繁琐工作，就可以交给Dash来轻松搞定。
+
+缺点： 收费。 不购买VIP也可以使用，但是查每个文件需要等10秒钟（实际上也不是不能忍受）。
+
+![-w1280](http://ossp.pengjunjie.com/mweb/15600695224763.jpg)
+
+
+#### [DevDocs](https://devdocs.io)
+windows上可以使用的Dash的网页版，非常好用的工具。
+
+网页版的API文档工具，也同样集成了非常多的语言和框架接口文档。使用起来非常方便。Mac和Windows用户都可以使用。
+
+![-w1280](http://ossp.pengjunjie.com/mweb/15600696492911.jpg)
+
+
+## Trails 13
+
+import
+python给我们预置了很多常用的功能，这些功能以module的形式组织起来，使用import关键字就可以把我们需要的内容导入进来，从而在脚本里使用。
+
+上面的代码里，我们从sys module里导入了argv这个功能。
+
+argv
+argv的意思是argument variable，这是大多数编程语言里的标准概念。argv里保存了脚本运行时你传入的所有的命令行参数以及脚本名称。看下面的例子
+
+```sh
+python something.py first second third # argv = [something.py, first, second, third]
+python something.py my_var # argv = [something.py, my_var]
+python something.py # argv = [something.py]
+```
+
+所以argv里按顺序保存了脚本名称以及各个命令行参数。
+
+注意：命令行参数是以空格分隔的
+
+unpack
+简单来说，unpack就是把一组数据按顺序的保存到变量里。看下面的例子
+
+```py
+argv = ['something.py', 'first', 'second', 'third']
+a, b, c, d = argv # a='something.py' b='first', c=second d='third'
+argv = ['something.py', 'my_var']
+script, the_var = argv # script='something.py' the_var='my_var'
+```
+
+上面的代码里script, case_id = argv的作用就是把第1个命令行参数赋值给变量case_id
+
+
+
+
+
+>>>基础部分扩展阅读：
+>>>[数据类型和变量](https://www.liaoxuefeng.com/wiki/1016959663602400/1017063826246112)
+>>>[字符串和编码](https://www.liaoxuefeng.com/wiki/1016959663602400/1017075323632896)
+>>>[条件判断](https://www.liaoxuefeng.com/wiki/1016959663602400/1017099478626848)
