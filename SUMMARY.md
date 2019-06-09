@@ -14,6 +14,7 @@
   * [Learn Python3 The Hard Way](learn-python3-the-hard-way.md)
     * [python基础](pythonji-chu.md)
     * [Python基础2文件](pythonji-chu-2-wen-jian.md)
+    * [Python基础3函数](pythonji-chu-3-han-shu.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
