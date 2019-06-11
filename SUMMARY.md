@@ -57,6 +57,7 @@
     * [DjangoCategory列表页面](python-web/django/djangocategorylie-biao-ye-mian.md)
     * [django-tagging](python-web/django/django-tagging.md)
     * [DjangoPaginator](python-web/django/djangopaginator.md)
+  * [Django部署](python-web/djangobu-shu.md)
   * Django插件
     * [django-admin-bootstrapped](python-web/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong.md)
