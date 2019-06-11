@@ -2,7 +2,7 @@
 
 ###1. 登陆注册用户
 
-https://tiyun2.xyz/auth/register?aff=10669
+https://tiyun7.club/auth/register?aff=10669
 
 ![-w1625](http://ossp.pengjunjie.com/mweb/15521028754455.jpg)
 
