@@ -225,6 +225,9 @@ $ sudo /etc/init.d/mysql restart
 ```sh
 root@iZbp1gkjjwb0uadqq8s47uZ:~# apt-get install git
 
+#进入到opt目录
+root@iZbp1gkjjwb0uadqq8s47uZ:~# cd /opt
+
 # 克隆项目到服务器
 root@iZbp1gkjjwb0uadqq8s47uZ:/opt# git clone http://git.yuketang.net/yourwilliam/youyulab-web.git
 
@@ -239,12 +242,17 @@ root@iZbp1gkjjwb0uadqq8s47uZ:/opt/youyulab-web# apt install python3-pip
 #创建venv
 root@iZbp1gkjjwb0uadqq8s47uZ:/opt/youyulab-web# virtualenv -p /usr/bin/python3.6 venv
 
+#切换到virtualenv虚拟环境
+root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# source venv/bin/activate
+(venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web#
+
 #安装依赖包
 (venv) root@iZbp1gkjjwb0uadqq8s47uZ:/opt/youyulab-web# pip install -r requirements.txt
 
 #安装包依赖
 (venv) root@iZbp1gkjjwb0uadqq8s47uZ:/opt/youyulab-web# python manage.py makemigrations
 No changes detected
+
 #生成依赖关系
 (venv) root@iZbp1gkjjwb0uadqq8s47uZ:/opt/youyulab-web# python manage.py migrate
 ```
@@ -265,6 +273,9 @@ No changes detected
 ### 配置nginx
 
 ```sh
+#切换到非virtualenv环境
+(venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# deactivate
+
 # 安装uwsgi
 root@iZbp1gkjjwb0uadqq8s47uZ:~# pip3 install uwsgi
 
@@ -310,6 +321,20 @@ env = PYTHONIOENCODING=UTF-8
 
 启动uwsgi
 
+```
+#切换到venv环境
+root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# source venv/bin/activate
+
+(venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# uwsgi --ini uwsgi_youyulab.ini
+[uWSGI] getting INI configuration from uwsgi_youyulab.ini
+```
+
+可以通过日志查看启动日志信息
+
+```
+(venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# vi uwsgi/uwsgi.log
+```
+
 
 设置nginx配置文件:
 
@@ -352,11 +377,61 @@ server {
 
 ```
 
+
+```sh
+# 完成后需要创建nginx日志目录地址
+root@iZuf67ehbr4ubh7ress6u8Z:~# mkdir /var/log/nginx/destiny/
+
+# 完成后重启nginx
+root@iZuf67ehbr4ubh7ress6u8Z:~# service nginx restart
+```
+
 这些生成后配置域名解析
+
+![](http://ossp.pengjunjie.com/mweb/15602646544484.jpg)
+
+![](http://ossp.pengjunjie.com/mweb/15602647464868.jpg)
+
+![](http://ossp.pengjunjie.com/mweb/15602649573574.jpg)
+
 
 ![-w1032](http://ossp.pengjunjie.com/mweb/15602456432748.jpg)
 
 完成后等待配置完毕，访问即可。
 
+直接访问会出现如下问题，是由于没有加入到allowed_hosts中的原因。
+![](http://ossp.pengjunjie.com/mweb/15602652303800.jpg)
+
+修改如下
+
+修改django的 settings.py文件
+
+```sh
+root@iZuf67ehbr4ubh7ress6u8Z:~# vi /opt/youyulab-web/youyu/settings.py
+
+```
+
+```py
+ALLOWED_HOSTS = ["lab.yuketang.net"]
+```
+
+重启uwsgi即可
+
+```sh
+root@iZuf67ehbr4ubh7ress6u8Z:~# ps -ef|grep uwsgi
+root      7456     1  0 22:48 ?        00:00:00 uwsgi --ini uwsgi_youyulab.ini
+root      7458  7456  0 22:48 ?        00:00:00 uwsgi --ini uwsgi_youyulab.ini
+root      7459  7456  0 22:48 ?        00:00:00 uwsgi --ini uwsgi_youyulab.ini
+root      7702  7530  0 23:02 pts/1    00:00:00 grep --color=auto uwsgi
+root@iZuf67ehbr4ubh7ress6u8Z:~# kill -9 7456
+
+#切换到virtualenv环境
+root@iZuf67ehbr4ubh7ress6u8Z:~# cd /opt/youyulab-web/
+root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# source venv/bin/activate
+(venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# uwsgi --ini uwsgi_youyulab.ini
+#启动uwsgi
+[uWSGI] getting INI configuration from uwsgi_youyulab.ini
+(venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web#
+```
 
 ![](http://ossp.pengjunjie.com/mweb/15602456864082.jpg)
