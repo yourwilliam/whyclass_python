@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
   * [武器建议](wu-qi-jian-yi.md)
+  * [Python相关文章](pythonkai-fa-zhe-nian-du-diao-cha-bao-gao.md)
 * [Python基础](pythonji-chu.md)
   * [python电脑使用基础](pythondian-nao-shi-yong-ji-chu.md)
   * [pycharm配置github](pycharmpei-zhi-github.md)
