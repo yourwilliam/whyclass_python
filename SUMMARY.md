@@ -19,6 +19,7 @@
     * [Python基础3函数](pythonji-chu-3-han-shu.md)
     * [Python基础4String](pythonji-chu-4string.md)
     * [Python基础类和对象](pythonji-chu-lei-he-dui-xiang.md)
+    * [Python基础List,Tuple,Dic](pythonji-chu-list-tuple-dic.md)
   * [Python入门习题整理](pythonru-men-xi-ti-zheng-li.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
