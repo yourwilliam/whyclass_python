@@ -11,3 +11,6 @@
 [鱼课堂爬虫管理中心scrapyd](http://scrapy.yuketang.net/)
 ![](http://ossp.pengjunjie.com/mweb/15607407987322.jpg)
 
+
+[鱼课堂项目管理中心](http://project.yuketang.net/)
+![-w1280](http://ossp.pengjunjie.com/mweb/15615393158046.jpg)
