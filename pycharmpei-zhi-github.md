@@ -1,5 +1,11 @@
 # pycharm 配置Github指导文档
 
+## Git安装指南
+
+Git安装指南可以参考廖雪峰的博客
+
+[安装Git](https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496)
+
 ## pycharm 配置github环境
 
 打开pycharm
