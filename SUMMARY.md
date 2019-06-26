@@ -75,6 +75,7 @@
     * [梯云翻墙指导文档windows版本](gong-ju-shi-yong/shadowsocks/ti-yun-fan-qiang-zhi-dao-wen-dang-windows-ban-ben.md)
     * [梯云翻墙指导文档mac版本](gong-ju-shi-yong/shadowsocks/ti-yun-fan-qiang-zhi-dao-wen-dang-mac-ban-ben.md)
     * [shadowsocks 补充讲义](gong-ju-shi-yong/shadowsocks/shadowsocks-bu-chong-jiang-yi.md)
+    * [ss翻墙指南](gong-ju-shi-yong/shadowsocks/ssfan-qiang-zhi-nan.md)
   * [电脑文件管理](gong-ju-shi-yong/dian-nao-wen-jian-guan-li.md)
 * [学习路径](xue-xi-lu-jing.md)
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
