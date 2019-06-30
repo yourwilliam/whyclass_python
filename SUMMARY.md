@@ -21,6 +21,8 @@
     * [Python基础类和对象](pythonji-chu-lei-he-dui-xiang.md)
     * [Python基础List,Tuple,Dic](pythonji-chu-list-tuple-dic.md)
   * [Python入门习题整理](pythonru-men-xi-ti-zheng-li.md)
+  * [python基础扩展](pythonji-chu-kuo-zhan.md)
+    * [python正则表达式](pythonji-chu-kuo-zhan/pythonzheng-ze-biao-da-shi.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
