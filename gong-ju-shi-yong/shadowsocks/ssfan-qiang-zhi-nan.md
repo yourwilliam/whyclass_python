@@ -23,3 +23,16 @@ mac版本安装直接解压后拖到Application中即可
 然后打开shadowsocks工具，选择扫描屏幕上的二维码即可。
 
 
+### Android 手机安装
+
+[android下载地址](https://github.com/shadowsocks/shadowsocks-android/releases)
+
+下载对应版本的apk安装包
+
+![](http://ossp.pengjunjie.com/mweb/15634183246591.jpg)
+
+安装完成后扫描二维码即可访问
+
+### 苹果手机安装
+
+苹果手机需要使用美区账号，下载shadowrock或者其他的ss app客户端连接即可
