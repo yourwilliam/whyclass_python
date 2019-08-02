@@ -46,6 +46,8 @@
   * [Scrapy项目](scrapy/scrapyxiang-mu.md)
     * [ieltsonlinetest](scrapy/scrapyxiang-mu/ieltsonlinetestxiang-mu.md)
     * [zhan项目](scrapy/scrapyxiang-mu/zhanxiang-mu.md)
+* [数据分析](shu-ju-fen-xi.md)
+  * [pandas](shu-ju-fen-xi/pandas.md)
 * [Python Web](python-web.md)
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
