@@ -85,6 +85,7 @@
     * [Evernote](gong-ju-shi-yong/zhi-shi-guan-li/evernote.md)
     * [收藏夹](gong-ju-shi-yong/zhi-shi-guan-li/shou-cang-jia.md)
     * [思维导图](gong-ju-shi-yong/zhi-shi-guan-li/si-wei-dao-tu.md)
+    * [github markdown blog制作指南](gong-ju-shi-yong/zhi-shi-guan-li/github-markdown-blogzhi-zuo-zhi-nan.md)
 * [学习路径](xue-xi-lu-jing.md)
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
   * [2019前后端学习路径](xue-xi-lu-jing/2019qian-hou-duan-xue-xi-lu-jing.md)
