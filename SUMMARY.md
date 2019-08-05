@@ -48,6 +48,8 @@
     * [zhan项目](scrapy/scrapyxiang-mu/zhanxiang-mu.md)
 * [数据分析](shu-ju-fen-xi.md)
   * [pandas](shu-ju-fen-xi/pandas.md)
+  * [OpenCV](shu-ju-fen-xi/opencv.md)
+    * [安装PythonOpenCV](shu-ju-fen-xi/opencv/an-zhuang-pythonopencv.md)
 * [Python Web](python-web.md)
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
