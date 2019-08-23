@@ -92,4 +92,6 @@
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
   * [2019前后端学习路径](xue-xi-lu-jing/2019qian-hou-duan-xue-xi-lu-jing.md)
   * [有鱼成长路径](xue-xi-lu-jing/you-yu-fa-zhan-lu-jing.md)
+* [有鱼公开课](you-yu-gong-kai-ke.md)
+  * [怎么做PPT](you-yu-gong-kai-ke/zen-yao-zuo-ppt.md)
 
