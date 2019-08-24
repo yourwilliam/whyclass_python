@@ -68,6 +68,7 @@
     * [DjangoModelQuery详解](python-web/django/djangomodelqueryxiang-jie.md)
     * [DjangoCategory列表页面](python-web/django/djangocategorylie-biao-ye-mian.md)
     * [django-tagging](python-web/django/django-tagging.md)
+    * [django-taggit标签](python-web/django/django-taggitbiao-qian.md)
     * [DjangoPaginator](python-web/django/djangopaginator.md)
   * [Django部署](python-web/djangobu-shu.md)
   * Django插件
