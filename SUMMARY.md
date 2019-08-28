@@ -5,6 +5,7 @@
   * [Python相关文章](pythonkai-fa-zhe-nian-du-diao-cha-bao-gao.md)
   * [鱼课堂在线工具](yu-ke-tang-zai-xian-gong-ju.md)
   * [鱼课堂设计v2.0](yu-ke-tang-she-ji-v2-0.md)
+  * [鱼课堂设计v2.0AL](yu-ke-tang-she-ji-v2-0al.md)
 * [Python基础](pythonji-chu.md)
   * [python电脑使用基础](pythondian-nao-shi-yong-ji-chu.md)
   * [pycharm配置github](pycharmpei-zhi-github.md)
