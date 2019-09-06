@@ -12,7 +12,7 @@
 请确保已在电脑上安装好Git工具。
 
 mac电脑在terminal中输入git --version 如果能返回版本号则说明已安装。
-![-w395](media/15677519108366/15677538838264.jpg)
+![-w395](http://ossp.pengjunjie.com/mweb/15677538838264.jpg)
 
 windows电脑在powershell中输入 `git --version`，如果返回版本号则说明已安装
 
@@ -30,7 +30,7 @@ windows电脑在powershell中输入 `git --version`，如果返回版本号则�
 
 [jekyll模板地址](http://jekyllthemes.org/) 请在这里选好相应的模板，并下载到本地，请确保所下载的模板中包含——post文件和md文件这两个，保证这是一个blog模板
 
-![](media/15677519108366/15677573224703.jpg)
+![](http://ossp.pengjunjie.com/mweb/15677573224703.jpg)
 
 ## 使用github jekyll的意义
 1. 版本管理，可以实时上传到网上
