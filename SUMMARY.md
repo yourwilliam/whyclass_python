@@ -91,10 +91,12 @@
   * [2019前后端学习路径](xue-xi-lu-jing/2019qian-hou-duan-xue-xi-lu-jing.md)
   * [有鱼成长路径](xue-xi-lu-jing/you-yu-fa-zhan-lu-jing.md)
 * [有鱼公开课](you-yu-gong-kai-ke.md)
+  * [公开课目录](gong-ju-shi-yong/gong-kai-ke-mu-lu.md)
   * [知识管理](gong-ju-shi-yong/zhi-shi-guan-li.md)
     * [Evernote](gong-ju-shi-yong/zhi-shi-guan-li/evernote.md)
     * [收藏夹](gong-ju-shi-yong/zhi-shi-guan-li/shou-cang-jia.md)
     * [思维导图](gong-ju-shi-yong/zhi-shi-guan-li/si-wei-dao-tu.md)
     * [github markdown blog制作指南](gong-ju-shi-yong/zhi-shi-guan-li/github-markdown-blogzhi-zuo-zhi-nan.md)
   * [怎么做PPT](you-yu-gong-kai-ke/zen-yao-zuo-ppt.md)
+
 
