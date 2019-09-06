@@ -96,7 +96,7 @@
     * [Evernote](gong-ju-shi-yong/zhi-shi-guan-li/evernote.md)
     * [收藏夹](gong-ju-shi-yong/zhi-shi-guan-li/shou-cang-jia.md)
     * [思维导图](gong-ju-shi-yong/zhi-shi-guan-li/si-wei-dao-tu.md)
+    * [markdown与github blog](gong-ju-shi-yong/zhi-shi-guan-li/markdownyu-githubblog.md)
     * [github markdown blog制作指南](gong-ju-shi-yong/zhi-shi-guan-li/github-markdown-blogzhi-zuo-zhi-nan.md)
   * [怎么做PPT](you-yu-gong-kai-ke/zen-yao-zuo-ppt.md)
-
 
