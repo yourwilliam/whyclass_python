@@ -23,6 +23,15 @@
 
 ![-w588](http://ossp.pengjunjie.com/mweb/15696872683691.jpg)
 
+###mac安装
+
+打开terminal, 输入
+```sh
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+$ brew install python3
+
+```
 
 ## pycharm 安装
 
