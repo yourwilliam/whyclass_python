@@ -28,6 +28,7 @@
   * [python进阶版](pythonjin-jie-ban.md)
     * [\[course\] 01 python环境基础](pythonjin-jie-ban/course-01-pythonhuan-jing-ji-chu.md)
     * [\[pre-homework\] course02 课前作业](pythonjin-jie-ban/pre-homework-course02-ke-qian-zuo-ye.md)
+    * [\[course\] 02 —— Python基础](pythonjin-jie-ban/course-02-pythonji-chu.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
