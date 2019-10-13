@@ -32,6 +32,7 @@
       * [\[course\] 02 —— Python基础](pythonjin-jie-ban/course-02-pythonji-chu.md)
       * [\[course\]02——Python变量](pythonjin-jie-ban/course02pythonbian-liang.md)
       * [\[course\]02 —— Python Functions](pythonjin-jie-ban/course02-python-functions.md)
+      * [\[course\]02 —— Python 条件判断](pythonjin-jie-ban/course02-python-tiao-jian-pan-duan.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
