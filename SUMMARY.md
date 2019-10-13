@@ -34,6 +34,8 @@
       * [\[course\]02 —— Python Functions](pythonjin-jie-ban/course02-python-functions.md)
       * [\[course\]02 —— Python 条件判断](pythonjin-jie-ban/course02-python-tiao-jian-pan-duan.md)
       * [\[homework\]course02 作业](pythonjin-jie-ban/homeworkcourse02-zuo-ye.md)
+    * [\[course03\]](pythonjin-jie-ban/course03.md)
+      * [\[course\]03 —— Python循环](pythonjin-jie-ban/course03/course03-pythonxun-huan.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
