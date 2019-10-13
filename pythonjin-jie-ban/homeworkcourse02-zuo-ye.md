@@ -52,7 +52,7 @@ For example, following the case above: colorBlender(220020060, 189252201, 3, 1) 
 
 Hints: RGB values must be ints, not floats. Also, remember to use roundHalfUp(n) instead of round(n) when calculating midpoint colors.
 
-### 7. **Bonus/Optional: bonusPlayThreeDiceYahtzee(dice)**
+### 8. **Bonus/Optional: bonusPlayThreeDiceYahtzee(dice)**
 In this exercise, we will write a simplified form of the dice game [Yahtzee](https://en.wikipedia.org/wiki/Yahtzee). In this version, the goal is to get 3 matching dice, and if you can't do that, then you hope to at least get 2 matching dice. The game is played like so:
 
 1. Roll 3 dice.
@@ -149,7 +149,7 @@ Also note: we will represent a hand of 3 dice as a single 3-digit integer. So th
 
 
 
-### 8. **Bonus/Optional: bonusFindIntRootsOfCubic(a,b,c,d)**
+### 9. **Bonus/Optional: bonusFindIntRootsOfCubic(a,b,c,d)**
 Write the function bonusFindIntRootsOfCubic(a,b,c,d) that takes the int or float coefficients a, b, c, d of a cubic equation of this form:
 ![-w174](http://ossp.pengjunjie.com/mweb/15709476372038.jpg)
 
