@@ -1,7 +1,7 @@
 # [homework]course02 作业
 
 ##TODO 记得修改路径
-下载 [youyulab_week1_linter.py](http://ossp.pengjunjie.com/youyulab_week1_linter.py) 和 [youyulab_hw_week1.py](http://ossp.pengjunjie.com/youyulab_hw_week1.py)文件。拷贝到week1的文件夹中。
+下载 [youyulab_week1_linter.py](http://ossp.pengjunjie.com/youyulab_week1_linter.py) 和 [youyulab_hw_week1.py](http://ossp.pengjunjie.com/youyulab_hw_week1_work.py)文件。拷贝到week1的文件夹中。
 
 其中youyulab_week1_linter.py文件不需要改动
 
