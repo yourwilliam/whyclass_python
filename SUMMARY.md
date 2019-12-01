@@ -45,6 +45,8 @@
       * [\[course\]04 —— 算法入门](pythonjin-jie-ban/course04/course04-suan-fa-ru-men.md)
       * [\[pre-homework\]course04](pythonjin-jie-ban/course04/pre-homeworkcourse04.md)
       * [\[homework\]course04](pythonjin-jie-ban/course04/homeworkcourse04.md)
+    * [\[course05\]](pythonjin-jie-ban/course05.md)
+      * [\[course\]05 —— 列表入门](pythonjin-jie-ban/course05/course05-lie-biao-ru-men.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
