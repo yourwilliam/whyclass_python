@@ -53,6 +53,7 @@
       * [\[pre-homework\] course05](pythonjin-jie-ban/course05/pre-homework-course05.md)
       * [\[homework\]course05](pythonjin-jie-ban/course05/homeworkcourse05.md)
       * [\[course\]05 —— sets ](pythonjin-jie-ban/course05/course05-sets.md)
+      * [\[course\]05 dictionary](pythonjin-jie-ban/course05/course05-dictionary.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
