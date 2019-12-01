@@ -49,6 +49,7 @@
       * [\[course\]05 —— 列表入门](pythonjin-jie-ban/course05/course05-lie-biao-ru-men.md)
       * [\[course\]05 —— container](pythonjin-jie-ban/course05/course05-container.md)
       * [\[course\]05 —— 二维列表](pythonjin-jie-ban/course05/course05-er-wei-lie-biao.md)
+      * [\[course\]05 —— list,tuple,dic基础](pythonjin-jie-ban/course05/course05-listtupledicji-chu.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
