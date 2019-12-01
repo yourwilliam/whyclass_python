@@ -41,6 +41,7 @@
       * [\[homework\]course03 作业](pythonjin-jie-ban/course03/homeworkcourse03-zuo-ye.md)
     * [\[course04\]](pythonjin-jie-ban/course04.md)
       * [\[course\]04 —— String](pythonjin-jie-ban/course04/course04-string.md)
+      * [\[course\]04 —— 画图 2](pythonjin-jie-ban/course04/course04-hua-tu-2.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
