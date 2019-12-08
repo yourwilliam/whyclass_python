@@ -64,6 +64,7 @@
     * [\[course08\]](pythonjin-jie-ban/course08.md)
       * [\[course\]08 —— 面向对象编程03](pythonjin-jie-ban/course08/course08-mian-xiang-dui-xiang-bian-cheng-03.md)
       * [\[course\]08 游戏模块02-1](pythonjin-jie-ban/course08/course08-you-xi-mo-kuai-02-1.md)
+      * [\[course\]08 游戏模块02-2](pythonjin-jie-ban/course08/course08-you-xi-mo-kuai-02-2.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
