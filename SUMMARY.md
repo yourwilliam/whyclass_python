@@ -55,7 +55,7 @@
       * [\[course\]06 —— sets ](pythonjin-jie-ban/course05/course05-sets.md)
       * [\[course\]06 dictionary](pythonjin-jie-ban/course05/course05-dictionary.md)
       * [\[course\]06 —— list,tuple,dic基础](pythonjin-jie-ban/course05/course05-listtupledicji-chu.md)
-      * \[homework\]course06
+      * [\[homework\]course06](pythonjin-jie-ban/course05/homeworkcourse06.md)
 * [Scrapy](scrapy/README.md)
   * [Scrapy架构](scrapy/scrapyjia-gou.md)
   * [Install](scrapy/introduction.md)
