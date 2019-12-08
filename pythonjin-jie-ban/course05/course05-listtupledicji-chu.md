@@ -454,11 +454,10 @@ TypeError: unhashable type: 'set'
 
   我们先看看定义的时候tuple包含的3个元素：
 
-  ![tuple-0](data:image/png;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4NCjxodG1sPg0KPGhlYWQ+PHRpdGxlPjQwMyBGb3JiaWRkZW48L3RpdGxlPjwvaGVhZD4NCjxib2R5IGJnY29sb3I9IndoaXRlIj4NCjxoMT40MDMgRm9yYmlkZGVuPC9oMT4NCjxwPllvdSBkb24ndCBoYXZlIHBlcm1pc3Npb24gdG8gYWNjZXNzIHRoZSBVUkwgb24gdGhpcyBzZXJ2ZXIuPGhyLz5Qb3dlcmVkIGJ5IFRlbmdpbmU8L2JvZHk+DQo8L2h0bWw+DQo=)
+![](http://ossp.pengjunjie.com/mweb/15757869567636.jpg)
 
   当我们把list的元素`'A'`和`'B'`修改为`'X'`和`'Y'`后，tuple变为：
-
-  ![tuple-1](data:image/png;base64,PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9JRVRGLy9EVEQgSFRNTCAyLjAvL0VOIj4NCjxodG1sPg0KPGhlYWQ+PHRpdGxlPjQwMyBGb3JiaWRkZW48L3RpdGxlPjwvaGVhZD4NCjxib2R5IGJnY29sb3I9IndoaXRlIj4NCjxoMT40MDMgRm9yYmlkZGVuPC9oMT4NCjxwPllvdSBkb24ndCBoYXZlIHBlcm1pc3Npb24gdG8gYWNjZXNzIHRoZSBVUkwgb24gdGhpcyBzZXJ2ZXIuPGhyLz5Qb3dlcmVkIGJ5IFRlbmdpbmU8L2JvZHk+DQo8L2h0bWw+DQo=)
+![](http://ossp.pengjunjie.com/mweb/15757869746602.jpg)
 
   表面上看，tuple的元素确实变了，但其实变的不是tuple的元素，而是list的元素。tuple一开始指向的list并没有改成别的list，所以，tuple所谓的“不变”是说，tuple的每个元素，指向永远不变。即指向`'a'`，就不能改成指向`'b'`，指向一个list，就不能改成指向其他对象，但指向的这个list本身是可变的！
 
