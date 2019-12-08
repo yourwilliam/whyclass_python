@@ -1,4 +1,4 @@
-# [course]05 dictionary
+# [course]06 dictionary
 
 ## 1. **Quick Example**
 
