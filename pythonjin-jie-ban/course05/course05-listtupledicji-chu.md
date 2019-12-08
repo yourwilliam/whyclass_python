@@ -1,4 +1,4 @@
-# [course]05 —— list,tuple,dic基础
+# [course]06 —— list,tuple,dic基础
 
 Python中的list/tuple/dict/set数据类型详解
 Python内部内置了一些数据类型与结构，可以方便在编程时候的使用。

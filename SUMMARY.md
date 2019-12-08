@@ -51,7 +51,7 @@
       * [\[course\]05 —— 二维列表](pythonjin-jie-ban/course05/course05-er-wei-lie-biao.md)
       * [\[course\]06 —— sets ](pythonjin-jie-ban/course05/course05-sets.md)
       * [\[course\]06 dictionary](pythonjin-jie-ban/course05/course05-dictionary.md)
-      * [\[course\]05 —— list,tuple,dic基础](pythonjin-jie-ban/course05/course05-listtupledicji-chu.md)
+      * [\[course\]06 —— list,tuple,dic基础](pythonjin-jie-ban/course05/course05-listtupledicji-chu.md)
       * [\[pre-homework\] course05](pythonjin-jie-ban/course05/pre-homework-course05.md)
       * [\[homework\]course05](pythonjin-jie-ban/course05/homeworkcourse05.md)
     * [\[course06\]](pythonjin-jie-ban/course06.md)
