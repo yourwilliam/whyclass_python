@@ -8,6 +8,7 @@
   * [鱼课堂设计v2.0AL](yu-ke-tang-she-ji-v2-0al.md)
   * [有鱼课程v3.1](you-yu-ke-cheng-v3-1.md)
   * [Collapsar-Python基础营](collapsar-pythonji-chu-ying.md)
+  * [Collapsar-Python进阶实践营](collapsar-pythonjin-jie-shi-jian-ying.md)
 * [Python基础](pythonji-chu.md)
   * [python电脑使用基础](pythondian-nao-shi-yong-ji-chu.md)
   * [pycharm配置github](pycharmpei-zhi-github.md)
