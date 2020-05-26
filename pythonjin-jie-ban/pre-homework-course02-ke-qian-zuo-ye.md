@@ -1,11 +1,12 @@
-# [pre-homework] course02 课前作业
+# [pre-homework] course02 
 
-## 
-下载 [youyulab_week1_linter.py](http://ossp.pengjunjie.com/youyulab_week1_linter.py) 和 [youyulab_pre_hw_week1.py](http://ossp.pengjunjie.com/youyulab_pre_hw_week1.py)文件。拷贝到week1的文件夹中。
+## 课前作业
 
-其中youyulab_week1_linter.py文件不需要改动
+下载 [collapsar_week1_linter.py](http://ossp.pengjunjie.com/collapsar_week1_linter.py) 和 [collapsar_pre_hw_week1.py](http://ossp.pengjunjie.com/collapsar_pre_hw_week1.py)文件。拷贝到week1的文件夹中。
 
-打开youyulab_pre_hw_week1.py 文件
+其中collapsar_week1_linter.py文件不需要改动
+
+打开collapsar_pre_hw_week1.py 文件
 
 
 ## 作业内容
