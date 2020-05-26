@@ -32,6 +32,7 @@
     * [\[course\] 01 python环境基础](pythonjin-jie-ban/course-01-pythonhuan-jing-ji-chu.md)
     * [\[course02\]](pythonjin-jie-ban/course02.md)
       * [\[pre-homework\] course02 课前作业](pythonjin-jie-ban/pre-homework-course02-ke-qian-zuo-ye.md)
+      * [\[course\]02 —— 计算机进制](pythonjin-jie-ban/course02-ji-suan-ji-jin-zhi.md)
       * [\[course\] 02 —— Python基础](pythonjin-jie-ban/course-02-pythonji-chu.md)
       * [\[course\]02——Python变量](pythonjin-jie-ban/course02pythonbian-liang.md)
       * [\[course\]02 —— Python Functions](pythonjin-jie-ban/course02-python-functions.md)
