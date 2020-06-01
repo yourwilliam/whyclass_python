@@ -49,15 +49,15 @@ As with the previous creative problem, be thoughtful but don't overthink this. A
 
 Write the function nthHappyPrime(n) that finds the nth happy prime. Prime we know already, but what is a happy number? To find out, read the first paragraph on [the Wikipedia page](https://en.wikipedia.org/wiki/Happy_number). For our purposes, we can simplify the process of finding a happy number by saying that a cycle which reaches 1 indicates a happy number, while a cycle which reaches 4 indicates a number that is unhappy. To solve this problem, you'll want to use isPrime and write three other functions:
 
-1. **sumOfSquaresOfDigits**
+* **sumOfSquaresOfDigits**
 
 Write the function sumOfSquaresOfDigits(n) which takes a non-negative integer and returns the sum of the squares of its digits. For example, 123 would become 1^2 + 2^2 + 3^2 = 1 + 4 + 9 = 14\. You **must** work with the number input directly instead of casting it to a string! Even if the linter allows your code, we will also check for this requirement in AutoLab!
 
-2. **isHappyNumber**
+* **isHappyNumber**
 
 Write the function isHappyNumber(n) which takes a possibly-negative integer and returns True if it is happy and False otherwise. Note that all numbers less than 1 are not happy.
 
-3. **nthHappyPrime**
+* **nthHappyPrime**
 
 A happy prime is a number that is both happy and prime. Write the function nthHappyPrime(n) which takes a non-negative integer and returns the nth happy prime number (where the 0th happy prime number is 7).
 
