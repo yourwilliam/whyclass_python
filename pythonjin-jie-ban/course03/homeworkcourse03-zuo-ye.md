@@ -11,7 +11,7 @@
 
 ### **1. integral(f, a, b, N) [可选做]**
 Background: in calculus, we use the integral of a function f from x=a to x=b to compute the area under the curve between those points (or the negative area if the function is below the x-axis). One way to approximate this area (that is, to find it without doing any actual calculus!) is by replacing the smooth function with a collection of N trapezoids, as shown in this image (from [here](http://calculus.seas.upenn.edu/), with N=5):
-![](media/15727690632428/TrapezoidRule.png)
+![](http://ossp.pengjunjie.com/mweb/TrapezoidRule.png)
 
 As in that image, here we will only use uniform widths, so each of the trapezoids has a width of (b - a)/N, so that all N of them together span the width of (b - a).
 
