@@ -97,6 +97,7 @@
     * [zhan项目](scrapy/scrapyxiang-mu/zhanxiang-mu.md)
 * [数据分析](shu-ju-fen-xi.md)
   * [pandas](shu-ju-fen-xi/pandas.md)
+  * [pandas基础教程](shu-ju-fen-xi/pandasji-chu-jiao-cheng.md)
   * [OpenCV](shu-ju-fen-xi/opencv.md)
     * [安装PythonOpenCV](shu-ju-fen-xi/opencv/an-zhuang-pythonopencv.md)
 * [Python Web](python-web.md)
