@@ -7,6 +7,9 @@
 ------
 **飞书邀请：**
 
+已在飞书Collapsar的伙伴可以不用再次添加
+
+
 我和“collapsar”的小伙伴都在飞书等你，用这个专属链接加入我们吧！[https://go.feishu.cn/J2s5tK1/](https://go.feishu.cn/J2s5tK1/)
 
 也可以扫二维码加入
