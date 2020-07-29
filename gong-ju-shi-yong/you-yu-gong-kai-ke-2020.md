@@ -7,14 +7,15 @@
 ------
 **飞书邀请：**
 
-已在飞书Collapsar的伙伴可以不用再次添加
-
+已在飞书Collapsar的伙伴可以不用再次添加()
 
 我和“collapsar”的小伙伴都在飞书等你，用这个专属链接加入我们吧！[https://go.feishu.cn/J2s5tK1/](https://go.feishu.cn/J2s5tK1/)
 
 也可以扫二维码加入
 
 ![小尺寸二维码-200*200](http://ossp.pengjunjie.com/mweb/%E5%B0%8F%E5%B0%BA%E5%AF%B8%E4%BA%8C%E7%BB%B4%E7%A0%81-200*200.png)
+
+本社群只支持有鱼Collapsar老学员，请大家申请的时候注明名字，谢谢！
 
 添加后需要通过管理员验证后方可加入，如果等待时间较久可以微信通知一下我
 
