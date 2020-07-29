@@ -140,6 +140,7 @@
   * [有鱼成长路径](xue-xi-lu-jing/you-yu-fa-zhan-lu-jing.md)
 * [有鱼公开课](you-yu-gong-kai-ke.md)
   * [公开课目录](gong-ju-shi-yong/gong-kai-ke-mu-lu.md)
+  * [有鱼公开课2020](gong-ju-shi-yong/you-yu-gong-kai-ke-2020.md)
   * [知识管理](gong-ju-shi-yong/zhi-shi-guan-li.md)
     * [Evernote](gong-ju-shi-yong/zhi-shi-guan-li/evernote.md)
     * [收藏夹](gong-ju-shi-yong/zhi-shi-guan-li/shou-cang-jia.md)
