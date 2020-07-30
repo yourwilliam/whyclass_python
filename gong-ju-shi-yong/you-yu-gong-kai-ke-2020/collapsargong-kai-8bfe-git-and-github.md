@@ -1,4 +1,4 @@
-# git & github
+# Collapsar公开课 git & github
 
 ## 版本控制
 
@@ -220,6 +220,8 @@ django [awesome-django](https://github.com/wsvincent/awesome-django)
 ## 有鱼git
 
 没开通可以开通一下
+
+https://git.yuketang.net
 
 使用过程：
 1. 将代码克隆到本地
