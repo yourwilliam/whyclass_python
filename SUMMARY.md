@@ -102,6 +102,7 @@
     * [安装PythonOpenCV](shu-ju-fen-xi/opencv/an-zhuang-pythonopencv.md)
   * [matplotlib](shu-ju-fen-xi/matplotlib.md)
     * [matplotlib基础](shu-ju-fen-xi/matplotlib/matplotlibji-chu.md)
+    * [matplotlib不同类型的图](shu-ju-fen-xi/matplotlib/matplotlibbu-tong-lei-xing-de-tu.md)
 * [Python Web](python-web.md)
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
