@@ -100,6 +100,8 @@
   * [pandas基础教程](shu-ju-fen-xi/pandasji-chu-jiao-cheng.md)
   * [OpenCV](shu-ju-fen-xi/opencv.md)
     * [安装PythonOpenCV](shu-ju-fen-xi/opencv/an-zhuang-pythonopencv.md)
+  * [matplotlib](shu-ju-fen-xi/matplotlib.md)
+    * [matplotlib基础](shu-ju-fen-xi/matplotlib/matplotlibji-chu.md)
 * [Python Web](python-web.md)
   * [HTML](python-web/html.md)
     * [HTML Cheatsheet](python-web/html/html-cheatsheet.md)
