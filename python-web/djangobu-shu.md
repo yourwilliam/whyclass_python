@@ -1,23 +1,20 @@
-# 网站初始化部署和展示
+# Django部署
 
 ## 1. 域名购买
 
 国内推荐[阿里云域名](https://wanwang.aliyun.com/)
 
-优势：阿里云购买可以在一个平台搞定域名、主机等各种服务，适合长期在国内并把服务架设到国内的个人。
-劣势：所有域名网站都需要备案，备案比较麻烦，且周期大概在15天到一个月。但是比国外买域名在国内备案稍微简单一些。
+优势：阿里云购买可以在一个平台搞定域名、主机等各种服务，适合长期在国内并把服务架设到国内的个人。 劣势：所有域名网站都需要备案，备案比较麻烦，且周期大概在15天到一个月。但是比国外买域名在国内备案稍微简单一些。
 
 国外推荐[godaddy](https://sg.godaddy.com/zh)
 
 链接显示的是新加坡主站，也可以选择其他国际站点。
 
-优势：在国外用比较方便，结合国外的服务器，不需要备案可以直接上线，操作起来更方便，可以随时购买随时使用。
-劣势：最好有信用卡，支付起来会比较方便。如果想在国内使用，备案会比较复杂。
+优势：在国外用比较方便，结合国外的服务器，不需要备案可以直接上线，操作起来更方便，可以随时购买随时使用。 劣势：最好有信用卡，支付起来会比较方便。如果想在国内使用，备案会比较复杂。
 
 ## 2. 服务器购买
 
-国内推荐：
-[阿里云服务器](https://www.aliyun.com/product/ecs?spm=5176.8142029.388261.92.e9396d3eHJUQ0E)
+国内推荐： [阿里云服务器](https://www.aliyun.com/product/ecs?spm=5176.8142029.388261.92.e9396d3eHJUQ0E)
 
 可以作为第一选择
 
@@ -29,11 +26,9 @@
 
 ![](http://ossp.pengjunjie.com/mweb/15602195379747.jpg)
 
-
 ![](http://ossp.pengjunjie.com/mweb/15602195159529.jpg)
 
-
-AWS： 
+AWS：
 
 如果买国外的域名可以直接使用AWS进行部署，这样就都不需要国内的备案。建议在国外长待的可以使用这种方式。如果主要访问为国内用户的话，AWS会出现国内访问较慢，以及时常的国内访问抽风的情况。
 
@@ -43,14 +38,11 @@ Heroku：
 
 heroku采用容器模型进行配置，是国外现在非常流行的方式。
 
-
 ## 域名备案
 
 以下以阿里云模式作为介绍
 
 在国内的所有网站都需要做域名备案，在阿里鱼的备案中心可以直接做备案。
-
-
 
 ![-w1279](http://ossp.pengjunjie.com/mweb/15602209408019.jpg)
 
@@ -63,22 +55,20 @@ heroku采用容器模型进行配置，是国外现在非常流行的方式。
 ## 服务器配置
 
 ### 整体配置架构
+
 ![](http://ossp.pengjunjie.com/mweb/15602251299814.jpg)
 
 在服务器端部署和安装涉及到Nginx、uWSGI、python、django、mysql、Git等环境。
 
 ### 登陆服务器
 
-登陆阿里云控制台可以看到我们的ecs服务器。也可以看到公网
-![](http://ossp.pengjunjie.com/mweb/15602224776793.jpg)
-
+登陆阿里云控制台可以看到我们的ecs服务器。也可以看到公网 ![](http://ossp.pengjunjie.com/mweb/15602224776793.jpg)
 
 ![-w1024](http://ossp.pengjunjie.com/mweb/15602255089403.jpg)
 
-
 使用ssh访问
 
-```sh
+```bash
 williamtekiMacBook-Pro:~ valentine$ ssh root@47.110.156.109
 root@47.110.156.109's password:
 Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-48-generic x86_64)
@@ -99,8 +89,7 @@ Last login: Tue Jun 11 12:01:11 2019
 
 ### python的安装
 
-Ubuntu默认安装了python2.7和python3.6，可以在命令控制台使用python测试相应的版本。
-![-w324](http://ossp.pengjunjie.com/mweb/15602273609236.jpg)
+Ubuntu默认安装了python2.7和python3.6，可以在命令控制台使用python测试相应的版本。 ![-w324](http://ossp.pengjunjie.com/mweb/15602273609236.jpg)
 
 ### mysql的安装
 
@@ -108,7 +97,7 @@ Ubuntu默认安装了python2.7和python3.6，可以在命令控制台使用pytho
 
 安装前执行`apt-get update`来更新服务器包配置
 
-```sh
+```bash
 root@iZbp1gkjjwb0uadqq8s47uZ:~# apt-get update
 Get:1 http://mirrors.cloud.aliyuncs.com/ubuntu bionic InRelease [242 kB]
 Get:2 http://mirrors.cloud.aliyuncs.com/ubuntu bionic-updates InRelease [88.7 kB]
@@ -147,7 +136,7 @@ Reading package lists... Done
 
 安装 mysql 服务
 
-```sh
+```bash
 # 安装mysql服务
 sudo apt-get install mysql-server
 # 安装客户端
@@ -164,7 +153,7 @@ mysql的默认安装是不带密码的，所以可以直接登陆进去，这时
 
 直接在控制台输入mysql进入mysql 管理控制台
 
-```sh
+```bash
 root@iZbp1gkjjwb0uadqq8s47uZ:~# mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 2
@@ -185,18 +174,17 @@ Rows matched: 1  Changed: 1  Warnings: 1
 mysql> flush privileges
     -> ;
 Query OK, 0 rows affected (0.00 sec)
-
 ```
 
 修改了密码之后，登陆方式需要修改成
 
-```sh
+```bash
 mysql -u root -p
 ```
 
 默认的mysql为了安全起见是不配置远程登陆的，但是我们在开发等环境时往往需要使用远程登陆，所以我们可以配置mysql的远程连接。
 
-```sh
+```bash
 # 修改配置文件，注释掉bind-address = 127.0.0.1
 $ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 
@@ -212,17 +200,15 @@ Query OK, 0 rows affected (0.00 sec)
 mysql> exit
 Bye
 $ sudo /etc/init.d/mysql restart
-
 ```
 
 最后使用navicat 测试登陆mysql
 
 ![-w502](http://ossp.pengjunjie.com/mweb/15602313875545.jpg)
 
-
 ### Git的安装和配置
 
-```sh
+```bash
 root@iZbp1gkjjwb0uadqq8s47uZ:~# apt-get install git
 
 #进入到opt目录
@@ -230,12 +216,11 @@ root@iZbp1gkjjwb0uadqq8s47uZ:~# cd /opt
 
 # 克隆项目到服务器
 root@iZbp1gkjjwb0uadqq8s47uZ:/opt# git clone http://git.yuketang.net/yourwilliam/youyulab-web.git
-
 ```
 
 ### 安装virtualenv
 
-```sh
+```bash
 #安装pip3
 root@iZbp1gkjjwb0uadqq8s47uZ:/opt/youyulab-web# apt install python3-pip
 
@@ -261,7 +246,6 @@ No changes detected
 
 ![-w320](http://ossp.pengjunjie.com/mweb/15602428622805.jpg)
 
-
 最后可以使用python manage.py runserver 来启动测试
 
 #### 生成static文件
@@ -272,7 +256,7 @@ No changes detected
 
 ### 配置nginx
 
-```sh
+```bash
 #切换到非virtualenv环境
 (venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# deactivate
 
@@ -281,13 +265,11 @@ root@iZbp1gkjjwb0uadqq8s47uZ:~# pip3 install uwsgi
 
 #安装nginx
 sudo apt-get install nginx
-
 ```
 
-配置uwsgi
-创建uwsgi_youyulab.ini文件
+配置uwsgi 创建uwsgi\_youyulab.ini文件
 
-```sh
+```bash
 -- Support: http://www.ubuntu.com/support
 --
 [uwsgi]
@@ -321,7 +303,7 @@ env = PYTHONIOENCODING=UTF-8
 
 启动uwsgi
 
-```
+```text
 #切换到venv环境
 root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# source venv/bin/activate
 
@@ -331,16 +313,15 @@ root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# source venv/bin/activate
 
 可以通过日志查看启动日志信息
 
-```
+```text
 (venv) root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# vi uwsgi/uwsgi.log
 ```
-
 
 设置nginx配置文件:
 
 `vi /etc/nginx/conf.d/youyulab.conf`
 
-```sh
+```bash
 server {
     listen   80;
     charset utf-8;
@@ -374,11 +355,9 @@ server {
         alias /opt/youyulab-web/static/;
     }
 }
-
 ```
 
-
-```sh
+```bash
 # 完成后需要创建nginx日志目录地址
 root@iZuf67ehbr4ubh7ress6u8Z:~# mkdir /var/log/nginx/destiny/
 
@@ -394,30 +373,27 @@ root@iZuf67ehbr4ubh7ress6u8Z:~# service nginx restart
 
 ![](http://ossp.pengjunjie.com/mweb/15602649573574.jpg)
 
-
 ![-w1032](http://ossp.pengjunjie.com/mweb/15602456432748.jpg)
 
 完成后等待配置完毕，访问即可。
 
-直接访问会出现如下问题，是由于没有加入到allowed_hosts中的原因。
-![](http://ossp.pengjunjie.com/mweb/15602652303800.jpg)
+直接访问会出现如下问题，是由于没有加入到allowed\_hosts中的原因。 ![](http://ossp.pengjunjie.com/mweb/15602652303800.jpg)
 
 修改如下
 
 修改django的 settings.py文件
 
-```sh
+```bash
 root@iZuf67ehbr4ubh7ress6u8Z:~# vi /opt/youyulab-web/youyu/settings.py
-
 ```
 
-```py
+```python
 ALLOWED_HOSTS = ["lab.yuketang.net"]
 ```
 
 重启uwsgi即可
 
-```sh
+```bash
 root@iZuf67ehbr4ubh7ress6u8Z:~# ps -ef|grep uwsgi
 root      7456     1  0 22:48 ?        00:00:00 uwsgi --ini uwsgi_youyulab.ini
 root      7458  7456  0 22:48 ?        00:00:00 uwsgi --ini uwsgi_youyulab.ini
@@ -435,3 +411,4 @@ root@iZuf67ehbr4ubh7ress6u8Z:/opt/youyulab-web# source venv/bin/activate
 ```
 
 ![](http://ossp.pengjunjie.com/mweb/15602456864082.jpg)
+

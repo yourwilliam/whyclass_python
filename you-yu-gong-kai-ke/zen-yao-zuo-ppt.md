@@ -1,27 +1,26 @@
-# 怎么做好PPT
+# 怎么做PPT
 
 ## PPT使用场景
 
 * 一般场景
-    * 讲课
-    * 演讲与分享
-    * 作业汇报
-    * 课程汇报
-    * 进度汇报
+  * 讲课
+  * 演讲与分享
+  * 作业汇报
+  * 课程汇报
+  * 进度汇报
 * 重要场景
-    * 毕业设计
-    * 述职(年终总结)
-    * 工作计划
-    * 商业路演
-    * 商业计划书
-    * 竞赛汇报
-    * 项目汇报
-    * TED
+  * 毕业设计
+  * 述职\(年终总结\)
+  * 工作计划
+  * 商业路演
+  * 商业计划书
+  * 竞赛汇报
+  * 项目汇报
+  * TED
 
-    
 ## 视野
 
-审美  ~  多去看  ~  什么是优秀的设计作品？
+审美 ~ 多去看 ~ 什么是优秀的设计作品？
 
 ## 做好PPT的5个方向
 
@@ -29,7 +28,7 @@
 
 减少灌输，更多的给听众他需要的内容，使用更易懂的沟通模式。
 
-### Spread ideas and move people 
+### Spread ideas and move people
 
 较少平白的讲解，图片可以适当的活动，产品的弹出可以加一个突然的动作，以及一些动态的小视频。吸引听众对PPT的注意，需要动态的东西。
 
@@ -42,7 +41,7 @@
 * 使用脑图更好的表达意思。让听众接受你的思维方式，让你和听众能够有一个一致的思维方式。
 * 将文字改为图片、表格或者图形，更容易吸引人。
 
-### Pratcice design, not decoration 
+### Pratcice design, not decoration
 
 * 90% 以上的设计都是破坏性的
 * 需要有一个主要要点。每次只显示一个观点，不要把所有的东西一次推给听众。 缩放图片，使其占满幻灯片。删掉不需要的东西
@@ -57,6 +56,7 @@
 ## 做好PPT的前期建议
 
 在讲述之前，首先明确几个事情
+
 * 你跟谁在沟通？——和你的受众保持共识
 * 希望你的受众了解哪些内容或者做什么？ —— 明确希望受众如何反应，并考虑你的沟通方式以及调整基调
 * 如何表达自己的观点？
@@ -87,10 +87,7 @@
 
 三分钟故事就是：如果你只有三分钟的时间把必要的信息告诉受众，你会讲什么？这是确保你对所要讲的故事理解得清晰透彻的好办法。 ——摆脱幻灯片的好办法
 
-三要素：
-1. 必须能陈述你独特的观点
-2. 必须切中要害
-3. 必须是一个完整的句子
+三要素： 1. 必须能陈述你独特的观点 2. 必须切中要害 3. 必须是一个完整的句子
 
 ### 故事版——思维导图
 
@@ -139,10 +136,12 @@
 
 每个PPT前都需要整理的
 
-
 ## 注意事项
+
 ### 两种不同形式的PPT
+
 #### 查看型PPT
+
 * 尽量多以图表、标题、图片形式去讲述
 * 必要的文字描述可以放在备注中
 * 可以直接画一些框架模块图
@@ -150,6 +149,7 @@
 * 较少的动作，方便PDF形式表述
 
 #### 讲述型PPT
+
 * 减少颜色，准确的是减少色系
 * 减少页面元素，突出重点
 * 可以用动作来吸引注意，使用动作来帮助理解
@@ -157,38 +157,31 @@
 * 少用文字，将文字变为图表、图片的形式
 * 结合脑图
 
-
 ## 模板的使用
+
 图表、图标
 
 ## PPT、Prezi和Snow
 
-PPT ——  线性的讲述模式，现在大多数ppt的模式给人以一种线性的思维定型模式。其实PPT式可以支持多种模式的，但是大多数的模板以及一般的思维都将PPT固定为一种线性模式了，一篇到另一篇都是一个线性的结果。
+PPT —— 线性的讲述模式，现在大多数ppt的模式给人以一种线性的思维定型模式。其实PPT式可以支持多种模式的，但是大多数的模板以及一般的思维都将PPT固定为一种线性模式了，一篇到另一篇都是一个线性的结果。
 
 Prezi —— Prezi的特点是缩放用户界面，在演讲过程中可以根据进程放大缩小。总的来说prezi是一个二维结构，可以缩放、旋转、无边界、在线编辑、实时保存、简单易用。
 
-[Prezi explorer](https://prezi.com/explore/ )
+[Prezi explorer](https://prezi.com/explore/%20)
 
-参考两个得奖Prezi
-[malmaison-hotel](https://prezi.com/fugumlghvxoy/malmaison-hotel-du-vin-prezi-design/)
-
+参考两个得奖Prezi [malmaison-hotel](https://prezi.com/fugumlghvxoy/malmaison-hotel-du-vin-prezi-design/)
 
 Strut —— Strut实际上是一个三维空间的ppt，可以有x、y、z三个轴，来进行三维的跳动，从而能够给予更多一维的空间，同时也赋予了一定的prezi的缩放、旋转、无边界功能（但是这几个功能缺失没有Prezi做的强大）。另一个突出点就是Strut不需要客户端，直接在浏览器端制作，浏览器端播放，随时随地能够查看。
-
 
 ## 附件
 
 ### 配色网站
-[adobe配色网站](https://color.adobe.com/zh/create)
-[www.colourlovers.com](https://www.colourlovers.com/)
+
+[adobe配色网站](https://color.adobe.com/zh/create) [www.colourlovers.com](https://www.colourlovers.com/)
 
 ### 图片素材站
 
-[google image](https://images.google.com/?gws_rd=ssl)
-[unsplash](https://unsplash.com)
-[花瓣](https://huaban.com/)
-[阿里图标库](https://www.iconfont.cn/)
-[免费资源站](https://freebiesbug.com/)
+[google image](https://images.google.com/?gws_rd=ssl) [unsplash](https://unsplash.com) [花瓣](https://huaban.com/) [阿里图标库](https://www.iconfont.cn/) [免费资源站](https://freebiesbug.com/)
 
 ### 百度网盘
 

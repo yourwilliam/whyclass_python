@@ -1,7 +1,8 @@
-# pip的使用
+# Pip
 
 使用pip安装模块：
-```sh
+
+```bash
 # 安装包
 pip install PackageName
 
@@ -34,18 +35,7 @@ pip install -r requirements.txt
 pip install PackageName -i https://mirrors.aliyun.com/pypi/simple
 ```
 
-
 常用命令集：
 
-install                     安装软件包
-download              下载软件包
-uninstall                 卸载软件包
-freeze                     导出已安装的包
-list                           列出已安装的软件包列表
-show                       查看已安装的包的信息
-search                     搜索软件包
-wheel                      按照要求导入建立wheels
-hash                         计算软件压缩包的哈希
-completion             用于补全pip命令的选项或参数
-help                         显示命令的帮助文档
+install 安装软件包 download 下载软件包 uninstall 卸载软件包 freeze 导出已安装的包 list 列出已安装的软件包列表 show 查看已安装的包的信息 search 搜索软件包 wheel 按照要求导入建立wheels hash 计算软件压缩包的哈希 completion 用于补全pip命令的选项或参数 help 显示命令的帮助文档
 

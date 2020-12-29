@@ -1,8 +1,8 @@
-# Django Trails 02 - 初始化模型
+# DjangoTrails02初始化模型
 
 ## 初始化模型
 
-```py
+```python
 from django.db import models
 
 # Create your models here.
@@ -17,15 +17,15 @@ class Article(models.Model):
     publish_time = models.DateTimeField(auto_now_add=True)
     last_modify_time = models.DateTimeField(auto_now=True)
     banner = models.URLField()
-    
 ```
 
 ## 将APP同步
 
-###1. 修改中文和时区
+### 1. 修改中文和时区
 
 修改settings.py文件
-```py
+
+```python
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -34,9 +34,9 @@ LANGUAGE_CODE = 'zh-hans'
 TIME_ZONE = 'Asia/Shanghai'
 ```
 
-###2. 添加APP
+### 2. 添加APP
 
-```py
+```python
 ALLOWED_HOSTS = []
 
 
@@ -51,12 +51,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
 ]
-
 ```
 
-###3. 同步模型
+### 3. 同步模型
 
-```sh
+```bash
 (venv) williamtekiMacBook-Pro:youyu valentine$ python manage.py makemigrations blog
 
 (venv) williamtekiMacBook-Pro:youyu valentine$ python manage.py migrate
@@ -80,10 +79,9 @@ Running migrations:
   Applying auth.0010_alter_group_name_max_length... OK
   Applying auth.0011_update_proxy_permissions... OK
   Applying sessions.0001_initial... OK
-
 ```
 
-```sh
+```bash
 (venv) williamtekiMacBook-Pro:youyu valentine$ python manage.py makemigrations blog
 Migrations for 'blog':
   blog/migrations/0001_initial.py
@@ -93,6 +91,5 @@ Operations to perform:
   Apply all migrations: admin, auth, blog, contenttypes, sessions
 Running migrations:
   Applying blog.0001_initial... OK
-
 ```
 

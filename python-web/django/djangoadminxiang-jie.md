@@ -1,9 +1,8 @@
-# Django admin详解
+# DjangoAdmin详解
 
 当前在和model一起修改admin 样式如下
 
-```py
-
+```python
 from django.contrib import admin
 
 # Register your models here.
@@ -24,10 +23,9 @@ class ArticleAdmin(admin.ModelAdmin):
 
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(Category, CategoryAdmin)
-
 ```
 
-通过 admin.site.register(Article, ArticleAdmin) 注册 Article 模型，Django 能够构建一个默认的表单用于展示。通常来说，你期望能自定义表单的外观和工作方式。你可以在注册模型时将这些设置告诉 Django。
+通过 admin.site.register\(Article, ArticleAdmin\) 注册 Article 模型，Django 能够构建一个默认的表单用于展示。通常来说，你期望能自定义表单的外观和工作方式。你可以在注册模型时将这些设置告诉 Django。
 
 默认配置样式如下
 
@@ -35,13 +33,13 @@ admin.site.register(Category, CategoryAdmin)
 
 下面我们来一步一步优化样式
 
-##优化将field分为不同的区间来修改
+## 优化将field分为不同的区间来修改
 
 对于拥有数十个字段的表单来说，为表单选择一个直观的排序方法就显得你的针很细了。
 
 说到拥有数十个字段的表单，你可能更期望将表单分为几个字段集：
 
-```py
+```python
 from django.contrib import admin
 
 # Register your models here.
@@ -65,7 +63,6 @@ class ArticleAdmin(admin.ModelAdmin):
 
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(Category, CategoryAdmin)
-
 ```
 
 可以使用fieldsets将相同的部分分组整理起来，在输入的时候会更清楚
@@ -78,7 +75,7 @@ admin.site.register(Category, CategoryAdmin)
 
 这种模式的多对多关系看起来比较简单， 有时候比较难看清楚具体的选择情况，可以提供更方便的管理方式。
 
-```
+```text
 from django.contrib import admin
 
 # Register your models here.
@@ -104,30 +101,27 @@ class ArticleAdmin(admin.ModelAdmin):
 
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(Category, CategoryAdmin)
-
 ```
 
-添加filter_horizontal可以优化具体的表现形式。
+添加filter\_horizontal可以优化具体的表现形式。
 
 ![](http://ossp.pengjunjie.com/mweb/15585940198573.jpg)
 
-
 这种方式的显示会直观很多。
 
+## list\_display
 
-## list_display
-
-list_display用来展示列表页面内容
+list\_display用来展示列表页面内容
 
 ![](http://ossp.pengjunjie.com/mweb/15585944599164.jpg)
 
-同时list_display可以包含Model的相关方法来获取更加丰富的展示。详情可以参考django文档
+同时list\_display可以包含Model的相关方法来获取更加丰富的展示。详情可以参考django文档
 
+## list\_filter
 
-## list_filter
+list\_filter负责配置右侧的过滤组件。
 
-list_filter负责配置右侧的过滤组件。
-```py
+```python
     list_filter = ['categories','createdAt', 'updatedAt']
 ```
 
@@ -135,27 +129,25 @@ list_filter负责配置右侧的过滤组件。
 
 ![](http://ossp.pengjunjie.com/mweb/15585946510712.jpg)
 
+## search\_filter
 
-## search_filter 
-
-在列表的顶部增加一个搜索框。当输入待搜项时，Django 将搜索 question_text 字段。你可以使用任意多的字段——由于后台使用 LIKE 来查询数据，将待搜索的字段数限制为一个不会出问题大小，会便于数据库进行查询操作。
+在列表的顶部增加一个搜索框。当输入待搜项时，Django 将搜索 question\_text 字段。你可以使用任意多的字段——由于后台使用 LIKE 来查询数据，将待搜索的字段数限制为一个不会出问题大小，会便于数据库进行查询操作。
 
 现在是给你的修改列表页增加分页功能的好时机。默认每页显示 100 项。变更页分页, 搜索框, 过滤器, 日期层次结构, 和 列标题排序 均以你期望的方式合作运行。
 
-```py
+```python
     search_fields = ['title', 'description']
 ```
 
-
-## 修改admin list默认绑定事件 
-<div id="admin_list_band"></div>
+## 修改admin list默认绑定事件
 
 我们在Article中做了软删除，并修改了delete事件，所以当我们在admin中删除一个Article的时候，还能看到这个Article在列表页面中。这时需要在admin的列表页面返回的时候，删掉哪些deletedAt字段不为NULL的项，保证不看到已经删除的内容。
 
-admin支持重写默认的get_queryset方法，来修改列表里面内容，所以我们可以按照如下的方法来修改deletedAt事件
+admin支持重写默认的get\_queryset方法，来修改列表里面内容，所以我们可以按照如下的方法来修改deletedAt事件
 
 修改admin.py
-```py
+
+```python
 class ArticleAdmin(admin.ModelAdmin):
     fieldsets = [
         ('basic content', {'fields': ['title', 'description', 'content', 'status']}),
@@ -171,12 +163,9 @@ class ArticleAdmin(admin.ModelAdmin):
         qs = super(ArticleAdmin, self).get_queryset(request)
         qs = qs.filter(deletedAt=None)
         return qs
-
 ```
 
-所以重写get_queryset方法，并过滤掉其中的deletedAt方法就可以获得想要的返回值。 这时可以在admin页面中去查看，删除的部分是否已经没有了
+所以重写get\_queryset方法，并过滤掉其中的deletedAt方法就可以获得想要的返回值。 这时可以在admin页面中去查看，删除的部分是否已经没有了
 
+> 可参考文档 [django-admin文档](https://docs.djangoproject.com/en/2.2/ref/contrib/admin/)
 
-
-> 可参考文档
-> [django-admin文档](https://docs.djangoproject.com/en/2.2/ref/contrib/admin/)

@@ -1,4 +1,4 @@
-# Modern Backend and Frontend Developer in 2018
+# 2018前端后端学习路径
 
 [Modern Backend Developer in 2018](https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9?hmsr=pycourses.com)
 
@@ -32,13 +32,11 @@
 22. 学习其他部分 —— profilling, Static Analyse, DDD, SOAP 等等
 23. 持续学习
 
-
 ## 前端学习路径
 
 [Modern Frontend Developer in 2018](https://medium.com/tech-tajawal/modern-frontend-developer-in-2018-4c2072fa2b9c)
 
 ![](http://ossp.pengjunjie.com/mweb/15478759549038.png)
-
 
 1. 学习HTML
 2. CSS基础
@@ -61,3 +59,4 @@
 19. 学习服务端渲染
 20. 学习其他内容 —— canvas, HTML-5, SVG, sourcemaps, functional programming等
 21. 持续学习
+

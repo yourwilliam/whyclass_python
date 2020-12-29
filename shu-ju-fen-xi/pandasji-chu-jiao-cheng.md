@@ -1,12 +1,12 @@
-# pandas教程
+# pandas基础教程
 
 ## 数据结构
 
 ### pandas 数据结构 Series
 
-Series是由一组数据与一组索引(行索引)组成的数据结构。
+Series是由一组数据与一组索引\(行索引\)组成的数据结构。
 
-```py
+```python
 # 创建一个Series，Series默认使用0开始的数做数据标签
 s1 = pd.Series(["a","b","c"])
 # 指定索引的创建Series
@@ -23,21 +23,17 @@ s3.values
 
 DataFrame是由一组数据与一对索引（行索引和列索引）组成的表格型数据结构。
 
-
-```py
+```python
 # 创建一个DataFrame，只传入一个单一列表时，该列表的值会显示成一列，且行和列都是从0开始的默认索引。
 df1 = pd.DataFrame(["a", "b", "c", "d"])
 ```
 
-
-```py
+```python
 # 当传入一个嵌套列表时，会根据嵌套列表数显示成多列数据，行、列索引同样是从0开始的默认索引。
 df2 = pd.DataFrame([["a","A"],["b","B"],["c","C"],["d","D"]])
 ```
 
-
-
-```py
+```python
 # 通过columns参数自定义列索引
 df3 = pd.DataFrame([["a","A"],["b","B"],["c","C"],["d","D"]], columns=["小写","大写"])
 
@@ -46,11 +42,9 @@ df4 = pd.DataFrame({"小写":["a","b","c","d"],"大写":["A","B","C","D"]})
 
 # 指定索引
 df5 = pd.DataFrame({"小写":["a","b","c","d"],"大写":["A","B","C","D"]}, index=["一","二","三","四"])
-
 ```
 
-
-```py
+```python
 # 利用index方法获取DataFrame的行索引
 df2.index
 ```
@@ -58,7 +52,8 @@ df2.index
 ## 导入外部数据
 
 ### 导入excel
-```py
+
+```python
 # 通过read_excel可以将excel读入成为DataFrame
 df = pd.read_excel("file_path")
 # 指定sheet导入
@@ -76,8 +71,7 @@ df1 = pd.read_excel("file_path", usecols=[0,2,3])
 
 ### 导入csv
 
-
-```py
+```python
 df = pd.read_csv("file_path")
 # 指定分隔符，默认是逗号
 df = pd.read_csv("file_path", sep=",")
@@ -89,8 +83,7 @@ df = pd.read_csv("file_path", sep=",", encoding="utf-8")
 
 ### 导入TXT
 
-
-```py
+```python
 df = pd.read_table("file_path")
 # 具体参数和csv类似
 ```
@@ -99,7 +92,7 @@ df = pd.read_table("file_path")
 
 #### mysql
 
-```py
+```python
 import pymysql
 
 sql = "select * from table_name"
@@ -111,7 +104,7 @@ df = pd.read_sql(sql,eng)
 
 读取postgres
 
-```py
+```python
 import psycopg2
 import pandas as pd
 
@@ -139,7 +132,7 @@ print(data)
 
 ## 整理数据
 
-```py
+```python
 # 默认显示5行
 df.head()
 # 显示前2行
@@ -156,22 +149,20 @@ df.describe()
 df.dropna()
 # 删除空白行，只会删除那些全为空值的行
 df.dropna(how="all")
-
 ```
 
 ### 数据填充
 
-```py
+```python
 # 将所有NAN数据填充0
 df.fillna(0)
 
 df.fillna({"性别":"男","年龄":"30"})
-
 ```
 
 ### 删除重复值
 
-```py
+```python
 # 默认对所有值进行重复判断，且默认保留第一行
 df.drop_duplicates()
 # 针对一列的重复值进行判断
@@ -189,11 +180,11 @@ df.drop_duplicates(subset=["列名1", "列名2"], keep=False)
 * int：整数型
 * float
 * object: python对象类型，用O表示
-* string_ : 字符串类型，用S表示，S10表示长度为10的字段
-* unicode_ : 固定长度的Unicode类型，跟字符串定义方式一样
-* datetime64[ns]: 时间格式
+* string\_ : 字符串类型，用S表示，S10表示长度为10的字段
+* unicode\_ : 固定长度的Unicode类型，跟字符串定义方式一样
+* datetime64\[ns\]: 时间格式
 
-```py
+```python
 # 获取某一列的数据类型
 df['列名1'].dtype
 # 将唯一识别码从int类型转化为float类型
@@ -202,7 +193,7 @@ df['列名1'].astype('float64')
 
 数据类型
 
-```py
+```python
 Data type   Description
 bool_   Boolean (True or False) stored as a byte
 int_    Default integer type (same as C long; normally either int64 or int32)
@@ -227,7 +218,7 @@ complex128  Complex number, represented by two 64-bit floats (real and imaginary
 
 ### 添加索引
 
-```py
+```python
 # 给表传入列索引
 df.columns = ["列名1", "列名2", "列名3"]
 # 给表添加行索引，这里也可以添加其它值字段
@@ -240,15 +231,13 @@ df.rename(columns = {"列名1":"新列1", "列名2":"新列名2"})
 df.rename(index = {1:"一",2:"二",3:"三"})
 ```
 
-## 数据选择(重要部分)
+## 数据选择\(重要部分\)
 
 几种数据选择方法：
 
-loc:通过选取行（列）标签索引数据
-iloc:通过选取行（列）位置编号索引数据
-ix:既可以通过行（列）标签索引数据，也可以通过行（列）位置编号索引数据
+loc:通过选取行（列）标签索引数据 iloc:通过选取行（列）位置编号索引数据 ix:既可以通过行（列）标签索引数据，也可以通过行（列）位置编号索引数据
 
-```py
+```python
 # 获取一列
 df["列名1"]
 # 获取多列
@@ -277,12 +266,11 @@ df.iloc[[1,2],[0,2]]
 df[df["rank"]<20][["title","country"]]
 df.iloc[0:2,1:2]
 df.ix[0:2, ["列名1","列名2"]]
-
 ```
 
-###数值替换
+### 数值替换
 
-```py
+```python
 # 将一列的值由240替换为33
 df["列名"].replace(240,33)
 df.replace(np.NAN, 0)
@@ -293,7 +281,7 @@ df.replace({240:33, 260:33, 280:36})
 
 ### 排序
 
-```py
+```python
 #
 df.sort_values(by=["列名"])
 # ascending 默认值为True，表示升序排列。False表示降序排列
@@ -301,3 +289,4 @@ df.sort_values(by=["列名"], ascending=False)
 
 df.sort_values(by=["列名"], ascending=False, na_position="first")
 ```
+

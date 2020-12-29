@@ -1,16 +1,16 @@
-# django-taggit
+# django-taggit标签
 
+## 安装 django-taggit
 
-##安装 django-taggit
-
-```sh
+```bash
 pip install django-taggit -i https://mirrors.aliyun.com/pypi/simple
 ```
 
 ## 添加模型
+
 在 `setting.py` 中添加引入taggit app
 
-```py
+```python
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -25,7 +25,7 @@ INSTALLED_APPS = [
 
 在`models.py`中添加tag字段
 
-```py
+```python
 class Article(BaseSchema):
     title = models.CharField(max_length=1023, null=True, blank=True, default='')
     description = models.CharField(max_length=2047, null=True, blank=True, default='')
@@ -51,14 +51,14 @@ class Article(BaseSchema):
 
 添加完成之后重新发布模型
 
-```sh
+```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
 ## 在admin中添加模型
 
-```py
+```python
 class ArticleAdmin(admin.ModelAdmin):
     # fields = ["title", "description", "banner","content","header_image","categories"]
     fieldsets = [

@@ -1,4 +1,4 @@
-# Django category列表页面
+# DjangoCategory列表页面
 
 前面讲述过在列表页面展示category，这一节主要讲解如何点击category跳转到相应的category下的文章列表
 
@@ -10,7 +10,7 @@
 
 修改 views.py
 
-```py
+```python
 def category(request, category_id):
     articles = Article.objects.filter(categories__id=category_id).filter(deletedAt=None).filter(status=2).order_by(
         '-updatedAt')
@@ -26,7 +26,7 @@ def category(request, category_id):
 
 修改urls.py
 
-```py
+```python
 from django.urls import path
 
 from . import views
@@ -39,9 +39,9 @@ urlpatterns = [
 ]
 ```
 
-修改blog_image_rs.html文件
+修改blog\_image\_rs.html文件
 
-```html
+```markup
 <aside class="widget widget_categories">
     <h4 class="widget-title">Search Categories</h4>
     <ul>
@@ -52,11 +52,9 @@ urlpatterns = [
 </aside>
 ```
 
+最后修改完成页面之后，发现category列表下面的blog点击之后不能访问，其访问的url是[http://127.0.0.1:8000/blog/category/1/4。](http://127.0.0.1:8000/blog/category/1/4。) 这里明显无法解析，我们需要修改article的地址为绝对地址，修改如下
 
-
-最后修改完成页面之后，发现category列表下面的blog点击之后不能访问，其访问的url是http://127.0.0.1:8000/blog/category/1/4。 这里明显无法解析，我们需要修改article的地址为绝对地址，修改如下
-
-```html
+```markup
 <div class="ed_blog_item ed_bottompadder50">
     {% if article.header_image%}
     <div class="ed_blog_image">
@@ -76,3 +74,4 @@ urlpatterns = [
     </div>
 </div>
 ```
+

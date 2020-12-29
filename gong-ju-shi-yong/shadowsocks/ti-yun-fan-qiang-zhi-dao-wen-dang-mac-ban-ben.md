@@ -1,8 +1,8 @@
 # 梯云翻墙指导文档mac版本
 
-###1. 登陆注册用户
+## 1. 登陆注册用户
 
-https://tiyun7.club/auth/register?aff=10669
+[https://tiyun7.club/auth/register?aff=10669](https://tiyun7.club/auth/register?aff=10669)
 
 ![-w1625](http://ossp.pengjunjie.com/mweb/15521028754455.jpg)
 
@@ -10,14 +10,11 @@ https://tiyun7.club/auth/register?aff=10669
 
 ![-w1629](http://ossp.pengjunjie.com/mweb/15521029517718.jpg)
 
-###2. 购买套餐
+## 2. 购买套餐
 
-选择套餐购买，然后右边点击“点击这里充值”
-使用推荐码的默认会送2元
-![-w1628](http://ossp.pengjunjie.com/mweb/15521035004618.jpg)
+选择套餐购买，然后右边点击“点击这里充值” 使用推荐码的默认会送2元 ![-w1628](http://ossp.pengjunjie.com/mweb/15521035004618.jpg)
 
-选择要充值的金额，一般使用6元套餐即可，所以建议充值6元的倍数，因为已经有2元，建议可以充值4，10，16等。
-梯云的账号流量可以累积，所以尽量不要让套餐过期，这样可以累积流量。
+选择要充值的金额，一般使用6元套餐即可，所以建议充值6元的倍数，因为已经有2元，建议可以充值4，10，16等。 梯云的账号流量可以累积，所以尽量不要让套餐过期，这样可以累积流量。
 
 ![-w539](http://ossp.pengjunjie.com/mweb/15521035871892.jpg)
 
@@ -25,8 +22,8 @@ https://tiyun7.club/auth/register?aff=10669
 
 ![-w1628](http://ossp.pengjunjie.com/mweb/15521038415899.jpg)
 
+## 3. 下载软件
 
-###3. 下载软件
 注册完成之后使用自己的账号密码登陆
 
 ![-w1628](http://ossp.pengjunjie.com/mweb/15521030761548.jpg)
@@ -43,7 +40,8 @@ MAC电脑选择MACOS
 
 ![-w1482](http://ossp.pengjunjie.com/mweb/15521033162269.jpg)
 
-###4. 使用shadowsocks
+## 4. 使用shadowsocks
+
 使用spotlight或者Launchpad打开ShadowsocksX-NG-R8
 
 如果显示网上应用无法打开，请点击mac的系统偏好设置
@@ -68,7 +66,6 @@ MAC电脑选择MACOS
 
 ![-w481](http://ossp.pengjunjie.com/mweb/15521117705767.jpg)
 
-
 完成后确定即可
 
 确定后点击运行栏手动更新订阅
@@ -87,13 +84,11 @@ MAC电脑选择MACOS
 
 最后添加登陆选项
 
-勾选登陆时自动启动、打开时自动连接。
-![-w229](http://ossp.pengjunjie.com/mweb/15521119382631.jpg)
+勾选登陆时自动启动、打开时自动连接。 ![-w229](http://ossp.pengjunjie.com/mweb/15521119382631.jpg)
 
 平时使用的时候建议使用PAC模式，这样可以绕过大多数GFW列表网站
 
 ![-w228](http://ossp.pengjunjie.com/mweb/15521119995995.jpg)
-
 
 如果有些网站依然无法使用，可以选择全局模式。
 

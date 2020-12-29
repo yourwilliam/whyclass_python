@@ -1,4 +1,4 @@
-# Brackets 
+# Brackets
 
 Adobe Brackets是一个开源的基于HTML/CSS/JavaScript开发，运行在native shell上的集成开发环境。该项目由Adobe创建和维护，根据MIT许可证发布。提供Windows和OS X平台支持。
 
@@ -13,3 +13,4 @@ brachets比较方便的就是可以实时编辑浏览
 [windows平台下载 1.14版本](https://github.com/adobe/brackets/releases/download/release-1.14/Brackets.Release.1.14.msi)
 
 [brackets最新下载地址,github聚合](https://github.com/adobe/brackets/releases)
+

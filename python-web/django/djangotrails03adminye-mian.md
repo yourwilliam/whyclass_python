@@ -1,23 +1,21 @@
-# Django Trails 03 - Admin页面
+# DjangoTrails03Admin页面
 
 ## 首选创建超级管理员
 
-```sh
+```bash
 (venv) williamtekiMacBook-Pro:youyu valentine$ python manage.py createsuperuser
 用户名 (leave blank to use 'valentine'): yourwilliam
 电子邮件地址: yourwilliam@gmail.com
 Password: 
 Password (again): 
 Superuser created successfully.
-
 ```
 
 ## 启动服务器并访问
 
 使用`python manage.py runserver`启动服务器
 
-访问 http://127.0.0.1:8000/admin/
-访问管理控制台
+访问 [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) 访问管理控制台
 
 ![-w1280](http://ossp.pengjunjie.com/mweb/15579872468042.jpg)
 
@@ -25,7 +23,7 @@ Superuser created successfully.
 
 编辑 blog/admin.py文件
 
-```py
+```python
 from django.contrib import admin
 
 # Register your models here.

@@ -3,19 +3,19 @@
 ## 安装
 
 Terminal中运行，注意请确保前面的虚拟环境
-```sh
+
+```bash
 # 安装numpy
 (venv)$ pip install numpy -i https://mirrors.aliyun.com/pypi/simple
 # 安装pandas
 (venv)$ pip install pandas -i https://mirrors.aliyun.com/pypi/simple
 
 (venv)$ pip install matplotlib -i https://mirrors.aliyun.com/pypi/simple
-
 ```
 
 ## 数据导入
 
-```py
+```python
 df = pd.read_excel('../uva_course_spider/session_all.excel')
 #指定导入sheet
 df = pd.read_excel('../uva_course_spider/session_all.excel', sheet_name='Sheet1')
@@ -28,13 +28,11 @@ df = pd.read_excel('../uva_course_spider/session_all.excel', usecols=[0,2])
 df = pd.read_csv('../uva_course_spider/session_all.csv', header=None, sep=',')
 #指定导入行数
 df = pd.read_csv('../uva_course_spider/session_all.csv', header=None, sep=',', nrows=2,encoding='utf-8')
-
-
 ```
 
 ## Viewing data
 
-```py
+```python
 # 显示数据的头几行
 df.head()
 # 显示数据的尾行
@@ -45,13 +43,11 @@ df.index
 df.columns
 # 转化为矩阵
 df.to_numpy()
-
-
 ```
 
 ## DataFrame
 
-```py
+```python
 #选择某些列
 >>> df.iloc[:,[5,8]]
 #选择连续列
@@ -63,10 +59,9 @@ df.to_numpy()
 >>> df.iloc[[1,4]]
 #选择某几个连续行
 >>> df.iloc[[1:4]]
-
 ```
 
-```py
+```python
 # 过滤行
 >>> df[df[5] != 'Staff']
 # 过滤行后选择列
@@ -75,9 +70,9 @@ df.to_numpy()
 >>> df[df[5] != 'Staff'].iloc[:,5]
 ```
 
-###Missing Data
+### Missing Data
 
-```py
+```python
 # 删除NA
 df1.dropna(how='any')
 # 填充NA
@@ -89,14 +84,12 @@ pd.isna(df1)
 ### 数据可视化
 
 安装matplotlib
-```sh
+
+```bash
 $ pip install matplotlib -i https://mirrors.aliyun.com/pypi/simple
 ```
 
-
-
 ### 数据导出
-
 
 ## 相关教材
 

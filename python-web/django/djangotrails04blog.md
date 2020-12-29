@@ -1,14 +1,12 @@
-# Django Trails 04
+# DjangoTrails04博客建立
 
 ## url的能力，新的视图创建
 
 ### 1. 创建视图
 
-针对blog业务，可以分为两个主要页面，一个是blog_list页面，展示所有的blog信息。另一个是blog_detail页面，展示当前blog的详情页面。
+针对blog业务，可以分为两个主要页面，一个是blog\_list页面，展示所有的blog信息。另一个是blog\_detail页面，展示当前blog的详情页面。
 
-
-
-```py
+```python
 from django.shortcuts import render
 
 # Create your views here.
@@ -22,12 +20,11 @@ def index(request):
 
 def blog_single(request, question_id):
     return HttpResponse("Blog single")
-
 ```
 
 ### 2. 添加url，绑定视图
 
-```py
+```python
 from django.urls import path
 
 from . import views
@@ -36,15 +33,15 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('<int:question_id>/', views.blog_single, name='detail'),
 ]
-
 ```
 
-其中`<int:question_id>/` 用于配置int型参数的绑定。在View中使用参数question_id参数进行整体绑定。
+其中`<int:question_id>/` 用于配置int型参数的绑定。在View中使用参数question\_id参数进行整体绑定。
 
 ## 创建真实View，和模型进行绑定
 
-真实的View，从model模型类获取相应的模型数据，将模型数据按照publish_time的逆序进行排列。最后统一的保存并写入到前端去。
-```py
+真实的View，从model模型类获取相应的模型数据，将模型数据按照publish\_time的逆序进行排列。最后统一的保存并写入到前端去。
+
+```python
 from django.shortcuts import render
 
 # Create your views here.
@@ -61,23 +58,21 @@ def index(request):
 
 def blog_single(request, question_id):
     return HttpResponse("Hello, world. This is william blog")
-
 ```
 
-`python manage.py runserver `来启动web 服务
+`python manage.py runserver`来启动web 服务
 
 最后通过页面访问 `http://127.0.0.1:8000/blog/`
 
-
 ## 整理真实HTML视图
 
-上面的方式只适合于写一个简单的页面，是直接返回相关的内容到页面。如果要做复杂的页面，需要导入相关的内容(HTML)、样式(CSS)、事件和动作(js)到相应的页面。然后再通过和后端合作，将数据库中的内容写入到前端形成动态网站。
+上面的方式只适合于写一个简单的页面，是直接返回相关的内容到页面。如果要做复杂的页面，需要导入相关的内容\(HTML\)、样式\(CSS\)、事件和动作\(js\)到相应的页面。然后再通过和后端合作，将数据库中的内容写入到前端形成动态网站。
 
 在django中使用Template和static来整理所有的页面相关内容。
 
 [html原始文件下载链接](http://ossp.pengjunjie.com/YouyuLab_src_static.zip)
 
-```sh
+```bash
 youyulab/
     blog_single_rs.html
     blog_image_rs.html
@@ -105,10 +100,9 @@ youyulab/
 
 完成之后修改View做一下测试。
 
-
 blog/view.py
 
-```py
+```python
 from django.shortcuts import render
 
 # Create your views here.
@@ -131,8 +125,6 @@ def index(request):
 
 def blog_single(request, question_id):
     return HttpResponse("Hello, world. This is william blog")
-
-
 ```
 
 ### 测试
@@ -143,14 +135,15 @@ def blog_single(request, question_id):
 
 可以看到HTML访问页面出来了。但是是一个只有HTML没有样式的页面。接下来我们修改样式文件的引入。
 
-
 ### 4. 修改static文件引入
 
 使用了Django的Template模型之后，对于静态文件的引入不能在使用HTML的文件引入方式，需要遵循django的设计方式。这里通过修改Template下的HTML文件修改。
 
-修改blog_image_rs.html文件
-最上面添加`{% load static %}`
-```html
+修改blog\_image\_rs.html文件 最上面添加\`
+
+\`
+
+```markup
 {% load static %}
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
@@ -163,7 +156,8 @@ def blog_single(request, question_id):
 下面对于引入的静态文件进行修改
 
 css文件修改这里
-```html
+
+```markup
 <!--srart theme style -->
 <link href="{% static 'blog/css/main.css'%}" rel="stylesheet" type="text/css"/>
 <!-- end theme style -->
@@ -174,7 +168,7 @@ css文件修改这里
 
 js文件修改
 
-```html
+```markup
 <!--main js file start--> 
 <script type="text/javascript" src="{% static 'blog/js/jquery-1.12.2.js' %}"></script>
 <script type="text/javascript" src="{% static 'blog/js/bootstrap.js' %}"></script>
@@ -200,40 +194,37 @@ js文件修改
 
 ![-w500](http://ossp.pengjunjie.com/mweb/15584201936792.jpg)
 
-从页面可以看到每个ed_blog_item 指定了一个blog列表项。这里就是我们要的内容
+从页面可以看到每个ed\_blog\_item 指定了一个blog列表项。这里就是我们要的内容
 
 在Template中修改，获取后端所有数据
 
-```html
+```markup
 {% for article in articles %}
-					<div class="ed_blog_item ed_bottompadder50">
-						<div class="ed_blog_image">
-							<a href="blog_single.html"><img src="{{article.banner}}" alt="blog image" /></a>
-						</div>
-						<div class="ed_blog_info">
-							<h2><a href="blog_single.html">{{article.title}}</a></h2>
-							<ul>
-								<li><a href="#"><i class="fa fa-user"></i> james marco</a></li>
-								<li><a href="#"><i class="fa fa-clock-o"></i> {{article.last_modify_time}}</a></li>
-								<li><a href="#"><i class="fa fa-comment-o"></i> 4 comments</a></li>
-							</ul>
-							<p class="ed_bottompadder10">{{article.description}}</p>
-							<a href="blog_single.html" class="btn ed_btn ed_orange">read more</a>
-						</div>
-					</div>
+                    <div class="ed_blog_item ed_bottompadder50">
+                        <div class="ed_blog_image">
+                            <a href="blog_single.html"><img src="{{article.banner}}" alt="blog image" /></a>
+                        </div>
+                        <div class="ed_blog_info">
+                            <h2><a href="blog_single.html">{{article.title}}</a></h2>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-user"></i> james marco</a></li>
+                                <li><a href="#"><i class="fa fa-clock-o"></i> {{article.last_modify_time}}</a></li>
+                                <li><a href="#"><i class="fa fa-comment-o"></i> 4 comments</a></li>
+                            </ul>
+                            <p class="ed_bottompadder10">{{article.description}}</p>
+                            <a href="blog_single.html" class="btn ed_btn ed_orange">read more</a>
+                        </div>
+                    </div>
                     {% endfor %}
 ```
 
-修改这一段，再讲其他的静态数据删掉。
-完成之后在运行一下看看效果
-后台添加几篇文章试试看
-
+修改这一段，再讲其他的静态数据删掉。 完成之后在运行一下看看效果 后台添加几篇文章试试看
 
 ## 改改detail详情页试试看
 
-修改 view 
+修改 view
 
-```py
+```python
 def blog_single(request, article_id):
     article = get_object_or_404(Article, pk=article_id)
     return render(request, 'blog/blog_single_rs.html', {'article': article})
@@ -241,7 +232,7 @@ def blog_single(request, article_id):
 
 修改url
 
-```py
+```python
 from django.urls import path
 
 from . import views
@@ -254,21 +245,21 @@ urlpatterns = [
 
 修改HTML Template static
 
-修改html 
+修改html
 
-```html
+```markup
 <div class="ed_blog_item ed_bottompadder50">
-						<div class="ed_blog_image_rs">
-							<img src="{{article.banner}}" alt="blog image" />
-						</div>
-					<div class="ed_blog_info">
-						<h2>{{article.title}}</h2>
-						<ul>
-							<li><a href="#"><i class="fa fa-user"></i> james marco</a></li>
-							<li><a href="#"><i class="fa fa-clock-o"></i> {{article.last_modify_time}}</a></li>
-							<li><a href="#"><i class="fa fa-comment-o"></i> 4 comments</a></li>
-						</ul>
-						<p>{{article.content}}</p>
-					</div>
+                        <div class="ed_blog_image_rs">
+                            <img src="{{article.banner}}" alt="blog image" />
+                        </div>
+                    <div class="ed_blog_info">
+                        <h2>{{article.title}}</h2>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user"></i> james marco</a></li>
+                            <li><a href="#"><i class="fa fa-clock-o"></i> {{article.last_modify_time}}</a></li>
+                            <li><a href="#"><i class="fa fa-comment-o"></i> 4 comments</a></li>
+                        </ul>
+                        <p>{{article.content}}</p>
+                    </div>
 ```
 

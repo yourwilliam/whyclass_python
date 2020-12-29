@@ -1,20 +1,20 @@
 # django-tagging
 
-##django 标签
+## django 标签
 
-###安装
+### 安装
 
 安装django-tagging
 
-```
+```text
 sudo pip install django-tagging
 ```
 
-###添加tagging到环境
+### 添加tagging到环境
 
-* 在setting的INSTALLED_APPS中添加'tagging'APP
+* 在setting的INSTALLED\_APPS中添加'tagging'APP
 
-```py
+```python
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -31,11 +31,11 @@ INSTALLED_APPS = [
 * 运行 manage.py migrate
 * 运行工程
 
-###创建tags
+### 创建tags
 
 在模型层创建tans，然后
 
-```py
+```python
 from tagging.fields import TagField
 
 tags = TagField()
@@ -43,7 +43,7 @@ tags = TagField()
 
 我们在admin中添加tags
 
-```py
+```python
 fieldsets = [
         ('basic content', {'fields': ['title', 'description', 'tags', 'content', 'status']}),
         ('banner', {'fields': ['header_image_url', 'header_image']}),
@@ -57,21 +57,22 @@ fieldsets = [
 
 在blog详情页我们看到了tags的内容，所以我们可以把此处进行修改
 
-修改blog_single_rs.html页面
-```py
+修改blog\_single\_rs.html页面
+
+```python
 <ul>
-	<li><i class="fa fa-tags"></i> <a href="#">tags: </a></li>
-	<li><a href="#">{{article.tags}}</a></li>
+    <li><i class="fa fa-tags"></i> <a href="#">tags: </a></li>
+    <li><a href="#">{{article.tags}}</a></li>
 </ul>
 ```
 
-###列表页面的tags过滤
+### 列表页面的tags过滤
 
 在列表页添加tags标签，需要两个步骤。首先在view中查询出所有的tags标签，封装到context中。然后再在Template页面中显示相应的内容。
 
 在列表页首先需要显示所有的tags
 
-```py
+```python
 def index(request):
     articles = Article.objects.order_by('-updatedAt')
     # articles = Article.objects.filter(deletedAt=None).filter(status=2).order_by('-updatedAt')
@@ -83,22 +84,20 @@ def index(request):
         'tags': tags,
     }
     return render(request, 'blog/blog_image_rs.html', context)
-
 ```
 
 在Template中添加所有的tags
 
-```html
+```markup
 <aside class="widget widget_tag_cloud">
     <h4 class="widget-title">Search by Tags</h4>
     {% for tag in tags%}
         <a href="#" class="ed_btn ed_orange">{{tag.name}}</a>
     {% endfor %}
 </aside>
-
 ```
 
-###为tags添加导航
+### 为tags添加导航
 
 需求：点击tags的按钮的时候，需要展示该Tags下面的所有文章。
 
@@ -107,7 +106,8 @@ def index(request):
 3. 在列表页添加相应的tag导航。
 
 修改views.py
-```py
+
+```python
 from tagging.models import Tag
 
 
@@ -122,12 +122,11 @@ def tag_category(request, tag_name):
         'tags': tags,
     }
     return render(request, 'blog/blog_image_rs.html', context)
-
 ```
 
 修改urls.py
 
-```py
+```python
 from django.urls import path
 
 from . import views
@@ -139,12 +138,11 @@ urlpatterns = [
     path('tag/<str:tag_name>/', views.tag_category, name='tag_category')
     path('category/<int:category_id>/', views.category, name='category'),
 ]
-
 ```
 
-修改blog_image_rs:
+修改blog\_image\_rs:
 
-```html
+```markup
 <aside class="widget widget_tag_cloud">
     <h4 class="widget-title">Search by Tags</h4>
     {% for tag in tags%}
@@ -153,5 +151,5 @@ urlpatterns = [
 </aside>
 ```
 
-
 详情请参考[django参考文档](http://django-tagging.readthedocs.io/)
+
