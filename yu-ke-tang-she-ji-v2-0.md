@@ -13,56 +13,59 @@
 正式课程：
 
 1. Python基础
-   1. Python与计算机基础
+   1. 计算机基础
+      1. 漫游计算机
+      2. 计算机基本组成和概念
+   2. Python与计算机基础
       1. python基本情况了解
       2. python环境安装与Helloworld
       3. google 翻墙与VPN 
-   2. python基础1
+   3. python基础1
       1. 操作系统与文件目录
       2. python基础运行方式
       3. 个人电脑与服务器
       4. print入门
-   3. python基础2
+   4. python基础2
       1. python基本数据类型
       2. python运算符与运算方法
       3. python变量
       4. 编码\(ASCII、unicode、UTF-8\)
-   4. Python文件与方法
+   5. Python文件与方法
       1. Python操作系统文件管理
       2. Python方法
-   5. Python逻辑与判断
+   6. Python逻辑与判断
       1. Python逻辑思维
       2. Python if else
-   6. Python循环与容器
+   7. Python循环与容器
       1. Python循环思想
       2. for循环
       3. while循环
       4. 递归
-   7. Python List
+   8. Python List
       1. List
       2. Tuple
-   8. Python Dictionary
+   9. Python Dictionary
       1. Dictionary
       2. HashTable
-   9. Python类和对象
-      1. 面向对象基础
-      2. Python对象类
-   10. Python基础回顾
+   10. Python类和对象
+       1. 面向对象基础
+       2. Python对象类
+   11. Python基础回顾
        1. python基本算法
        2. python异常处理
        3. Python程序环境
        4. Python习题讲解
-   11. Python与数据库
+   12. Python与数据库
        1. python与数据库
        2. 数据可视化工具
        3. 如何使用电脑协助工作和学习\(如何查找资料、如何进一步学习、工具的深入浅出\)
        4. proj04
-   12. 软件工程基础
+   13. 软件工程基础
        1. 敏捷文化、敏捷模式沟通、敏捷教练
        2. 我们的敏捷模式
        3. proj 04
        4. 如何使用电脑协助工作和学习（回复使用和知识拓展、保存你的数据）
-   13. 第一阶段课程整理和回顾 
+   14. 第一阶段课程整理和回顾 
 2. Python数据分析基础
    1. web 基础 HTML
       1. word、markdown和HTML
@@ -105,15 +108,36 @@
       3. 项目——网站整体数据爬取完毕
    8. 数据分析基础
       1. 如何做数据分析
+      2. 数据分析的基本步骤
    9. numpy、pandas和matplotlib简介
       1. csv、excel、数据库的历史和来源
-      2. numpy和Scripy
-      3. 项目——分析我们的爬取数据
-   10. 图像处理
+      2. 数据库基础
+   10. numpy和矩阵基础
+       1. 二维矩阵
+       2. numpy基础
+   11. pandas基础
+       1. pandas基础
+       2. pandas数据清理和优化
+       3. pandas excel处理
+   12. matplotlib 和 echart
+       1. 如何用图来说话
+       2. matplotlib基础
+       3. matplot核心
+       4. echart数据表达
+   13. SciPy 基本数据分析库
+       1. 复杂数据分析方法
+       2. 线性拟合
+       3. 积分
+       4. 插值
+   14. 图像处理
        1. 计算机图像的基本原理
        2. 图像处理基础
        3. 图像处理与OpenCV
-   11. 第二阶段课程整理与回顾 
+   15. 数据分析项目 
+       1. 数据获取
+       2. 数据分析
+       3. 数据报告
+   16. 第二阶段课程整理与回顾 
 3. PythonWeb
    1. django 基础——安装和编写第一个django
       1. django 安装
@@ -165,12 +189,19 @@
 
 公开课部分：
 
-1. 开源社区和License   第9章
-2. 操作系统基本原理    第20章
-3. 计算机网络基础     第2章和第20章
-4. 计算机硬件基础    
-5. word、excel基础
-6. PPT基础
-7. PPT动画基础
-8. UML  IB和AL都有UML相关课程
+* 工具
+  * PPT
+  * Excel
+  * 另类的presentation工具——markdown ppt、prezi和strut
+  * sublime/Atom \(优秀的笔记本工具+共享\) windows为主
+  * 思维导图工具
+* 编程
+  * jupyter、jupyterlab和colab
+  * markdown\(Typora/Atom\)
+  * MWeb高级笔记整理\(macbook\)
+  * github
+  * github markdown blog制作指南
+  * 数据库
+  * javascript介绍
+  * 刷题工具\(hackerrank/leecode/TopCoder/kaggle\)
 
