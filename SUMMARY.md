@@ -96,6 +96,8 @@
     * [ieltsonlinetest](scrapy/scrapyxiang-mu/ieltsonlinetestxiang-mu.md)
     * [zhan项目](scrapy/scrapyxiang-mu/zhanxiang-mu.md)
 * [数据分析](shu-ju-fen-xi/README.md)
+  * [数据分析教程](shu-ju-fen-xi/dataanalysis_tu/README.md)
+    * [pandas-01基础](shu-ju-fen-xi/dataanalysis_tu/pandas01jichu.md)
   * [pandas tutorials](shu-ju-fen-xi/pandas-tutorials.md)
   * [pandas](shu-ju-fen-xi/pandas.md)
   * [pandas基础教程](shu-ju-fen-xi/pandasji-chu-jiao-cheng.md)
