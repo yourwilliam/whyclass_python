@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [武器建议](wu-qi-jian-yi.md)
 * [武器建议2020](wu-qi-jian-yi-2020.md)
+* [Collapsar社区](collapsar-community.md)
 * [Python相关文章](pythonkai-fa-zhe-nian-du-diao-cha-bao-gao.md)
 * [鱼课堂在线工具](yu-ke-tang-zai-xian-gong-ju.md)
 * [鱼课堂设计v2.0](yu-ke-tang-she-ji-v2-0.md)
