@@ -2,7 +2,7 @@
 
 ## 安装准备
 
-拷贝[game\_graphics](course07-you-xi-mo-kuai-01.md)文件到week5文件夹中。
+拷贝[game\_graphics](http://ossp.pengjunjie.com/game_graphics.py)文件到week5文件夹中。
 
 安装依赖包：
 
