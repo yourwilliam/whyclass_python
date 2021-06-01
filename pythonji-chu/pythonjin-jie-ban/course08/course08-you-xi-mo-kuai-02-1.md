@@ -254,7 +254,7 @@ MyApp(width=700, height=600)
 
 雪碧图用于游戏中的角色运动。
 
-下载文件\[blackbird.jpg\]\([http://ossp.pengjunjie.com/black\_bird.jpg](http://ossp.pengjunjie.com/black_bird.jpg)\)
+下载文件 [blackbird.jpg](http://ossp.pengjunjie.com/black_bird.jpg)
 
 ```python
 # This demos sprites using Pillow/PIL images
