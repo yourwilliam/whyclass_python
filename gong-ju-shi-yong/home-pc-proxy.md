@@ -26,7 +26,9 @@
 
 frp的GitHub地址：
 
-[frp github](https://github.com/fatedier/frp) [frp 软件下载地址](https://github.com/fatedier/frp/releases)
+[frp github](https://github.com/fatedier/frp)
+
+[frp 软件下载地址](https://github.com/fatedier/frp/releases)
 
 具体程序逻辑如下
 
