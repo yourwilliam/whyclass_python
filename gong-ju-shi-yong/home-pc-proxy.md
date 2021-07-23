@@ -1,7 +1,5 @@
 # 内网穿透
 
-
-
 ## 内网穿透
 
 ### 使用场景
@@ -59,6 +57,9 @@ dashboard_port = 7010
 
 ```text
 .\frps -c frps.ini
+
+# 服务器端后台启动可以使用
+nohup .\frps -c frps.ini &
 ```
 
 #### 客户端配置
@@ -116,4 +117,45 @@ local_ip = 192.168.1.3
 local_port = 443
 remote_port = 8443
 ```
+
+### 将客户端配置为电脑自启动服务
+
+之前启动的方式在windows下面必须要在powershell下执行才能启动着等待远程使用，非常不方便，最好的方式还是配置成服务的形式，并配置自动启动更方便。
+
+首先在客户端创建一个bat文件，将运行的内容写到bat中
+
+注意这里要写绝对目录，不然后续服务启动的时候会找不到路径
+
+```text
+# frpc.bat
+C:\User\**\...\frpc.exe -c C:\User\**\...\frpc.ini
+```
+
+然后使用nssm来进行windows的服务配置
+
+nssm 安装地址： [http://www.nssm.cc/](http://www.nssm.cc/)
+
+![](https://ossp.pengjunjie.com/mweb/16270180284532.jpg)
+
+![](https://ossp.pengjunjie.com/mweb/16270180340583.jpg)
+
+我是 64 位电脑，所以使用 cmd 终端进入 E:\desktop\development\nssm-2.24\win64\(如果你们是 32 位可以选择 E:\desktop\development\nssm-2.24\win32\)
+
+进入后输入 nssm install 服务名\(自己随便写\)
+
+![](https://ossp.pengjunjie.com/mweb/16270180534129.jpg)
+
+点击回车后，会出现弹框， 选择你想要的路径，点击需要的.exe 或。bat 程序。
+
+完成之后就可以在服务中看到了。
+
+如果想删除的话，使用 `sc.exe delete *****(服务名)`可以删除服务。删除后关闭服务，然后再打开就没有了
+
+首次配置的话，需要手动去服务中启动一下。下次电脑重启就会自动启动了。
+
+### 其他
+
+更多详细的配置可以参考知乎这一篇
+
+[https://zhuanlan.zhihu.com/p/57477087](https://zhuanlan.zhihu.com/p/57477087)
 
