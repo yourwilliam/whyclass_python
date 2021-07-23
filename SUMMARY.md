@@ -131,6 +131,7 @@
   * [Django插件](python-web/django-cha-jian/README.md)
     * [django-admin-bootstrapped](python-web/django-cha-jian/django-admin-bootstrapped.md)
 * [工具使用](gong-ju-shi-yong/README.md)
+  * [内网穿透](gong-ju-shi-yong/home-pc-proxy.md)
   * [工具安装汇总](gong-ju-shi-yong/gong-ju-an-zhuang-hui-zong.md)
   * [Gitbook使用](gong-ju-shi-yong/gitbookshi-yong.md)
   * [Pip](gong-ju-shi-yong/pip.md)
