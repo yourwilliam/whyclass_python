@@ -143,6 +143,7 @@
     * [ss翻墙指南](gong-ju-shi-yong/shadowsocks/ssfan-qiang-zhi-nan.md)
   * [电脑文件管理](gong-ju-shi-yong/dian-nao-wen-jian-guan-li.md)
 * [学习路径](xue-xi-lu-jing/README.md)
+  * [Leecode 代码练习](xue-xi-lu-jing/leecode-dai-ma-lian-xi.md)
   * [2018前端后端学习路径](xue-xi-lu-jing/2018qian-duan-hou-duan-xue-xi-lu-jing.md)
   * [2019前后端学习路径](xue-xi-lu-jing/2019qian-hou-duan-xue-xi-lu-jing.md)
   * [有鱼成长路径](xue-xi-lu-jing/you-yu-fa-zhan-lu-jing.md)
