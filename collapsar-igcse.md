@@ -10,3 +10,16 @@
 
 **Chapter 02**
 
+\*\*\*\*
+
+\*\*\*\*
+
+#### PPT 使用快捷键
+
+* Page\: ↑/↓/←/→ Space Home End
+* Fullscreen\: F
+* Overview\: -/+
+* Speaker Note\: N
+* Grid Background\: Enter
+* Speak Mode: ?mode=speaker
+
