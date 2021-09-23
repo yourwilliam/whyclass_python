@@ -10,8 +10,6 @@
 
 **Chapter 02**
 
-\*\*\*\*
-
 **Chapter 16 Data Representation**
 
 [Course 16 - Chapter 16 Data Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation/ALevel-CS-Chapter-16-Data-Representation.html)
