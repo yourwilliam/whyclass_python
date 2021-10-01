@@ -16,7 +16,11 @@
 
 [Course 16 - Chapter 16 Data Representation HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation.html)
 
-#### 
+**Chapter 17 Communication and Internet technologies**
+
+[Chapter 17 - Communication and Internet technologies PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html#slide=1)
+
+[Chapter 17 - Communication and Internet technologies HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html)
 
 #### PPT 使用快捷键
 
