@@ -22,12 +22,17 @@
 
 [Chapter 17 - Communication and Internet technologies HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html)
 
+**Chapter 27 Object-Oriented Programming (OOP)**
+
+[Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html#slide=1)
+
+[Chapter 27 - Object-Oriented Programming (OOP) HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
+
 #### PPT 使用快捷键
 
-* Page\: ↑/↓/←/→ Space Home End
-* Fullscreen\: F
-* Overview\: -/+
-* Speaker Note\: N
-* Grid Background\: Enter
+* Page\\: ↑/↓/←/→ Space Home End
+* Fullscreen\\: F
+* Overview\\: -/+
+* Speaker Note\\: N
+* Grid Background\\: Enter
 * Speak Mode: ?mode=speaker
-
