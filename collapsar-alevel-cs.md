@@ -20,6 +20,12 @@
 
 [Chapter 03 Hardware Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware.html)
 
+**Chapter 05**
+
+[Chapter 05 Processor Fundamentals PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-05-Processor-Fundamentals/ALevel-CS-Chapter-05-Processor-Fundamentals.html)
+
+[Chapter 05 Processor Fundamentals Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-05-Processor-Fundamentals.html)
+
 **Chapter 16 Data Representation**
 
 [Course 16 - Chapter 16 Data Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation/ALevel-CS-Chapter-16-Data-Representation.html)
