@@ -14,6 +14,12 @@
 
 [Chapter 02 Communication and networking technology Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-02-Communication-and-networking-technologies.html)
 
+**Chapter 03**
+
+[Chapter 03 Hardware PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware/ALevel-CS-Chapter-03-Hardware.html)
+
+[Chapter 03 Hardware Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware.html)
+
 **Chapter 16 Data Representation**
 
 [Course 16 - Chapter 16 Data Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation/ALevel-CS-Chapter-16-Data-Representation.html)
