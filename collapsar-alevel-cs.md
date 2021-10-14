@@ -28,9 +28,9 @@
 
 **Chapter 06 Assembly language programming**
 
-[Chapter 06 Assembly language programming PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming/ALevel-CS-Chapter-06-Assembly-language-programming.html)
+[Chapter 06 Assembly language programming PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming/ALevel-CS-Chapter-06-Assembly-language-programming.html)
 
-[Chapter 06 Assembly language programming Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming.html)
+[Chapter 06 Assembly language programming Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming.html)
 
 **Chapter 16 Data Representation**
 
