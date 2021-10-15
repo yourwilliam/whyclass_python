@@ -18,7 +18,13 @@
 
 [Chapter 03 Hardware PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware/ALevel-CS-Chapter-03-Hardware.html)
 
-[Chapter 03 Hardware Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware.html)
+[Chapter 03 Hardware Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware.html)
+
+**Chapter 04 Logic gates and logic circuits**
+
+[Logic gates and logic circuits PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-04-Logic-gates-and-logic-circuits/ALevel-CS-Chapter-04-Logic-gates-and-logic-circuits.html)
+
+[Logic gates and logic circuits Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-04-Logic-gates-and-logic-circuits.html)
 
 **Chapter 05 Processor Fundamentals**
 
@@ -49,6 +55,12 @@
 [Chapter 18 Hardware and virtual machines PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-18-Hardware-and-virtual-machines/ALevel-CS-Chapter-18-Hardware-and-virtual-machines.html)
 
 [Chapter 18 Hardware and virtual machines Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-18-Hardware-and-virtual-machines.html)
+
+**Chapter 19 Logic circuits and Boolean algebra**
+
+[Chapter 19 Logic circuits and Boolean algebra PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra.html)
+
+[Chapter 19 Logic circuits and Boolean algebra Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra.html)
 
 **Chapter 27 Object-Oriented Programming (OOP)**
 
