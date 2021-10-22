@@ -68,6 +68,12 @@
 
 [Chapter 19 - Logic circuits and Boolean algebra Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra.html)
 
+**Chapter 20 System Software**
+
+[Chapter 20 - System Software PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-20-System-Software/ALevel-CS-Chapter-20-System-Software.html)
+
+[Chapter 20 - System Software Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-20-System-Software.html)
+
 **Chapter 27 Object-Oriented Programming (OOP)**
 
 [Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html#slide=1)
