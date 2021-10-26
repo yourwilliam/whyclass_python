@@ -80,6 +80,12 @@
 
 [Chapter 21 - Security Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-21-Security.html)
 
+**Chapter 22 Artificial Intelligence**
+
+[Chapter 22 - Artificial Intelligence PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence/ALevel-CS-Chapter-22-Artificial-Intelligence.html#slide=1)
+
+[Chapter 22 - Artificial Intelligence Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence.html)
+
 **Chapter 27 Object-Oriented Programming (OOP)**
 
 [Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html#slide=1)
