@@ -8,7 +8,7 @@
 
 [Course 01 - Chapter 01 Data Representation Markdown HTML](http://ppt.yuketang.net/igcse/Chapter1-Data-Representation.html)
 
-[Course 01 - Chapter 01 Data Representation Cheatsheet](http://ppt.yuketang.net/igcse/igcse\_cheatsheet\_c1\_information.pdf)
+[Course 01 - Chapter 01 Data Representation Cheatsheet](http://ppt.yuketang.net/igcse/igcse-cheatsheet-c1-information.pdf)
 
 **Chapter 02**
 
@@ -18,7 +18,7 @@
 
 [Course02 - Chapter2 - Communication and Internet Technologies Homework](http://ppt.yuketang.net/igcse/Chapter-02-Communication-and-Internet-Technologies-Homework.pdf)
 
-[Course02 - Chapter2 - Communication and Internet Technologies Cheatsheet](http://ppt.yuketang.net/igcse/igcse\_cheatsheet\_c2\_network.pdf)
+[Course02 - Chapter2 - Communication and Internet Technologies Cheatsheet](http://ppt.yuketang.net/igcse/igcse-cheatsheet-c2-network.pdf)
 
 **Chapter 03**
 
