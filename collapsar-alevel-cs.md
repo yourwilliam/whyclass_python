@@ -8,6 +8,8 @@
 
 [Course 01 - Chapter 01 Information Representation Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-01-Information-Representation.html)
 
+[Course 01 - Chapter 01 Information Representation Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C1-information.drawio.pdf)
+
 **Chapter 02 Communication and networking technology**
 
 [Chapter 02 - Communication and networking technology PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-02-Communication-and-networking-technologies/ALevel-CS-Chapter-02-Communication-and-networking-technologies.html)
@@ -32,17 +34,23 @@
 
 [Chapter 05 - Processor Fundamentals Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-05-Processor-Fundamentals.html)
 
+[Chapter 05 - Processor Fundamentals Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C5-Processor.drawio.pdf)
+
 **Chapter 06 Assembly language programming**
 
 [Chapter 06 - Assembly language programming PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming/ALevel-CS-Chapter-06-Assembly-language-programming.html)
 
 [Chapter 06 - Assembly language programming Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming.html)
 
+[Chapter 06 - Assembly language programming Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C6-Assembly.drawio.pdf)
+
 **Chapter 11 Database**
 
 [Chapter 11 - Database PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-11-Database/ALevel-CS-Chapter-11-Database.html)
 
 [Chapter 11 - Database Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-11-Database.html)
+
+[Chapter 11 - Database Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C11-Database.drawio.pdf)
 
 **Chapter 16 Data Representation**
 
@@ -91,6 +99,10 @@
 [Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html#slide=1)
 
 [Chapter 27 - Object-Oriented Programming (OOP) Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
+
+**Cheatsheet**
+
+[Cheatsheet Summary](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet.drawio.pdf)
 
 #### PPT 使用快捷键
 
