@@ -52,6 +52,12 @@
 
 [Chapter 11 - Database Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C11-Database.drawio.pdf)
 
+**Chapter 12 Algorithm design and problem-solving**
+
+[Chapter 12 - Algorithm design and problem-solving PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html#slide=1)
+
+[Chapter 12 - Algorithm design and problem-solving Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html)
+
 **Chapter 16 Data Representation**
 
 [Course 16 - Chapter 16 Data Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation/ALevel-CS-Chapter-16-Data-Representation.html)
