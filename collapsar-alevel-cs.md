@@ -58,6 +58,12 @@
 
 [Chapter 12 - Algorithm design and problem-solving Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html)
 
+**Chapter 13 Data types and structures**
+
+[Chapter 13 - Data types and structures PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures/ALevel-CS-Chapter-13-Data-types-and-structures.html#slide=1)
+
+[Chapter 13 - Data types and structures Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures.html)
+
 **Chapter 16 Data Representation**
 
 [Course 16 - Chapter 16 Data Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation/ALevel-CS-Chapter-16-Data-Representation.html)
