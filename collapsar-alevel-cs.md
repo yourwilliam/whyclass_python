@@ -118,6 +118,12 @@
 
 [Chapter 23 - Sort Algorithm Summary HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
 
+**Chapter 24 Recursion**
+
+[Chapter 24 - Recursion PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-24-Recursion/ALevel-CS-Chapter-24-Recursion.html)
+
+[Chapter 24 - Recursion Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-24-Recursion.html)
+
 **Chapter 27 Object-Oriented Programming (OOP)**
 
 [Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
@@ -136,3 +142,4 @@
 * Speaker Note: N
 * Grid Background: Enter
 * Speak Mode: ?mode=speaker
+
