@@ -106,9 +106,21 @@
 
 [Chapter 22 - Artificial Intelligence Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence.html)
 
+**Chapter 23 Algorithm**
+
+[Chapter 23 - Algorithm PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-23-Algorithms/ALevel-CS-Chapter-23-Algorithms.html)
+
+[Chapter 23 - Algorithm Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-23-Algorithms.html)
+
+[Chapter 23 - Orderd Linked List Animations PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-23-Algorithms/linked\_list\_orderd.pptx)
+
+[Chapter 23 - Sort Algorithm Summary PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
+
+[Chapter 23 - Sort Algorithm Summary HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
+
 **Chapter 27 Object-Oriented Programming (OOP)**
 
-[Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html#slide=1)
+[Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
 
 [Chapter 27 - Object-Oriented Programming (OOP) Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
 
