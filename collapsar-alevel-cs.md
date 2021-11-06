@@ -4,7 +4,7 @@
 
 **Chapter 01 Information Representation**
 
-[Course 01 - Chapter 01 Information Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-01-Information-Representation/ALevel-CS-Chapter-01-Information-Representation.html#slide=1)
+[Course 01 - Chapter 01 Information Representation PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-01-Information-Representation/ALevel-CS-Chapter-01-Information-Representation.html)
 
 [Course 01 - Chapter 01 Information Representation Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-01-Information-Representation.html)
 
@@ -54,13 +54,13 @@
 
 **Chapter 12 Algorithm design and problem-solving**
 
-[Chapter 12 - Algorithm design and problem-solving PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html#slide=1)
+[Chapter 12 - Algorithm design and problem-solving PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html)
 
 [Chapter 12 - Algorithm design and problem-solving Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html)
 
 **Chapter 13 Data types and structures**
 
-[Chapter 13 - Data types and structures PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures/ALevel-CS-Chapter-13-Data-types-and-structures.html#slide=1)
+[Chapter 13 - Data types and structures PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures/ALevel-CS-Chapter-13-Data-types-and-structures.html)
 
 [Chapter 13 - Data types and structures Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures.html)
 
@@ -72,7 +72,7 @@
 
 **Chapter 17 Communication and Internet technologies**
 
-[Chapter 17 - Communication and Internet technologies PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html#slide=1)
+[Chapter 17 - Communication and Internet technologies PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html)
 
 [Chapter 17 - Communication and Internet technologies Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html)
 
@@ -102,7 +102,7 @@
 
 **Chapter 22 Artificial Intelligence**
 
-[Chapter 22 - Artificial Intelligence PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence/ALevel-CS-Chapter-22-Artificial-Intelligence.html#slide=1)
+[Chapter 22 - Artificial Intelligence PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence/ALevel-CS-Chapter-22-Artificial-Intelligence.html)
 
 [Chapter 22 - Artificial Intelligence Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence.html)
 
@@ -124,6 +124,18 @@
 
 [Chapter 24 - Recursion Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-24-Recursion.html)
 
+**Chapter 25 Programming-paradigms**
+
+[Chapter 25 - Programming-paradigms PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-25-Programming-paradigms/ALevel-CS-Chapter-25-Programming-paradigms.html)
+
+[Chapter 25 - Programming-paradigms Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-25-Programming-paradigms.html)
+
+**Chapter 26 File processing and exception handling**
+
+[Chapter 26 - File processing and exception handling PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-26-File-processing-and-exception-handling/ALevel-CS-Chapter-26-File-processing-and-exception-handling.html)
+
+[Chapter 26 - File processing and exception handling Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-26-File-processing-and-exception-handling.html)
+
 **Chapter 27 Object-Oriented Programming (OOP)**
 
 [Chapter 27 - Object-Oriented Programming (OOP) PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
@@ -142,4 +154,3 @@
 * Speaker Note: N
 * Grid Background: Enter
 * Speak Mode: ?mode=speaker
-
