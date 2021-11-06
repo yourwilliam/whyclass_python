@@ -44,6 +44,18 @@
 
 [Chapter 06 - Assembly language programming Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C6-Assembly.drawio.pdf)
 
+**Chapter 07 Monitoring and control systems**
+
+[Chapter 07 - Monitoring and control systems PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-07-Monitoring-and-control-systems/ALevel-CS-Chapter-07-Monitoring-and-control-systems.html)
+
+[Chapter 07 - Monitoring and control systems Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-07-Monitoring-and-control-systems.html)
+
+**Chapter 08 System software**
+
+[Chapter 08 - System software PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-08-System-software/ALevel-CS-Chapter-08-System-software.html)
+
+[Chapter 08 - System software Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-08-System-software.html)
+
 **Chapter 11 Database**
 
 [Chapter 11 - Database PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-11-Database/ALevel-CS-Chapter-11-Database.html)
