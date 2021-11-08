@@ -56,6 +56,18 @@
 
 [Chapter 08 - System software Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-08-System-software.html)
 
+**Chapter 09 Security privacy and data integrity**
+
+[Chapter 09 - Security privacy and data integrity PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
+
+[Chapter 09 - Security privacy and data integrity Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html#slide=1)
+
+**Chapter 10 Ethics and ownership**
+
+[Chapter 10 - Ethics and ownership PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-10-Ethics-and-ownership/ALevel-CS-Chapter-10-Ethics-and-ownership.html)
+
+[Chapter 10 - Ethics and ownership Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-10-Ethics-and-ownership.html)
+
 **Chapter 11 Database**
 
 [Chapter 11 - Database PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-11-Database/ALevel-CS-Chapter-11-Database.html)
