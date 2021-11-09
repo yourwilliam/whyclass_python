@@ -94,11 +94,15 @@
 
 [Course 16 - Chapter 16 Data Representation Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-16-Data-Representation.html)
 
+[Course 16 - Chapter 16 Data Representation Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C16\_Data.drawio.pdf)
+
 **Chapter 17 Communication and Internet technologies**
 
 [Chapter 17 - Communication and Internet technologies PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html)
 
 [Chapter 17 - Communication and Internet technologies Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-17-Communication-and-Internet-technologies.html)
+
+[Chapter 17 - Communication and Internet technologies Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C17\_Netowrk.drawio.pdf)
 
 **Chapter 18 Hardware and virtual machines**
 
@@ -168,7 +172,9 @@
 
 **Cheatsheet**
 
-[Cheatsheet Summary](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet.drawio.pdf)
+[Cheatsheet Summary P1](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet.drawio.pdf)
+
+[Cheatsheet Summary P3](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet.drawio.pdf)
 
 #### PPT 使用快捷键
 
