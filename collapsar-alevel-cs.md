@@ -58,9 +58,9 @@
 
 **Chapter 09 Security privacy and data integrity**
 
-[Chapter 09 - Security privacy and data integrity PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
+[Chapter 09 - Security privacy and data integrity PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
 
-[Chapter 09 - Security privacy and data integrity Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html#slide=1)
+[Chapter 09 - Security privacy and data integrity Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
 
 **Chapter 10 Ethics and ownership**
 
