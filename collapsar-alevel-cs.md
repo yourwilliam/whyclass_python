@@ -16,6 +16,8 @@
 
 [Chapter 02 - Communication and networking technology Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-02-Communication-and-networking-technologies.html)
 
+[Chapter 02 - Communication and networking technology Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C2-Network.drawio.pdf)
+
 **Chapter 03 Hardware**
 
 [Chapter 03 - Hardware PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware/ALevel-CS-Chapter-03-Hardware.html)
@@ -109,6 +111,8 @@
 [Chapter 18 - Hardware and virtual machines PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-18-Hardware-and-virtual-machines/ALevel-CS-Chapter-18-Hardware-and-virtual-machines.html)
 
 [Chapter 18 - Hardware and virtual machines Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-18-Hardware-and-virtual-machines.html)
+
+[Chapter 18 - Hardware and virtual machines Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C18-Hardware.drawio.pdf)
 
 **Chapter 19 Logic circuits and Boolean algebra**
 
