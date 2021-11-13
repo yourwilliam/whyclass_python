@@ -116,15 +116,17 @@
 
 **Chapter 19 Logic circuits and Boolean algebra**
 
-[Chapter 19 - Logic circuits and Boolean algebra PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra.html)
+[Chapter 19 - Logic circuits and Boolean algebra PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra/ALevel-CS-Chapter-19-Logic-circuits-and-Boolean-algebra.html)
 
-[Chapter 19 - Logic circuits and Boolean algebra Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra.html)
+[Chapter 19 - Logic circuits and Boolean algebra Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19-Logic-circuits-and-Boolean-algebra.html)
 
 **Chapter 20 System Software**
 
 [Chapter 20 - System Software PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-20-System-Software/ALevel-CS-Chapter-20-System-Software.html)
 
 [Chapter 20 - System Software Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-20-System-Software.html)
+
+[Chapter 20 - System Software Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C20-OS.drawio)
 
 **Chapter 21 Security**
 
