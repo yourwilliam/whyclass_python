@@ -126,7 +126,7 @@
 
 [Chapter 20 - System Software Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-20-System-Software.html)
 
-[Chapter 20 - System Software Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C20-OS.drawio)
+[Chapter 20 - System Software Cheatsheet](http://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C20-OS.drawio.pdf)
 
 **Chapter 21 Security**
 
