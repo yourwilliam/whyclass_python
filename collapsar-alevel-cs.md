@@ -136,6 +136,8 @@
 
 [Chapter 21 - Security Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-21-Security.html)
 
+[Chapter 21 - Security Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C21-Security.drawio.pdf)
+
 **Chapter 22 Artificial Intelligence**
 
 [Chapter 22 - Artificial Intelligence PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence/ALevel-CS-Chapter-22-Artificial-Intelligence.html)
