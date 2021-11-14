@@ -116,7 +116,7 @@
 
 **Chapter 19 Logic circuits and Boolean algebra**
 
-[Chapter 19 - Logic circuits and Boolean algebra PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19%E2%80%93Logic-circuits-and-Boolean-algebra/ALevel-CS-Chapter-19-Logic-circuits-and-Boolean-algebra.html)
+[Chapter 19 - Logic circuits and Boolean algebra PPT](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19-Logic-circuits-and-Boolean-algebra/ALevel-CS-Chapter-19-Logic-circuits-and-Boolean-algebra.html)
 
 [Chapter 19 - Logic circuits and Boolean algebra Markdown HTML](http://ppt.yuketang.net/alevel/ALevel-CS-Chapter-19-Logic-circuits-and-Boolean-algebra.html)
 
