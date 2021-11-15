@@ -1,6 +1,8 @@
 # Collapsar-ALevel-CS
 
-## Collapsar - ALevel Computer Science
+## Collapsar - AS and A Level Computer Science (9618)
+
+### Paper 1 Theory Fundamentals
 
 **Chapter 01 Information Representation**
 
@@ -78,6 +80,8 @@
 
 [Chapter 11 - Database Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C11-Database.drawio.pdf)
 
+### Paper 2 Fundamental Problem-solving and Programming Skills
+
 **Chapter 12 Algorithm design and problem-solving**
 
 [Chapter 12 - Algorithm design and problem-solving PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html)
@@ -89,6 +93,8 @@
 [Chapter 13 - Data types and structures PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures/ALevel-CS-Chapter-13-Data-types-and-structures.html)
 
 [Chapter 13 - Data types and structures Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures.html)
+
+### Paper 3 Advanced Theory
 
 **Chapter 16 Data Representation**
 
@@ -158,6 +164,8 @@
 
 [Chapter 23 - Sort Algorithm Summary HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
 
+### Paper 4 Practical
+
 **Chapter 24 Recursion**
 
 [Chapter 24 - Recursion PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-24-Recursion/ALevel-CS-Chapter-24-Recursion.html)
@@ -182,7 +190,7 @@
 
 [Chapter 27 - Object-Oriented Programming (OOP) Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-27-Object-Oriented-Programming-OOP.html)
 
-**Cheatsheet**
+### Cheatsheet
 
 [Cheatsheet Summary P1](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet.drawio.pdf)
 
