@@ -196,6 +196,8 @@
 
 [Cheatsheet Summary P3](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet.drawio.pdf)
 
+[Cheatsheet Summary P3 for print](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet.drawio-for-print.pdf)
+
 #### PPT 使用快捷键
 
 * Page: ↑/↓/←/→ Space Home End
