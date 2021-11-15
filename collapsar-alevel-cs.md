@@ -144,6 +144,8 @@
 
 [Chapter 22 - Artificial Intelligence Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-22-Artificial-Intelligence.html)
 
+[Chapter 22 - Artificial Intelligence Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C22-AI.drawio.pdf)
+
 **Chapter 23 Algorithm**
 
 [Chapter 23 - Algorithm PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-23-Algorithms/ALevel-CS-Chapter-23-Algorithms.html)
