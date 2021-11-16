@@ -26,6 +26,8 @@
 
 [Chapter 03 - Hardware Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware.html)
 
+[Chapter 03 - Hardware Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C3-Hardware.drawio.pdf)
+
 **Chapter 04 Logic gates and logic circuits**
 
 [Chapter 04 - Logic gates and logic circuits PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-04-Logic-gates-and-logic-circuits/ALevel-CS-Chapter-04-Logic-gates-and-logic-circuits.html)
