@@ -4,11 +4,11 @@
 
 **Chapter 01 Data Representation**
 
-https://ppt [Course 01 - Chapter 01 Data Representation PPT](https://ppt.yuketang.net/igcse/IGCSE-Chapter-01-Data-Representation/IGCShttps://pptE-Chapter-01-Data-Representation.html#slide=1)
+[Course 01 - Chapter 01 Data Representation PPT](https://ppt.yuketang.net/igcse/IGCSE-Chapter-01-Data-Representation/IGCShttps://pptE-Chapter-01-Data-Representation.html#slide=1)
 
 [Course 01 - Chapter 01 Data Representation Markdown HTML](https://ppt.yuketang.net/igcse/Chapter1-Data-Representation.html)
 
-[Course 01 - Chapter 01 Data Representation Cheatsheet](https://ppt.yuketang.net/igcse/igcse-cheatsheet-c1-information.pdf)
+[Course 01 - Chapter 01 Data Representation Cheatsheet](https://ppt.yuketang.net/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter01-Data.drawio.pdf)
 
 **Chapter 02**
 
@@ -18,7 +18,7 @@ https://ppt [Course 01 - Chapter 01 Data Representation PPT](https://ppt.yuketan
 
 [Course02 - Chapter2 - Communication and Internet Technologies Homework](https://ppt.yuketang.net/igcse/Chapter-02-Communication-and-Internet-Technologies-Homework.pdf)
 
-[Course02 - Chapter2 - Communication and Internet Technologies Cheatsheet](https://ppt.yuketang.net/igcse/igcse-cheatsheet-c2-network.pdf)
+[Course02 - Chapter2 - Communication and Internet Technologies Cheatsheet](https://ppt.yuketang.net/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter02-Network.drawio.pdf)
 
 **Chapter 03**
 
