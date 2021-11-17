@@ -10,7 +10,7 @@
 
 [Course 01 - Chapter 01 Information Representation Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-01-Information-Representation.html)
 
-[Course 01 - Chapter 01 Information Representation Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C1-information.drawio.pdf)
+[Course 01 - Chapter 01 Information Representation Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C01-information.drawio.pdf)
 
 **Chapter 02 Communication and networking technology**
 
@@ -18,7 +18,7 @@
 
 [Chapter 02 - Communication and networking technology Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-02-Communication-and-networking-technologies.html)
 
-[Chapter 02 - Communication and networking technology Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C2-Network.drawio.pdf)
+[Chapter 02 - Communication and networking technology Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C02-Network.drawio.pdf)
 
 **Chapter 03 Hardware**
 
@@ -26,7 +26,7 @@
 
 [Chapter 03 - Hardware Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-03-Hardware.html)
 
-[Chapter 03 - Hardware Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C3-Hardware.drawio.pdf)
+[Chapter 03 - Hardware Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C03-Hardware.drawio.pdf)
 
 **Chapter 04 Logic gates and logic circuits**
 
@@ -40,7 +40,7 @@
 
 [Chapter 05 - Processor Fundamentals Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-05-Processor-Fundamentals.html)
 
-[Chapter 05 - Processor Fundamentals Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C5-Processor.drawio.pdf)
+[Chapter 05 - Processor Fundamentals Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C05-Processor.drawio.pdf)
 
 **Chapter 06 Assembly language programming**
 
@@ -48,7 +48,7 @@
 
 [Chapter 06 - Assembly language programming Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-06-Assembly-language-programming.html)
 
-[Chapter 06 - Assembly language programming Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C6-Assembly.drawio.pdf)
+[Chapter 06 - Assembly language programming Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C06-Assembly.drawio.pdf)
 
 **Chapter 07 Monitoring and control systems**
 
@@ -67,6 +67,8 @@
 [Chapter 09 - Security privacy and data integrity PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
 
 [Chapter 09 - Security privacy and data integrity Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
+
+[Chapter 09 - Security privacy and data integrity Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C09-Security.drawio.pdf)
 
 **Chapter 10 Ethics and ownership**
 
