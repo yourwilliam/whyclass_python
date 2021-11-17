@@ -76,6 +76,8 @@
 
 [Chapter 10 - Ethics and ownership Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-10-Ethics-and-ownership.html)
 
+[Chapter 10 - Ethics and ownership Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C10-Ethics.drawio.pdf)
+
 **Chapter 11 Database**
 
 [Chapter 11 - Database PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-11-Database/ALevel-CS-Chapter-11-Database.html)
