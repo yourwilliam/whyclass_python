@@ -192,11 +192,10 @@
 
 [1742. Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)
 
-[1329. Sort the Matrix Diagonally](1329.%20Sort%20the%20Matrix%20Diagonally)
+[1329. Sort the Matrix Diagonally](https://app.gitbook.com/s/-LdlwKjDdcB1WUF6sqWu/xue-xi-lu-jing/1329.%20Sort%20the%20Matrix%20Diagonally)
 
 **bonus**
 
 [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
 
 [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
-

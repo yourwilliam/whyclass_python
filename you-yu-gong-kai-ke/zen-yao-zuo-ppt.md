@@ -10,7 +10,7 @@
   * 进度汇报
 * 重要场景
   * 毕业设计
-  * 述职\(年终总结\)
+  * 述职(年终总结)
   * 工作计划
   * 商业路演
   * 商业计划书
@@ -20,7 +20,7 @@
 
 ## 视野
 
-审美 ~ 多去看 ~ 什么是优秀的设计作品？
+审美 \~ 多去看 \~ 什么是优秀的设计作品？
 
 ## 做好PPT的5个方向
 
@@ -167,7 +167,7 @@ PPT —— 线性的讲述模式，现在大多数ppt的模式给人以一种线
 
 Prezi —— Prezi的特点是缩放用户界面，在演讲过程中可以根据进程放大缩小。总的来说prezi是一个二维结构，可以缩放、旋转、无边界、在线编辑、实时保存、简单易用。
 
-[Prezi explorer](https://prezi.com/explore/%20)
+[Prezi explorer](https://prezi.com/explore/)
 
 参考两个得奖Prezi [malmaison-hotel](https://prezi.com/fugumlghvxoy/malmaison-hotel-du-vin-prezi-design/)
 
@@ -177,11 +177,10 @@ Strut —— Strut实际上是一个三维空间的ppt，可以有x、y、z三�
 
 ### 配色网站
 
-[adobe配色网站](https://color.adobe.com/zh/create) [www.colourlovers.com](https://www.colourlovers.com/)
+[adobe配色网站](https://color.adobe.com/zh/create) [www.colourlovers.com](https://www.colourlovers.com)
 
 ### 图片素材站
 
-[google image](https://images.google.com/?gws_rd=ssl) [unsplash](https://unsplash.com) [花瓣](https://huaban.com/) [阿里图标库](https://www.iconfont.cn/) [免费资源站](https://freebiesbug.com/)
+[google image](https://images.google.com/?gws\_rd=ssl) [unsplash](https://unsplash.com) [花瓣](https://huaban.com) [阿里图标库](https://www.iconfont.cn) [免费资源站](https://freebiesbug.com)
 
 ### 百度网盘
-
