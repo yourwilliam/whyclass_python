@@ -145,6 +145,7 @@
     * [\[course02\] 00 package](collapsar-java-baisc/course02java-bian-liang/course02-00-package.md)
     * [\[course02\] 01 Basic Data Types](collapsar-java-baisc/course02java-bian-liang/course02-01-basic-data-types.md)
     * [\[course02\] 02 Input](collapsar-java-baisc/course02java-bian-liang/course02-02-input.md)
+    * [\[course02\] 02 functions](collapsar-java-baisc/course02java-bian-liang/course02-02-functions.md)
     * [\[homework-java\]course02 作业](collapsar-java-baisc/course02java-bian-liang/homeworkjavacourse02-zuo-ye.md)
   * [\[course03\]Control](collapsar-java-baisc/course03-control/README.md)
     * [\[pre-homework-java\]course03](collapsar-java-baisc/course03-control/pre-homework-java-course03.md)
