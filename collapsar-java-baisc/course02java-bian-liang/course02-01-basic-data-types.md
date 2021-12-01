@@ -1,5 +1,7 @@
 # \[course02] 01 Basic Data Types
 
+## \[course02] 01 Basic Data Types
+
 ### Variables
 
 A name used in this way—to refer to data stored in memory—is called a variable.
@@ -247,7 +249,7 @@ import static net.mindview.util.Print.*;
 public class AutoInc {
     public static void main(String[] args) {
         int i = 1;
-        print("i : " + i);
+        print("i : " + i); 
         print("++i : " + ++i); // Pre-increment
         print("i++ : " + i++); // Post-increment
         print("i : " + i);
@@ -373,6 +375,24 @@ public class ShortCircuit {
 
 ```java
 next = (N % 2 == 0) ? (N/2) : (3*N+1);
+```
+
+```java
+public class ConditionalOperator {
+    public static void main(String[] args) {
+        int a = 3, b = 5;
+        int max = 0;
+        if (a > b) {
+            max = a;
+        } else {
+            max = b;
+        }
+
+        int new_max = a > b ? a : b;
+        int new_min = a < b ? a : b;
+        int new_1_min = a > b ? b : a;
+    }
+}
 ```
 
 #### Assignment Operators and Type Conversion
