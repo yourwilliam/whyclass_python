@@ -1,5 +1,58 @@
 # \[course02] 02 functions
 
+### basic functions
+
+#### declare function and call a method
+
+```java
+public class Main {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+
+// Outputs "I just got executed!"
+```
+
+#### parameters
+
+```java
+public class Main {
+  static void myMethod(String fname, int age) {
+    System.out.println(fname + " is " + age);
+  }
+
+  public static void main(String[] args) {
+    myMethod("Liam", 5);
+    myMethod("Jenny", 8);
+    myMethod("Anja", 31);
+  }
+}
+
+// Liam is 5
+// Jenny is 8
+// Anja is 31
+```
+
+#### return type
+
+```java
+public class Main {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+// Outputs 8 (5 + 3)
+```
+
 ### Subroutine Definitions
 
 ```java
@@ -185,4 +238,23 @@ public class GuessingGame2 {
     } // end of playGame()
                 
 } // end of class GuessingGame2
+```
+
+### Method Overloading
+
+```java
+static int plusMethodInt(int x, int y) {
+  return x + y;
+}
+
+static double plusMethodDouble(double x, double y) {
+  return x + y;
+}
+
+public static void main(String[] args) {
+  int myNum1 = plusMethodInt(8, 5);
+  double myNum2 = plusMethodDouble(4.3, 6.26);
+  System.out.println("int: " + myNum1);
+  System.out.println("double: " + myNum2);
+}
 ```
