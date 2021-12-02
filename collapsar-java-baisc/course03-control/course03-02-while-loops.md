@@ -56,7 +56,9 @@ do {
 } while (wantsToContinue == true);
 ```
 
-do while and while do
+#### do while and while do
+
+Use a do-while if you must execute the body of the loop at least once.
 
 ```java
 do {
