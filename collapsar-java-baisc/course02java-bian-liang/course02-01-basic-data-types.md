@@ -1,7 +1,5 @@
 # \[course02] 01 Basic Data Types
 
-## \[course02] 01 Basic Data Types
-
 ### Variables
 
 A name used in this way—to refer to data stored in memory—is called a variable.
@@ -121,6 +119,29 @@ s: 111111111111111
 *///:~
 ```
 
+### double
+
+#### Never use == with doubles
+
+```java
+double x = Math.sqrt(2.0);
+double y = x * x;
+if (y == 2.0) {
+    System.out.println("sqrt(2) * sqrt(2) is 2");
+} else {
+    System.out.println("sqrt(2) * sqrt(2) “ + “is not 2. It is " + y);
+}
+```
+
+#### Test if doubles are close
+
+```java
+public static boolean almostEqual(double x, double y) {
+    double tolerance = 1E-15;
+    return Math.abs(x - y) < tolerance;
+}
+```
+
 ### String and String Literals
 
 String is a type, but not a primitive type; it is in fact the name of a class, and we will return to that aspect of strings
@@ -211,6 +232,52 @@ public class Interest {
 **type conversion**
 
 ![](https://ossp.pengjunjie.com/mweb/16378234366932.jpg)
+
+**Widening conversion preserves magnitude**
+
+* Widening conversions convert data to another type that has the same or more bits of storage.
+* short to int, long (safe)
+* int to long (safe)
+* int to float, double (magnitude the same but can lose precision)
+
+**Narrowing conversion can lose information**
+
+* Narrowing conversions convert data to another type that has the fewer bits of storage!
+* int, long to short
+  * Keeps low order bits only (can loose magnitude and sign)!
+* double or float to any integer type
+  * Rounds towards 0, then keeps low order bits
+  * Or largest/smallest value (lose magnitude)!
+
+**Promotion is widening conversion done automatically**
+
+When a Java operator is applied to operands of different types, Java does a widening conversion automatically, known as a promotion.
+
+Example:
+
+* 2.2 \* 2 evaluates to 4.4
+* 1.0 / 2 evaluates to 0.5
+* double x = 2; assigns 2.0 to x
+* "count = " + 4 evaluates to "count = 4"
+
+**Type casting tells Java to convert one type to another.**
+
+Uses:
+
+* Convert an int to a double to force floating-point division.
+* Truncate a double to an int.
+
+Examples:
+
+* int total = 17;
+* double average = (double) total / 5
+* int feet = (int) (28.3 / 12.0)
+
+**Type casting applies to only operand immediately to its right.**
+
+Type casting has high precedence and is evaluated right to left.
+
+![](https://ossp.pengjunjie.com/mweb/16384795139849.jpg)
 
 **Modulus %**
 

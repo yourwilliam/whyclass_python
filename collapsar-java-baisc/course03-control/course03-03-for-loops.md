@@ -233,3 +233,24 @@ public class ForEachInt {
 5 8 11 14 17
 *///:~
 ```
+
+### Scope
+
+```java
+int sum = 0;
+for (int i = 1; i <= n; i++) {
+    //scope only in loop
+    sum += i*i;
+}
+System.out.println(sum);
+```
+
+```java
+int sum = 0;
+//Scope of variable i ends at the enclosing brace
+int i;
+for (i = 1; i <= n; i++) {
+    sum += i*i;
+}
+System.out.println("Sum of first " + (i-1) + " integers squared is " + sum);
+```
