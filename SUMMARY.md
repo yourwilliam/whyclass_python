@@ -153,6 +153,7 @@
     * [\[course03\] 02 While Loops](collapsar-java-baisc/course03-control/course03-02-while-loops.md)
     * [\[course03\] 03 for loops](collapsar-java-baisc/course03-control/course03-03-for-loops.md)
     * [\[course03\] 04 switch case](collapsar-java-baisc/course03-control/course03-04-switch-case.md)
+    * [\[course03\] 05 Recursion](collapsar-java-baisc/course03-control/course03-05-recursion.md)
     * [\[homework\] course02 (LowLevel)](collapsar-java-baisc/course03-control/homework-course02-lowlevel.md)
     * [\[homework\] course02 Intermediate](collapsar-java-baisc/course03-control/homework-course02-intermediate.md)
     * [\[homework\] course02 High-Level(ACSL)](collapsar-java-baisc/course03-control/homework-course02-high-level-acsl.md)
