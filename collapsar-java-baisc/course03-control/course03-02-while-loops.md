@@ -120,3 +120,140 @@ public class WhileTest {
   }
 } /* (Execute to see output) *///:~
 ```
+
+#### CalculateNumberSum
+
+```java
+/**
+ * 783 ~ 18
+ */
+public class CalculateNumberSum {
+    public static int calculateSum(int n){
+        int sum = 0;
+        int cur_number = 0;
+        while (n != 0){
+            cur_number = n % 10;
+            sum = sum + cur_number;
+            n = n / 10;
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(calculateSum(785));
+    }
+}
+```
+
+#### Prime Number
+
+```java
+public class PrimeNumber {
+    /**
+     * check positive n is a prime number
+     *
+     * @param n
+     * @return
+     */
+    public static boolean isPrime(int n) {
+        if (n == 2){
+            return true;
+        }
+        if (n % 2 == 0){
+            return false;
+        }
+        for (int i = 3; i <= n - 1; i = i+2){
+            if (n % i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        boolean flag = isPrime(2);
+        System.out.println(flag);
+    }
+}
+```
+
+#### Number 4 or 7
+
+find the nth number that is a multiple of either 4 or 7
+
+```java
+public class Number4Or7N {
+    /**
+     *
+     * @param n
+     * @return
+     */
+    public static boolean isNumber4Or7(int n){
+        if (n % 4 == 0 || n % 7 == 0){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    public static int number4Or7N(int countN){
+        int guess = 3;
+        int count = 0;
+        while(count < countN){
+            guess++;
+            if (isNumber4Or7(guess)){
+                count++;
+            }
+        }
+        return guess;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(number4Or7N(3));
+    }
+}
+```
+
+#### find the nth number that is a
+
+```java
+public class PrimeN {
+
+    /**
+     * check positive n is a prime number
+     *
+     * @param n
+     * @return
+     */
+    public static boolean isPrime(int n) {
+        if (n == 2){
+            return true;
+        }
+        if (n % 2 == 0){
+            return false;
+        }
+        for (int i = 3; i <= n - 1; i = i+2){
+            if (n % i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static int primeN(int countN){
+        int guess = 1;
+        int count = 0;
+        while (count < countN){
+            guess ++;
+            if (isPrime(guess)){
+                count++;
+            }
+        }
+        return guess;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(primeN(100));
+    }
+}
+```
