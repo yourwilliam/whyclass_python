@@ -30,6 +30,18 @@
 
 [Course03 - Computer architecture, languages and Operating Systems Cheatsheet](https://ppt.yuketang.net/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter03-Hardware.drawio.pdf)
 
+**Chapter 04 Security**
+
+[Course04 - Security PPT](https://ppt.yuketang.net/igcse/IGCSE-Chapter-04-Security/IGCSE-Chapter-04-Security.html)
+
+[Course04 - Security HTML](https://ppt.yuketang.net/igcse/Chapter4-Security.html)
+
+**Chapter 05 Ethics**
+
+[Course05 - Ethics PPT](https://ppt.yuketang.net/igcse/IGCSE-Chapter-05-Ethics/IGCSE-Chapter-05-Ethics.html)
+
+[Course05 - Ethics HTML](https://ppt.yuketang.net/igcse/Chapter5-Ethics.html)
+
 #### PPT 使用快捷键
 
 * Page: ↑/↓/←/→ Space Home End
