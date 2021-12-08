@@ -28,6 +28,8 @@
 
 [Course03 - Computer architecture, languages and Operating Systems Homework](https://ppt.yuketang.net/igcse/Chapter-03-Computer-architecture-languages-and-Operating-Systems.pdf)
 
+[Course03 - Computer architecture, languages and Operating Systems Cheatsheet](https://ppt.yuketang.net/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter03-Hardware.drawio.pdf)
+
 #### PPT 使用快捷键
 
 * Page: ↑/↓/←/→ Space Home End
