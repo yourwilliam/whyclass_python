@@ -158,6 +158,8 @@
 
 [Chapter 22 - Artificial Intelligence Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet-C22-AI.drawio.pdf)
 
+### Paper 4 Practical
+
 **Chapter 23 Algorithm**
 
 [Chapter 23 - Algorithm PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-23-Algorithms/ALevel-CS-Chapter-23-Algorithms.html)
@@ -169,8 +171,6 @@
 [Chapter 23 - Sort Algorithm Summary PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
 
 [Chapter 23 - Sort Algorithm Summary HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
-
-### Paper 4 Practical
 
 **Chapter 24 Recursion**
 
