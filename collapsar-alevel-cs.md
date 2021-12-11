@@ -62,6 +62,8 @@
 
 [Chapter 08 - System software Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-08-System-software.html)
 
+[Chapter 08 - System software Markdown Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-C08-OS.drawio.pdf)
+
 **Chapter 09 Security privacy and data integrity**
 
 [Chapter 09 - Security privacy and data integrity PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity/ALevel-CS-Chapter-09-Security-privacy-and-data-integrity.html)
@@ -199,6 +201,8 @@
 ### Cheatsheet
 
 [Cheatsheet Summary P1](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet.drawio.pdf)
+
+[Cheatsheet Summary P1 for print](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-for-print.drawio.pdf)
 
 [Cheatsheet Summary P3](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet.drawio.pdf)
 
