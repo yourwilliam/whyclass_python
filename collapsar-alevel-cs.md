@@ -102,6 +102,18 @@
 
 [Chapter 13 - Data types and structures Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures.html)
 
+**Chapter 14 Programming and data representation**
+
+[Chapter 14 - Programming and data representation PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-14-Programming-and-data-representation/ALevel-CS-Chapter-14-Programming-and-data-representation.html)
+
+[Chapter 14 - Programming and data representation Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-14-Programming-and-data-representation.html)
+
+**Chapter 15 Software development**
+
+[Chapter 15 - Software development PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-15-Software-development/ALevel-CS-Chapter-15-Software-development.html#slide=1)
+
+[Chapter 15 - Software development Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-15-Software-development.html)
+
 ### Paper 3 Advanced Theory
 
 **Chapter 16 Data Representation**
