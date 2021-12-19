@@ -186,6 +186,8 @@
 
 [Chapter 23 - Sort Algorithm Summary HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Supplementary-01-Sort-Algorithms.html)
 
+[Chapter 23 - Sort Algorithm Summary Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P4-cheatsheet-C23-Algorithm.drawio.pdf)
+
 **Chapter 24 Recursion**
 
 [Chapter 24 - Recursion PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-24-Recursion/ALevel-CS-Chapter-24-Recursion.html)
@@ -203,6 +205,8 @@
 [Chapter 26 - File processing and exception handling PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-26-File-processing-and-exception-handling/ALevel-CS-Chapter-26-File-processing-and-exception-handling.html)
 
 [Chapter 26 - File processing and exception handling Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-26-File-processing-and-exception-handling.html)
+
+[Chapter 26 - File processing and exception handling Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P4-cheatsheet-C26-File-Processing-Python.drawio.pdf)
 
 **Chapter 27 Object-Oriented Programming (OOP)**
 
