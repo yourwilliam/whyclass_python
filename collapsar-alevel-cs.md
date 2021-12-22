@@ -1,7 +1,5 @@
 # Collapsar-ALevel-CS
 
-## Collapsar - AS and A Level Computer Science (9618)
-
 ### Paper 1 Theory Fundamentals
 
 **Chapter 01 Information Representation**
@@ -96,11 +94,15 @@
 
 [Chapter 12 - Algorithm design and problem-solving Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-12-Algorithm-design-and-problem-solving.html)
 
+[Chapter 12 - Algorithm design and problem-solving Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P2-cheatsheet-C12-Algorithm.drawio.pdf)
+
 **Chapter 13 Data types and structures**
 
 [Chapter 13 - Data types and structures PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures/ALevel-CS-Chapter-13-Data-types-and-structures.html)
 
 [Chapter 13 - Data types and structures Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-13-Data-types-and-structures.html)
+
+[Chapter 13 - Data types and structures Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P2-cheatsheet-C13-Data-Types.drawio.pdf)
 
 **Chapter 14 Programming and data representation**
 
@@ -108,11 +110,15 @@
 
 [Chapter 14 - Programming and data representation Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-14-Programming-and-data-representation.html)
 
+[Chapter 14 - Programming and data representation Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P2-cheatsheet-C14-Programming.drawio.pdf)
+
 **Chapter 15 Software development**
 
 [Chapter 15 - Software development PPT](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-15-Software-development/ALevel-CS-Chapter-15-Software-development.html#slide=1)
 
 [Chapter 15 - Software development Markdown HTML](https://ppt.yuketang.net/alevel/ALevel-CS-Chapter-15-Software-development.html)
+
+[Chapter 15 - Software development Cheatsheet](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P2-cheatsheet-C15-Software-Dev.drawio.pdf)
 
 ### Paper 3 Advanced Theory
 
@@ -220,9 +226,13 @@
 
 [Cheatsheet Summary P1 for print](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P1-cheatsheet-for-print.drawio.pdf)
 
+[Cheatsheet Summary P2](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P2-cheatsheet.drawio.pdf)
+
 [Cheatsheet Summary P3](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet.drawio.pdf)
 
 [Cheatsheet Summary P3 for print](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P3-cheatsheet.drawio-for-print.pdf)
+
+[Cheatsheet Summary P4](https://ppt.yuketang.net/alevel/cheatsheet/ALevel-P4-cheatsheet.drawio.pdf)
 
 #### PPT 使用快捷键
 
