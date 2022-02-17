@@ -13,6 +13,7 @@
 * [有鱼课程v3.1](you-yu-ke-cheng-v3-1.md)
 * [Collapsar-Python基础营](collapsar-pythonji-chu-ying.md)
 * [Collapsar-Python进阶实践营](collapsar-pythonjin-jie-shi-jian-ying.md)
+* [Collapsar Python 基础衔接](collapsar-python-ji-chu-xian-jie.md)
 * [Python基础](pythonji-chu/README.md)
   * [python电脑使用基础](pythonji-chu/pythondian-nao-shi-yong-ji-chu.md)
   * [pycharm配置github](pythonji-chu/pycharmpei-zhi-github.md)
