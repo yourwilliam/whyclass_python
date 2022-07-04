@@ -6,6 +6,7 @@
 * [Collapsar社区](collapsar-community/README.md)
   * [鱼课堂在线工具](collapsar-community/yu-ke-tang-zai-xian-gong-ju.md)
   * [Python相关文章](collapsar-community/pythonkai-fa-zhe-nian-du-diao-cha-bao-gao.md)
+  * [便携笔记本推荐2022](collapsar-community/bian-xie-bi-ji-ben-tui-jian-2022.md)
   * [武器建议2020](collapsar-community/wu-qi-jian-yi-2020.md)
   * [武器建议](collapsar-community/wu-qi-jian-yi.md)
 * [鱼课堂设计v2.0](yu-ke-tang-she-ji-v2-0.md)
