@@ -44,7 +44,8 @@ def index(request):
     <div class="row">
         <nav>
             <ul class="pagination">
-                {% if articles.has_previous %}
+                {% raw %}
+{% if articles.has_previous %}
                     <li><a href="?page=1">1</a></li>
                     <li><a href="?page={{articles.previous_page_number}}">previous</a></li>
                 {% endif %}
@@ -55,9 +56,9 @@ def index(request):
                     <li><a href="?page={{articles.next_page_number}}">next</a></li>
                     <li><a href="?page={{articles.paginator.num_pages}}">last</a></li>
                 {% endif %}
+{% endraw %}
             </ul>
         </nav>
     </div>
 </div>
 ```
-

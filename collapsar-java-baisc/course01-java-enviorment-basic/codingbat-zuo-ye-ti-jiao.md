@@ -2,7 +2,7 @@
 
 ## Codingbat 作业配置
 
-登陆 [codingbat网站](https://codingbat.com) 或者从相应作业题链接。
+登陆 [codingbat网站](https://codingbat.com/) 或者从相应作业题链接。
 
 登陆你的账号（没有账号可以先注册一个，比较简单），点击右上角prefs
 

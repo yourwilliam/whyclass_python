@@ -6,7 +6,7 @@
 
 安装django-tagging
 
-```text
+```
 sudo pip install django-tagging
 ```
 
@@ -91,9 +91,11 @@ def index(request):
 ```markup
 <aside class="widget widget_tag_cloud">
     <h4 class="widget-title">Search by Tags</h4>
-    {% for tag in tags%}
+    {% raw %}
+{% for tag in tags%}
         <a href="#" class="ed_btn ed_orange">{{tag.name}}</a>
     {% endfor %}
+{% endraw %}
 </aside>
 ```
 
@@ -145,11 +147,12 @@ urlpatterns = [
 ```markup
 <aside class="widget widget_tag_cloud">
     <h4 class="widget-title">Search by Tags</h4>
-    {% for tag in tags%}
+    {% raw %}
+{% for tag in tags%}
         <a href="/blog/tag/{{tag.name}}" class="ed_btn ed_orange">{{tag.name}}</a>
     {% endfor %}
+{% endraw %}
 </aside>
 ```
 
 详情请参考[django参考文档](http://django-tagging.readthedocs.io/)
-

@@ -2,9 +2,15 @@
 
 ### 课前作业
 
-下载 [youyulab\_hw\_recursion](https://ossp.pengjunjie.com/mweb/youyulab\_hw\_recursion.py) 和 [youyulab\_recursion\_linter](https://ossp.pengjunjie.com/mweb/youyulab\_recursion\_linter.py) 文件。拷贝到的文件夹中。
+python 3.9及以下：
+
+下载 [collapsar\_recursion\_linter.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_recursion\_linter.py) 和 [collapsar\_hw\_recursion.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_hw\_recursion.py) 文件。拷贝到的文件夹中。
 
 其中youyulab\_recursion\_linter文件不需要改动
+
+python 3.10及以上：
+
+下载 [collapsar\_hw\_recursion.py](https://ossp.pengjunjie.com/collapsar-homework-3-10/collapsar\_hw\_recursion.py)
 
 打开youyulab\_hw\_recursion.py 文件
 

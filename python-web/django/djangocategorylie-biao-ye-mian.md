@@ -45,23 +45,27 @@ urlpatterns = [
 <aside class="widget widget_categories">
     <h4 class="widget-title">Search Categories</h4>
     <ul>
-        {% for category in categories %}
+        {% raw %}
+{% for category in categories %}
         <li><a href="/blog/category/{{category.id}}"><i class="fa fa-chevron-right"></i>{{category.title}}</a></li>
         {% endfor %}
+{% endraw %}
     </ul>
 </aside>
 ```
 
-最后修改完成页面之后，发现category列表下面的blog点击之后不能访问，其访问的url是[http://127.0.0.1:8000/blog/category/1/4。](http://127.0.0.1:8000/blog/category/1/4。) 这里明显无法解析，我们需要修改article的地址为绝对地址，修改如下
+最后修改完成页面之后，发现category列表下面的blog点击之后不能访问，其访问的url是[http://127.0.0.1:8000/blog/category/1/4。](http://127.0.0.1:8000/blog/category/1/4%E3%80%82) 这里明显无法解析，我们需要修改article的地址为绝对地址，修改如下
 
 ```markup
 <div class="ed_blog_item ed_bottompadder50">
-    {% if article.header_image%}
+    {% raw %}
+{% if article.header_image%}
     <div class="ed_blog_image">
         <a href="/blog/{{article.id}}"><img src="{{article.header_image.url}}"
                                         alt="blog image"/></a>
     </div>
     {% endif %}
+{% endraw %}
     <div class="ed_blog_info">
         <h2><a href="/blog/{{article.id}}">{{article.title}}</a></h2>
         <ul>
@@ -74,4 +78,3 @@ urlpatterns = [
     </div>
 </div>
 ```
-

@@ -177,10 +177,10 @@ Strut —— Strut实际上是一个三维空间的ppt，可以有x、y、z三�
 
 ### 配色网站
 
-[adobe配色网站](https://color.adobe.com/zh/create) [www.colourlovers.com](https://www.colourlovers.com)
+[adobe配色网站](https://color.adobe.com/zh/create) [www.colourlovers.com](https://www.colourlovers.com/)
 
 ### 图片素材站
 
-[google image](https://images.google.com/?gws\_rd=ssl) [unsplash](https://unsplash.com) [花瓣](https://huaban.com) [阿里图标库](https://www.iconfont.cn) [免费资源站](https://freebiesbug.com)
+[google image](https://images.google.com/?gws\_rd=ssl) [unsplash](https://unsplash.com) [花瓣](https://huaban.com/) [阿里图标库](https://www.iconfont.cn/) [免费资源站](https://freebiesbug.com/)
 
 ### 百度网盘

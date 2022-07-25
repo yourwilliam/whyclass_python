@@ -3,15 +3,15 @@
 当抓取网页时，你做的最常见的任务是从HTML源码中提取数据。现有的一些库可以达到这个目的：
 
 * [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) 是在程序员间非常流行的网页分析库，它基于HTML代码的结构来构造一个Python对象， 对不良标记的处理也非常合理，但它有一个缺点：慢。
-* [lxml](http://lxml.de) 是一个基于 [ElementTree](http://docs.python.org/library/xml.etree.elementtree.html) (不是Python标准库的一部分)的python化的XML解析库(也可以解析HTML)。
+* [lxml](http://lxml.de/) 是一个基于 [ElementTree](http://docs.python.org/library/xml.etree.elementtree.html) (不是Python标准库的一部分)的python化的XML解析库(也可以解析HTML)。
 
 Scrapy提取数据有自己的一套机制。它们被称作选择器(seletors)，因为他们通过特定的 [XPath](http://www.w3.org/TR/xpath) 或者 [CSS](http://www.w3.org/TR/selectors) 表达式来“选择” HTML文件中的某个部分。
 
 [XPath](http://www.w3.org/TR/xpath) 是一门用来在XML文件中选择节点的语言，也可以用在HTML上。 [CSS](http://www.w3.org/TR/selectors) 是一门将HTML文档样式化的语言。选择器由它定义，并与特定的HTML元素的样式相关连。
 
-Scrapy选择器构建于 [lxml](http://lxml.de) 库之上，这意味着它们在速度和解析准确性上非常相似。
+Scrapy选择器构建于 [lxml](http://lxml.de/) 库之上，这意味着它们在速度和解析准确性上非常相似。
 
-本页面解释了选择器如何工作，并描述了相应的API。不同于 [lxml](http://lxml.de) API的臃肿，该API短小而简洁。这是因为 [lxml](http://lxml.de) 库除了用来选择标记化文档外，还可以用到许多任务上。
+本页面解释了选择器如何工作，并描述了相应的API。不同于 [lxml](http://lxml.de/) API的臃肿，该API短小而简洁。这是因为 [lxml](http://lxml.de/) 库除了用来选择标记化文档外，还可以用到许多任务上。
 
 选择器API的完全参考详见 [Selector reference](./#topics-selectors-ref)
 
@@ -227,7 +227,7 @@ Link number 4 points to url [u'image5.html'] and image [u'image5_thumb.jpg']
 
 ### 使用EXSLT扩展
 
-因建于 [lxml](http://lxml.de) 之上, Scrapy选择器也支持一些 [EXSLT](http://www.exslt.org) 扩展，可以在XPath表达式中使用这些预先制定的命名空间：
+因建于 [lxml](http://lxml.de/) 之上, Scrapy选择器也支持一些 [EXSLT](http://www.exslt.org/) 扩展，可以在XPath表达式中使用这些预先制定的命名空间：
 
 前缀 命名空间 用途 re [http://exslt.org/regular-expressions](http://exslt.org/regular-expressions) [正则表达式](http://www.exslt.org/regexp/index.html) set [http://exslt.org/sets](http://exslt.org/sets) [集合操作](http://www.exslt.org/set/index.html)
 
@@ -260,7 +260,7 @@ Link number 4 points to url [u'image5.html'] and image [u'image5_thumb.jpg']
 
 警告
 
-C语言库 `libxslt` 不原生支持EXSLT正则表达式，因此 [lxml](http://lxml.de) 在实现时使用了Python `re` 模块的钩子。 因此，在XPath表达式中使用regexp函数可能会牺牲少量的性能。
+C语言库 `libxslt` 不原生支持EXSLT正则表达式，因此 [lxml](http://lxml.de/) 在实现时使用了Python `re` 模块的钩子。 因此，在XPath表达式中使用regexp函数可能会牺牲少量的性能。
 
 #### 集合操作
 
