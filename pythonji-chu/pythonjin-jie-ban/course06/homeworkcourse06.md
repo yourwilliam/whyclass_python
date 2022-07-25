@@ -1,41 +1,49 @@
-# \[homework\]course06
+# \[homework]course06
 
-## 课前作业
+## \[homework]course06
 
-下载 [youyulab\_week5\_linter.py](http://ossp.pengjunjie.com/youyulab_week5_linter.py) 和 [youyulab\_hw\_week5.py](http://ossp.pengjunjie.com/youyulab_hw_week5.py)文件。拷贝到week5的文件夹中。
+### 课前作业
+
+python 3.9及以下：
+
+下载 [collapsar\_week5\_linter.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_week5\_linter.py) 和 [collapsar\_hw\_week5.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_hw\_week5.py)文件。拷贝到week5的文件夹中。
 
 其中youyulab\_week5\_linter.py文件不需要改动
 
+python 3.10及以上：
+
+下载 [collapsar\_hw\_week5.py](https://ossp.pengjunjie.com/collapsar-homework-3-10/collapsar\_hw\_week5.py)
+
 打开youyulab\_pre\_hw\_week5.py 文件
 
-## 作业内容
+### 作业内容
 
 说明： week5的作业需要自己写测试用例。
 
-### 1. **getPairSum\(lst, target\)**
+#### 1. **getPairSum(lst, target)**&#x20;
 
-Write the function getPairSum\(lst, target\) that takes a list of integers and a target value \(also an integer\), and if there is a pair of numbers in the given list that add up to the given target number, returns that pair as a tuple; otherwise, it returns None. If there is more than one valid pair, you can return any of them. For example:
+Write the function getPairSum(lst, target) that takes a list of integers and a target value (also an integer), and if there is a pair of numbers in the given list that add up to the given target number, returns that pair as a tuple; otherwise, it returns None. If there is more than one valid pair, you can return any of them. For example:
 
-```python
+```py
 getPairSum([1], 1) == None
 getPairSum([5, 2], 7) in [ (5, 2), (2, 5) ]
 getPairSum([10, -1, 1, -8, 3, 1], 2) in [ (10, -8), (-8, 10), (-1, 3), (3, -1), (1, 1) ]
 getPairSum([10, -1, 1, -8, 3, 1], 10) == None
 ```
 
-A naive solution would be to check every possible pair in the list. That runs in O\(N\*\*2\). To get full credit for the problem, your solution must run in no worse than O\(N\) time.
+A naive solution would be to check every possible pair in the list. That runs in O(N\*\*2). To get full credit for the problem, your solution must run in no worse than O(N) time.
 
-### 2. **containsPythagoreanTriple\(lst\)**
+#### 2. **containsPythagoreanTriple(lst)**&#x20;
 
-Write the function containsPythagoreanTriple\(lst\) that takes a list of positive integers and returns True if there are 3 values \(a, b, c\) anywhere in the list such that \(a, b, c\) form a Pythagorean Triple `(where a**2 + b**2 == c**2)`. So \[1, 3, 6, 2, 5, 1, 4\] returns True because of `(3,4,5): 3**2 + 4**2 == 5**2\`. \[1, 3, 6, 2, 1, 4\] returns False, because it contains no triple.
+Write the function containsPythagoreanTriple(lst) that takes a list of positive integers and returns True if there are 3 values (a, b, c) anywhere in the list such that (a, b, c) form a Pythagorean Triple `(where a**2 + b**2 == c**2)`. So \[1, 3, 6, 2, 5, 1, 4] returns True because of `(3,4,5): 3**2 + 4**2 == 5**2\`. \[1, 3, 6, 2, 1, 4] returns False, because it contains no triple.
 
-A naive solution would be to check every possible triple \(a, b, c\) in the list. That runs in `O(N**3)`. To get full credit for the problem, your solution must run in no worse than `O(N**2)` time.
+A naive solution would be to check every possible triple (a, b, c) in the list. That runs in `O(N**3)`. To get full credit for the problem, your solution must run in no worse than `O(N**2)` time.
 
-### 3. **movieAwards\(oscarResults\)**
+#### 3. **movieAwards(oscarResults)**&#x20;
 
-Write the function movieAwards\(oscarResults\) that takes a set of tuples, where each tuple holds the name of a category and the name of the winning movie, then returns a dictionary mapping each movie to the number of the awards that it won. For example, if we provide the set:
+Write the function movieAwards(oscarResults) that takes a set of tuples, where each tuple holds the name of a category and the name of the winning movie, then returns a dictionary mapping each movie to the number of the awards that it won. For example, if we provide the set:
 
-```javascript
+```js
 { 
 ("Best Picture", "Green Book"), 
 ("Best Actor", "Bohemian Rhapsody"),
@@ -50,7 +58,7 @@ Write the function movieAwards\(oscarResults\) that takes a set of tuples, where
 
 the program should return:
 
-```javascript
+```js
 { 
 "Black Panther" : 2,
 "Bohemian Rhapsody" : 3,
@@ -64,11 +72,11 @@ the program should return:
 
 **Note 2:** Regarding efficiency, your solution needs to run faster than the naive solution using lists instead of some other appropriate, more-efficient data structures.
 
-### 4. **friendsOfFriends\(d\)**
+#### 4. **friendsOfFriends(d)**
 
 Background: we can create a dictionary mapping people to sets of their friends. For example, we might say:
 
-```javascript
+```js
 d = { }
 d["jon"] = set(["arya", "tyrion"])
 d["tyrion"] = set(["jon", "jaime", "pod"])
@@ -79,11 +87,11 @@ d["pod"] = set(["tyrion", "brienne", "jaime"])
 d["ramsay"] = set()
 ```
 
-With this in mind, write the nondestructive function friendsOfFriends\(d\) that takes such a dictionary mapping people to sets of friends and returns a new dictionary mapping all the same people to sets of their friends-of-friends. For example, since Tyrion is a friend of Pod, and Jon is a friend of Tyrion, Jon is a friend-of-friend of Pod. This set should exclude any direct friends, so Jaime does not count as a friend-of-friend of Pod \(since he is simply a friend of Pod\) despite also being a friend of Tyrion's. Additionally, a person cannot be a friend or a friend-of-friend of themself.
+With this in mind, write the nondestructive function friendsOfFriends(d) that takes such a dictionary mapping people to sets of friends and returns a new dictionary mapping all the same people to sets of their friends-of-friends. For example, since Tyrion is a friend of Pod, and Jon is a friend of Tyrion, Jon is a friend-of-friend of Pod. This set should exclude any direct friends, so Jaime does not count as a friend-of-friend of Pod (since he is simply a friend of Pod) despite also being a friend of Tyrion's. Additionally, a person cannot be a friend or a friend-of-friend of themself.
 
 Thus, in this example, friendsOfFriends should return:
 
-```javascript
+```js
 {
  'tyrion': {'arya', 'brienne'}, 
  'pod': {'jon'}, 
@@ -97,7 +105,6 @@ Thus, in this example, friendsOfFriends should return:
 
 **Note 1:** you may assume that everyone listed in any of the friend sets also is included as a key in the dictionary.
 
-**Note 2:** you may **not** assume that if Person1 lists Person2 as a friend, Person2 will list Person1 as a friend! Sometimes friendships are only one-way. =\(
+**Note 2:** you may **not** assume that if Person1 lists Person2 as a friend, Person2 will list Person1 as a friend! Sometimes friendships are only one-way. =(
 
 **Note 3:** regarding efficiency, your solution needs to run faster than the naive solution using lists instead of some other appropriate, more-efficient data structures.
-
