@@ -2,8 +2,6 @@
 
 ### 课前作业
 
-{% embed url="https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar_week3_linter.py" %}
-
 python 3.9 及以下：
 
 下载 [collapsar\_week3\_linter.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_week3\_linter.py) 和 [collapsar\_pre\_hw\_week3.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_pre\_hw\_week3.py)文件。拷贝到week3的文件夹中。
@@ -11,6 +9,8 @@ python 3.9 及以下：
 其中youyulab\_week3\_linter.py文件不需要改动
 
 python 3.10及以上：
+
+[collapsar作业文件](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_week3\_linter.py)
 
 下载 [collapsar\_pre\_hw\_week3.py](https://ossp.pengjunjie.com/collapsar-homework-3-10/collapsar\_pre\_hw\_week3.py)
 
