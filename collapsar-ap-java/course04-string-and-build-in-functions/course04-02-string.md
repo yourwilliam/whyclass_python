@@ -1,5 +1,7 @@
 # \[course04] 02 String
 
+## \[course04] 02 String
+
 ### Strings
 
 String is a class, and a value of type String is an object. That object contains data, namely the sequence of characters that make up the string. It also contains subroutines. All of these subroutines are in fact functions.
@@ -7,6 +9,11 @@ String is a class, and a value of type String is an object. That object contains
 ```java
 String advice;
 advice = "Seize the day!";
+
+String day = "new day";
+String username = new String("Joh");
+username = "Harry";
+
 ```
 
 ```java
@@ -22,7 +29,7 @@ System.out.println( "Hello World".length() );
 
 ### Java escape sequence
 
-![](https://ossp.pengjunjie.com/mweb/16378312181359.jpg)
+![](http://ossp.pengjunjie.com/mweb/16378312181359.jpg)
 
 ### String is a sequence of (unicode) characters
 
@@ -44,7 +51,7 @@ difference the two types
 
 ### Object vs Primitive Data
 
-![](https://ossp.pengjunjie.com/mweb/16378315081520.jpg)
+![](http://ossp.pengjunjie.com/mweb/16378315081520.jpg)
 
 [devdocs java](https://devdocs.io/openjdk\~11/java.base/java/lang/string)
 
@@ -57,6 +64,91 @@ difference the two types
 * `s1.compareTo(s2)` and `s1.compareToIgnoreCase(s2)`
 * `s1.toUpperCase()` and `s1.toLowerCase()`
 * `s1.trim()`
+
+#### immutable feature of String
+
+```java
+public static void main(String[] args) {
+    String s="Sachin";
+    s.concat(" Tendulkar");//concat() method appends the string at the end
+    System.out.println(s);//will print Sachin because strings are immutable objects
+
+    String newS = s.concat(" Tendulkar");
+    System.out.println(newS);
+}
+```
+
+#### The concatenation operator
+
+```java
+public static void main(String[] args) {
+    int fiYe = 5;
+
+    String state = "HaZaii-";
+
+    String tvShow = state + five + "-0"; //tvShow has value "HaZaii-5-0"
+
+    System.out.println(tvShow);
+
+    int x = 3, y = 4;
+
+    //String sXm = x + y; //error: can’t assign int 7 to String
+
+    Date d1 = new Date(8, 2, 1947);
+    Date d2 = new Date(2, 17, 1948);
+    String s = "My birthday is " + d2;
+
+    //String s2 = d1 + d2;   //error: + not defined for objects
+    String s3 = d1.toString() + d2.toString();
+    System.out.println(s3);
+
+}
+```
+
+#### use equals to compare String
+
+```java
+public static void main(String[] args) {
+
+    String a1 = "hello";
+    String a2 = "hello";
+    System.out.println(a1 == a2);
+
+    String b1 = new String("hello");
+    String b2 = new String("hello");
+    System.out.println(b1 == b2);
+
+
+    String s1 = "hello";
+    String s2 = "world";
+    String s3 = "helloworld";
+    String s4 = s1 + s2;
+    System.out.println(s3 == s4);
+    System.out.println(System.identityHashCode(s3));
+    System.out.println(System.identityHashCode(s4));
+
+    String s5= s1;
+
+    System.out.println(s1 == s5);
+    System.out.println(System.identityHashCode(s1));
+    System.out.println(System.identityHashCode(s5));
+
+    s1 = s1+s2;
+    System.out.println(s1 == s3);
+    System.out.println(System.identityHashCode(s1));
+    System.out.println(System.identityHashCode(s3));
+
+    System.out.println(s1.equals(s3));
+    String str1 = "HOT";
+    String str2 = "HOTEL";
+    String str3 = "dog";
+
+    System.out.println(str1.compareTo(str2));
+    System.out.println(str1.compareTo(str3));
+}
+```
+
+[String pool](https://www.cnblogs.com/Andya/p/14067618.html)
 
 ### Substring
 
@@ -107,6 +199,7 @@ public class EnumDemo {
     }
    
 }
+
 ```
 
 ### Multiline Strings
@@ -294,4 +387,5 @@ public class StringDemo {
 
     }
  }
+
 ```
