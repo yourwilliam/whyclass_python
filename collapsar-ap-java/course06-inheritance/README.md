@@ -1,0 +1,2 @@
+# \[course06]Inheritance
+
