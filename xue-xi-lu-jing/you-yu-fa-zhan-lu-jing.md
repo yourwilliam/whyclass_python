@@ -1,6 +1,5 @@
 # 有鱼成长路径
 
-## [python数据分析](http://road.yuketang.net/road_to_python_data.html)
+## [python数据分析](http://road.uxres.com/road\_to\_python\_data.html)
 
-## [python web](http://road.yuketang.net/road_to_python_web.html)
-
+## [python web](http://road.uxres.com/road\_to\_python\_web.html)
