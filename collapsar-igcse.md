@@ -8,6 +8,8 @@
 
 [Course 01 - Data Representation Markdown HTML](https://ppt.uxres.com/igcse/Chapter1-Data-Representation.html)
 
+[Course 01 - Data Representation Homework](https://ppt.uxres.com/igcse/Chapter-01-Data-representation-Homework.pdf)
+
 [Course 01 - Data Representation Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter01-Data.drawio.pdf)
 
 **Chapter 02 Communication and Internet Technologies**
