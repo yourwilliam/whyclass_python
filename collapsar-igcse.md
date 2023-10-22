@@ -1,6 +1,6 @@
 # Collapsar-IGCSE
 
-## Collapsar-IGCSE
+## Collapsar-IGCSE-2023
 
 **Chapter 01 Data Representation**
 
@@ -45,6 +45,12 @@
 [Course05 - Ethics PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-05-Ethics/IGCSE-Chapter-05-Ethics.html)
 
 [Course05 - Ethics HTML](https://ppt.uxres.com/igcse/Chapter5-Ethics.html)
+
+**Chapter 10 Boolean Logic**
+
+[Course10 - Boolean Logic PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic/IGCSE-Chapter-10-Boolean-Logic.html)
+
+[Course10 - Boolean Logic HTML](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic.html)
 
 ### Cheatsheet
 
