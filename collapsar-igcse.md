@@ -22,23 +22,25 @@
 
 [Course02 - Communication and Internet Technologies Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter02-Network.drawio.pdf)
 
-**Chapter 03 Computer architecture, languages and Operating Systems**
+**Chapter 03 Hardware**
 
-[Course03 - Computer architecture, languages and Operating Systems PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-03-Computer-architecture-languages-and-Operating-Systems/IGCSE-Chapter-03-Computer-architecture-languages-and-Operating-Systems.html)
+[Course03 - Hardware PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-03-Computer-architecture-languages-and-Operating-Systems/IGCSE-Chapter-03-Computer-architecture-languages-and-Operating-Systems.html)
 
-[Course03 - Computer architecture, languages and Operating Systems HTML](https://ppt.uxres.com/igcse/Chapter3-Computer-architecture-languages-and-Operating-Systems.html)
+[Course03 - Hardware HTML](https://ppt.uxres.com/igcse/Chapter3-Hardware.html)
 
-[Course03 - Computer architecture, languages and Operating Systems Homework](https://ppt.uxres.com/igcse/Chapter-03-Computer-architecture-languages-and-Operating-Systems.pdf)
+[Course03 - Hardware Homework](https://ppt.uxres.com/igcse/Chapter-03-Hardware-Homework.pdf)
 
-[Course03 - Computer architecture, languages and Operating Systems Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter03-Hardware.drawio.pdf)
+[Course03 - Hardware Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter03-Hardware.drawio.pdf)
 
-**Chapter 04 Security**
+**Chapter 04 Software**
 
-[Course04 - Security PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-04-Security/IGCSE-Chapter-04-Security.html)
+[Course04 - Software PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-04-Software/IGCSE-Chapter-04-Software.html)
 
-[Course04 - Security HTML](https://ppt.uxres.com/igcse/Chapter4-Security.html)
+[Course04 - Software HTML](https://ppt.uxres.com/igcse/Chapter4-Software.html)
 
-[Course04 - Security Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter04-Security.drawio.pdf)
+[Course04 - Software Homework](https://ppt.uxres.com/igcse/Chapter-04-Software-Homework.pdf)
+
+[Course04 - Software Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter04-Security.drawio.pdf)
 
 **Chapter 05 Ethics**
 
@@ -51,6 +53,8 @@
 [Course10 - Boolean Logic PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic/IGCSE-Chapter-10-Boolean-Logic.html)
 
 [Course10 - Boolean Logic HTML](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic.html)
+
+[Course03 - Boolean Logic Homework](https://ppt.uxres.com/igcse/Chapter-10-Logic-Homework.pdf)
 
 ### Cheatsheet
 
