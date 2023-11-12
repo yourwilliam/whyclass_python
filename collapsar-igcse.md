@@ -42,11 +42,13 @@
 
 [Course04 - Software Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter04-Security.drawio.pdf)
 
-**Chapter 05 Ethics**
+**Chapter 05 The Internet and Its Uses**
 
-[Course05 - Ethics PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-05-Ethics/IGCSE-Chapter-05-Ethics.html)
+[Course05 - The Internet and Its Uses PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-05-The-Internet-And-Its-Uses/IGCSE-Chapter-05-The-Internet-And-Its-Uses.html)
 
-[Course05 - Ethics HTML](https://ppt.uxres.com/igcse/Chapter5-Ethics.html)
+[Course05 - The Internet and Its Uses HTML](https://ppt.uxres.com/igcse/Chapter5-The-internet-and-its-uses.html)
+
+[Course05 - The Internet and Its Uses Homework](https://ppt.uxres.com/igcse/Chapter-05-The-internet-and-its-uses.pdf)
 
 **Chapter 10 Boolean Logic**
 
