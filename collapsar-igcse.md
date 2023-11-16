@@ -50,6 +50,22 @@
 
 [Course05 - The Internet and Its Uses Homework](https://ppt.uxres.com/igcse/Chapter-05-The-internet-and-its-uses.pdf)
 
+**Chapter 05 The Internet and Its Uses**
+
+[Course05 - The Internet and Its Uses PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-05-The-Internet-And-Its-Uses/IGCSE-Chapter-05-The-Internet-And-Its-Uses.html)
+
+[Course05 - The Internet and Its Uses HTML](https://ppt.uxres.com/igcse/Chapter5-The-internet-and-its-uses.html)
+
+[Course05 - The Internet and Its Uses Homework](https://ppt.uxres.com/igcse/Chapter-05-The-internet-and-its-uses.pdf)
+
+**Chapter 06 Automated and emerging technologies**
+
+[Course06 - Automated and emerging technologies PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-06-Automated-and-emerging-technologies/IGCSE-Chapter-06-Automated-and-emerging-technologies.html)
+
+[Course06 - Automated and emerging technologies HTML](https://ppt.uxres.com/igcse/Chapter6-Automated-and-emerging-technologies.html)
+
+[Course06 - The Internet and Its Uses Video](https://e1akiybsrmu.feishu.cn/docx/DfWQdhNOmoAL6IxwVWVcLr3qnef?from=from\_copylink)
+
 **Chapter 10 Boolean Logic**
 
 [Course10 - Boolean Logic PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic/IGCSE-Chapter-10-Boolean-Logic.html)
