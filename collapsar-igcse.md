@@ -66,6 +66,12 @@
 
 [Course06 - The Internet and Its Uses Video](https://e1akiybsrmu.feishu.cn/docx/DfWQdhNOmoAL6IxwVWVcLr3qnef?from=from\_copylink)
 
+**Chapter 08 Programming**
+
+[Course08 - Programming PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-08-Programming/IGCSE-Chapter-08-Programming.html)
+
+[Course08 - Programming HTML](https://ppt.uxres.com/igcse/Chapter8-Programming.html)
+
 **Chapter 10 Boolean Logic**
 
 [Course10 - Boolean Logic PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic/IGCSE-Chapter-10-Boolean-Logic.html)
