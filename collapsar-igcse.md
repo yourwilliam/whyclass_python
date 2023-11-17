@@ -66,6 +66,12 @@
 
 [Course06 - The Internet and Its Uses Video](https://e1akiybsrmu.feishu.cn/docx/DfWQdhNOmoAL6IxwVWVcLr3qnef?from=from\_copylink)
 
+**Chapter 07 Algorithm design and problem solving**
+
+[Course07 - Algorithm design and problem solving PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-07-Algorithm-design-and-problem-solving/IGCSE-Chapter-07-Algorithm-design-and-problem-solving.html)
+
+[Course07 - Algorithm design and problem solving HTML](https://ppt.uxres.com/igcse/Chapter7-Algorithm-design-and-problem-solving.html)
+
 **Chapter 08 Programming**
 
 [Course08 - Programming PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-08-Programming/IGCSE-Chapter-08-Programming.html)
