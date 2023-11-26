@@ -78,7 +78,7 @@
 
 [Course08 - Programming HTML](https://ppt.uxres.com/igcse/Chapter8-Programming.html)
 
-**Chapter 09 Programming**
+**Chapter 09 Database**
 
 [Course09 - Database PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-09-Database/IGCSE-Chapter-09-Database.html)
 
