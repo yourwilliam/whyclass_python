@@ -2,6 +2,8 @@
 
 ## Collapsar-IGCSE-2023
 
+
+
 **Chapter 01 Data Representation**
 
 [Course 01 - Data Representation PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-01-Data-Representation/IGCSE-Chapter-01-Data-Representation.html)
@@ -40,7 +42,7 @@
 
 [Course04 - Software Homework](https://ppt.uxres.com/igcse/Chapter-04-Software-Homework.pdf)
 
-[Course04 - Software Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter04-Security.drawio.pdf)
+[Course04 - Software Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter04-software.drawio.pdf)
 
 **Chapter 05 The Internet and Its Uses**
 
@@ -50,13 +52,7 @@
 
 [Course05 - The Internet and Its Uses Homework](https://ppt.uxres.com/igcse/Chapter-05-The-internet-and-its-uses.pdf)
 
-**Chapter 05 The Internet and Its Uses**
-
-[Course05 - The Internet and Its Uses PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-05-The-Internet-And-Its-Uses/IGCSE-Chapter-05-The-Internet-And-Its-Uses.html)
-
-[Course05 - The Internet and Its Uses HTML](https://ppt.uxres.com/igcse/Chapter5-The-internet-and-its-uses.html)
-
-[Course05 - The Internet and Its Uses Homework](https://ppt.uxres.com/igcse/Chapter-05-The-internet-and-its-uses.pdf)
+[Course05 - The Internet and Its Uses Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter05-Internet.drawio.pdf)
 
 **Chapter 06 Automated and emerging technologies**
 
@@ -78,7 +74,7 @@
 
 [Course08 - Programming HTML](https://ppt.uxres.com/igcse/Chapter8-Programming.html)
 
-**Chapter 09 Database**
+**Chapter 09 Programming**
 
 [Course09 - Database PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-09-Database/IGCSE-Chapter-09-Database.html)
 
