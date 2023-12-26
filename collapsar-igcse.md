@@ -2,8 +2,6 @@
 
 ## Collapsar-IGCSE-2023
 
-
-
 **Chapter 01 Data Representation**
 
 [Course 01 - Data Representation PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-01-Data-Representation/IGCSE-Chapter-01-Data-Representation.html)
@@ -12,7 +10,7 @@
 
 [Course 01 - Data Representation Homework](https://ppt.uxres.com/igcse/Chapter-01-Data-representation-Homework.pdf)
 
-[Course 01 - Data Representation Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter01-Data.drawio.pdf)
+[Course 01 - Data Representation Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter01-Data.drawio.pdf)
 
 **Chapter 02 Communication and Internet Technologies**
 
@@ -22,7 +20,7 @@
 
 [Course02 - Communication and Internet Technologies Homework](https://ppt.uxres.com/igcse/Chapter-02-Communication-and-Internet-Technologies-Homework.pdf)
 
-[Course02 - Communication and Internet Technologies Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter02-Network.drawio.pdf)
+[Course02 - Communication and Internet Technologies Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter02-Network.drawio.pdf)
 
 **Chapter 03 Hardware**
 
@@ -32,7 +30,7 @@
 
 [Course03 - Hardware Homework](https://ppt.uxres.com/igcse/Chapter-03-Hardware-Homework.pdf)
 
-[Course03 - Hardware Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter03-Hardware.drawio.pdf)
+[Course03 - Hardware Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter03-Hardware.drawio.pdf)
 
 **Chapter 04 Software**
 
@@ -62,6 +60,8 @@
 
 [Course06 - The Internet and Its Uses Video](https://e1akiybsrmu.feishu.cn/docx/DfWQdhNOmoAL6IxwVWVcLr3qnef?from=from\_copylink)
 
+[Course06 - The Internet and Its Uses Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter06-AI.drawio.pdf)
+
 **Chapter 07 Algorithm design and problem solving**
 
 [Course07 - Algorithm design and problem solving PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-07-Algorithm-design-and-problem-solving/IGCSE-Chapter-07-Algorithm-design-and-problem-solving.html)
@@ -90,13 +90,17 @@
 
 ### Cheatsheet
 
-[Course 01 - Data Representation Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter01-Data.drawio.pdf)
+[Course 01 - Data Representation Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter01-Data.drawio.pdf)
 
-[Course02 - Communication and Internet Technologies Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter02-Network.drawio.pdf)
+[Course02 - Communication and Internet Technologies Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter02-Network.drawio.pdf)
 
-[Course03 - Computer architecture, languages and Operating Systems Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter03-Hardware.drawio.pdf)
+[Course03 - Hardware Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter03-Hardware.drawio.pdf)
 
-[Course04 - Security Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-Chapter04-Security.drawio.pdf)
+[Course04 - Software Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter04-software.drawio.pdf)
+
+[Course05 - The Internet and Its Uses Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter05-Internet.drawio.pdf)
+
+[Course06 - The Internet and Its Uses Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter06-AI.drawio.pdf)
 
 [Cheatsheet All](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet.drawio.pdf)
 
