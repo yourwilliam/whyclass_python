@@ -68,11 +68,15 @@
 
 [Course07 - Algorithm design and problem solving HTML](https://ppt.uxres.com/igcse/Chapter7-Algorithm-design-and-problem-solving.html)
 
+[Course07 - Algorithm design and problem solving Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter07-Algorithm.drawio.pdf)
+
 **Chapter 08 Programming**
 
 [Course08 - Programming PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-08-Programming/IGCSE-Chapter-08-Programming.html)
 
 [Course08 - Programming HTML](https://ppt.uxres.com/igcse/Chapter8-Programming.html)
+
+[Course08 - Programming Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter08-Programming.drawio.pdf)
 
 **Chapter 09 Programming**
 
@@ -80,13 +84,15 @@
 
 [Course09 - Database HTML](https://ppt.uxres.com/igcse/Chapter9-Database.html)
 
+[Course09 - Database Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter09-Database.drawio.pdf)
+
 **Chapter 10 Boolean Logic**
 
 [Course10 - Boolean Logic PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic/IGCSE-Chapter-10-Boolean-Logic.html)
 
 [Course10 - Boolean Logic HTML](https://ppt.uxres.com/igcse/IGCSE-Chapter-10-Boolean-Logic.html)
 
-[Course03 - Boolean Logic Homework](https://ppt.uxres.com/igcse/Chapter-10-Logic-Homework.pdf)
+[Course10 - Boolean Logic Homework](https://ppt.uxres.com/igcse/Chapter-10-Logic-Homework.pdf)
 
 ### Cheatsheet
 
@@ -102,7 +108,15 @@
 
 [Course06 - The Internet and Its Uses Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter06-AI.drawio.pdf)
 
-[Cheatsheet All](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet.drawio.pdf)
+[Course07 - Algorithm design and problem solving Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter07-Algorithm.drawio.pdf)
+
+[Course08 - Programming Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter08-Programming.drawio.pdf)
+
+[Course09 - Database Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter09-Database.drawio.pdf)
+
+[Cheatsheet All](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023.drawio.pdf)
+
+[Cheatsheet for print](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-print.drawio.pdf)
 
 #### PPT 使用快捷键
 
