@@ -2,7 +2,7 @@
 
 ## dify插件安装
 
-[CEEHDAPOHFFMJMKDCIFJOFADIAOEGGAF\_1\_5\_0\_0.crx](https://ossp.pengjunjie.com/CEEHDAPOHFFMJMKDCIFJOFADIAOEGGAF\_1\_5\_0\_0.crx)
+[dify\_ai\_tools.zip](https://ossp.pengjunjie.com/dify\_ai\_tools.zip)
 
 下载插件，打开
 
