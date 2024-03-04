@@ -16,7 +16,7 @@
 
 ![](http://ossp.pengjunjie.com/mweb/17095186320958.jpg)
 
-http://dify.pengjunjie.com/chatbot/r78fPF8jm0syR6D6
+https://dify.pengjunjie.com/chatbot/r78fPF8jm0syR6D6
 
 完成之后重启浏览器，在右下角就可以打开
 
