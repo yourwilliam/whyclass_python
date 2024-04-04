@@ -78,7 +78,7 @@
 
 [Course08 - Programming Cheatsheet](https://ppt.uxres.com/igcse/cheatsheet/IGCSE-P1-cheatsheet-2023-Chapter08-Programming.drawio.pdf)
 
-**Chapter 09 Programming**
+**Chapter 09 Database**
 
 [Course09 - Database PPT](https://ppt.uxres.com/igcse/IGCSE-Chapter-09-Database/IGCSE-Chapter-09-Database.html)
 
