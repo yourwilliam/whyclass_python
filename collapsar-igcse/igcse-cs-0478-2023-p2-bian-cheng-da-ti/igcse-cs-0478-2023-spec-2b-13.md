@@ -64,6 +64,10 @@ def check_patient(hospital_number: int):
     pass
 ```
 
+### 图解
+
+![](http://ossp.pengjunjie.com/mweb/17133764935895.jpg)
+
 ### Python版答案
 
 ```python

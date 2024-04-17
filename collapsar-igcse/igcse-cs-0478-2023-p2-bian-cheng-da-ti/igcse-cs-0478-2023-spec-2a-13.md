@@ -78,6 +78,10 @@ PASS = 40
 
 ```
 
+### 图解
+
+![](http://ossp.pengjunjie.com/mweb/17133764493152.jpg)
+
 ### Python版答案
 
 ```Python
