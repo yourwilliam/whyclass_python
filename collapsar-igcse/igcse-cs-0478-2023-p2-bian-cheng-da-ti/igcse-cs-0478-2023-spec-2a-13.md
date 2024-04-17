@@ -84,7 +84,7 @@ PASS = 40
 
 ### Python版答案
 
-```Python
+```python
 import string
 import random
 
