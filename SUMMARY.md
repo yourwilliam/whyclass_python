@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [有鱼暑假CS衔接 2024](you-yu-shu-jia-cs-xian-jie-2024.md)
 * [Collapsar-IGCSE](collapsar-igcse/README.md)
+  * [IGCSE CS 汇总图](collapsar-igcse/igcse-cs-hui-zong-tu.md)
   * [IGCSE CS 0478 2023 P2编程大题 ](collapsar-igcse/igcse-cs-0478-2023-p2-bian-cheng-da-ti/README.md)
     * [IGCSE cs 0478 2023 spec 2a 13](collapsar-igcse/igcse-cs-0478-2023-p2-bian-cheng-da-ti/igcse-cs-0478-2023-spec-2a-13.md)
     * [IGCSE cs 0478 2023 spec 2b 13](collapsar-igcse/igcse-cs-0478-2023-p2-bian-cheng-da-ti/igcse-cs-0478-2023-spec-2b-13.md)
