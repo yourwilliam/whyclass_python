@@ -69,3 +69,13 @@ leetcode 有国内版和国际版，国外计算机相关的公司会用这个�
 
 
 
+#### DeepLearning
+
+{% embed url="https://www.deeplearning.ai/courses/" %}
+
+当前大模型相关的教程可以多在这个上面学习学习，这个应该是现在行业最好的教材了。
+
+
+
+
+
