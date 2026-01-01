@@ -3,7 +3,6 @@
 在修改Model之后先把之前的页面模板更新
 
 ```markup
-{% raw %}
 {% for article in articles %}
 <div class="ed_blog_item ed_bottompadder50">
     <div class="ed_blog_image">
@@ -21,7 +20,6 @@
     </div>
 </div>
 {% endfor %}
-{% endraw %}
 ```
 
 由于修改了更新时间和头部图片，所以我们修改头部图片。使用`.url`可以获取到图像的全部链接地址。
@@ -51,11 +49,9 @@ def index(request):
 <aside class="widget widget_categories">
     <h4 class="widget-title">Search Categories</h4>
     <ul>
-        {% raw %}
-{% for category in categories %}
+        {% for category in categories %}
             <li><a href="#"><i class="fa fa-chevron-right"></i>{{category.title}}</a></li>
         {% endfor %}
-{% endraw %}
     </ul>
 </aside>
 ```
@@ -65,7 +61,6 @@ def index(request):
 在Template模板中，可以包含判断块，其中和python语言类似，包含 if, elif 和 else
 
 ```python
-{% raw %}
 {% if athlete_list %}
     Number of athletes: {{ athlete_list|length }}
 {% elif athlete_in_locker_room_list %}
@@ -73,7 +68,6 @@ def index(request):
 {% else %}
     No athletes.
 {% endif %}
-{% endraw %}
 ```
 
 在我们的例子中，由于Model设计的时候，header\_image可以为空，可以测试下，在admin中如果将header\_image设置为空的话，会发生什么事情？
@@ -84,7 +78,6 @@ blog\_image\_rs.html
 
 ```markup
 <div class="ed_blog_all_item">
-{% raw %}
 {% for article in articles %}
 <div class="ed_blog_item ed_bottompadder50">
     {% if article.header_image%}
@@ -93,7 +86,6 @@ blog\_image\_rs.html
                                         alt="blog image"/></a>
     </div>
     {% endif %}
-{% endraw %}
     <div class="ed_blog_info">
 ```
 
@@ -103,13 +95,11 @@ blog\_image\_rs.html
 
 ```markup
 <div class="ed_blog_item ed_bottompadder50">
-    {% raw %}
-{% if article.header %}
+    {% if article.header %}
     <div class="ed_blog_image_rs">
         <img src="{{article.header_image.url}}" alt="blog image" />
     </div>
     {% endif %}
-{% endraw %}
 <div class="ed_blog_info">
 ```
 

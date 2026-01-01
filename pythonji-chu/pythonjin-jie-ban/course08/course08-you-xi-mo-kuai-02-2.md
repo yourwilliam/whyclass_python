@@ -1,4 +1,4 @@
-# \[course\]08 游戏模块02-2
+# \[course]08 游戏模块02-2
 
 ## 点击游戏，和游戏帮助
 
@@ -318,4 +318,3 @@ class SideScroller3(App):
 
 SideScroller3(width=300, height=300)
 ```
-

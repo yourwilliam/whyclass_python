@@ -6,13 +6,13 @@
 
 **飞书邀请：**
 
-已在飞书Collapsar的伙伴可以不用再次添加\(\)
+已在飞书Collapsar的伙伴可以不用再次添加()
 
 我和“collapsar”的小伙伴都在飞书等你，用这个专属链接加入我们吧！[https://go.feishu.cn/J2s5tK1/](https://go.feishu.cn/J2s5tK1/)
 
 也可以扫二维码加入
 
-![&#x5C0F;&#x5C3A;&#x5BF8;&#x4E8C;&#x7EF4;&#x7801;-200\*200](http://ossp.pengjunjie.com/mweb/%E5%B0%8F%E5%B0%BA%E5%AF%B8%E4%BA%8C%E7%BB%B4%E7%A0%81-200*200.png)
+![小尺寸二维码-200\*200](http://ossp.pengjunjie.com/mweb/%E5%B0%8F%E5%B0%BA%E5%AF%B8%E4%BA%8C%E7%BB%B4%E7%A0%81-200*200.png)
 
 本社群只支持有鱼Collapsar老学员，请大家申请的时候注明名字，谢谢！
 
@@ -27,9 +27,9 @@
 
 ## 课程排期
 
-1. git & github \(**2020-07-30 19:00**\)
+1. git & github (**2020-07-30 19:00**)
    * 课程说明：开源社区如何运作，如何多人协同开发
-   * Git的安装和基本使用\(克隆项目/提交代码/分支管理\)
+   * Git的安装和基本使用(克隆项目/提交代码/分支管理)
    * youyu git的使用
    * github如何学习知识
 2. 敏捷项目管理和敏捷实践
@@ -54,7 +54,7 @@
    * 前置知识：
      1. python
      2. jupyterlab
-5. markdown\(typora\)
+5. markdown(typora)
    * 课程说明：如何做知识管理，一种写文档的新的方式，做自己的知识库
    * markdown基本介绍
    * markdown基本语法
@@ -70,7 +70,7 @@
    * github pages配置
    * 前置知识：
      * git
-     * markdown\(typora\)
+     * markdown(typora)
      * HTML/CSS 最好有相关经验，也可以没有
 8. 思维导图工具
    * 课程说明： 怎么使用思维导入，用思维导图来整理自己的知识体系，用思维导图来归纳笔记
@@ -82,11 +82,10 @@
    * 如何做好PPT
    * PPT动画
    * PPT模板
-10. 另类的presentation工具——markdown ppt \| prezi \| strtu
+10. 另类的presentation工具——markdown ppt | prezi | strtu
     * 课程说明： 使用markdown也能制作漂亮的PPT，并方便我们共享。其他的工具拥有PPT没有的表现方式，让人眼前一亮的presentation
     * markdown PPT
     * prezi演示
     * strtu 说明
-11. 刷题工具\(hackerrank/leecode/TopCoder/kaggle\)
+11. 刷题工具(hackerrank/leecode/TopCoder/kaggle)
     * 课程说明： 复习编程语言，找工作刷题，学习刷题必备网站
-

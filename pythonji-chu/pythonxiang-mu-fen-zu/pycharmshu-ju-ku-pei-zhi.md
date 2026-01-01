@@ -11,4 +11,3 @@
 完成之后打开访问点击schema就可以查看相应的数据库内容了。
 
 ![](http://ossp.pengjunjie.com/mweb/15537042065557.jpg)
-

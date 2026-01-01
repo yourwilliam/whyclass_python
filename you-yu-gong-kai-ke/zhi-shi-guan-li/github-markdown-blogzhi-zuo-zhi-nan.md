@@ -38,7 +38,7 @@ git clone下载到本地
 
 ![](http://ossp.pengjunjie.com/mweb/15648462374539.jpg)
 
-```text
+```
 #首先一定要进入到创建的gitbook目录
 $ cd gitbook
 $ git clone https://github.com/yourwilliam/yourwilliam.github.io.git
@@ -74,7 +74,7 @@ $ git push origin master
 
 更新\_config.yml，来修改网站未自己相关的知识内容
 
-```text
+```
 # Site settings
 title: william blog
 description: 'william blog - a github blog center'
@@ -128,7 +128,7 @@ $ git push origin master
 
 修改\_config.yml文件，将让文章只显示单层目录。
 
-```text
+```
 permalink: /:title/
 ```
 
@@ -142,7 +142,7 @@ permalink: /:title/
 
 ![](http://ossp.pengjunjie.com/mweb/15648514117688.jpg)
 
-在图片插入中选择 **复制到制定路径** ， 然后在下面使用相对路径\(千万不要使用绝对路径\)，相对路径输入`../images/blog`
+在图片插入中选择 **复制到制定路径** ， 然后在下面使用相对路径(千万不要使用绝对路径)，相对路径输入`../images/blog`
 
 tips:
 
@@ -221,4 +221,3 @@ $ git push origin master
 6. 学习之后是否可以用其他的样式模板，来改写成jekyll模板
 
 > 参考文章 [Jekyll + Github = 简单搭建一个个人博客](https://my.oschina.net/u/3729927/blog/1930704)
-

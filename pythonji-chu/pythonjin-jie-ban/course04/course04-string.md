@@ -1,4 +1,4 @@
-# \[course\]04 —— String
+# \[course]04 —— String
 
 ## Learn Python3 The Hard Way
 
@@ -122,7 +122,7 @@ print("The professor said "No laptops in class!" I miss my laptop.")
 
 ### **2. 换行的几种方式**
 
-1. `\n` 转义字符  
+1. `\n` 转义字符 &#x20;
 2. 多行字符串 `"""` 或 `'''`
 
 ```python
@@ -144,7 +144,7 @@ the whole string can be entered with the same indentation (none, that is).
 
 ### **3. More Escape Sequences**
 
-```text
+```
 print("Double-quote: \"")
 print("Backslash: \\")
 print("Newline (in brackets): [\n]")
@@ -156,13 +156,13 @@ print("abc\tdef\tg\nhi\tj\\\tk\n---")
 
 ### **4. An escape sequence produces a single character:**
 
-```text
+```
 s = "a\\b\"c\td"
 print("s =", s)
 print("len(s) =", len(s))
 ```
 
-### **5. repr\(\) 和 print\(\) 方法**
+### **5. repr() 和 print() 方法**
 
 ```python
 print("These look the same when we print them!")
@@ -436,14 +436,14 @@ print(s)
 
 ## **7. 字符串的默认方法**
 
-### **1. str\(\) and len\(\)**
+### **1. str() and len()**
 
 ```python
 name = input("Enter your name: ")
 print("Hi, " + name + ". Your name has " + str(len(name)) + " letters!")
 ```
 
-### **2. chr\(\) and ord\(\)**
+### **2. chr() and ord()**
 
 ```python
 print(ord("A")) # 65
@@ -451,7 +451,7 @@ print(chr(65))  # "A"
 print(chr(ord("A")+1)) # ?
 ```
 
-### **3. eval\(\)**
+### **3. eval()**
 
 ```python
 # eval() works but you should not use it!
@@ -465,9 +465,9 @@ print(eval(s)) # no such function!  But what if there was?
 
 ## **8. String方法**
 
-Methods are a special type of function that we call "on" a value, like a string. You can tell it's a method because the syntax is in the form of value.function\(\), like s.islower\(\) in the code below.
+Methods are a special type of function that we call "on" a value, like a string. You can tell it's a method because the syntax is in the form of value.function(), like s.islower() in the code below.
 
-### **1. Character types: isalnum\(\), isalpha\(\), isdigit\(\), islower\(\), isspace\(\), isupper\(\)**
+### **1. Character types: isalnum(), isalpha(), isdigit(), islower(), isspace(), isupper()**
 
 ```python
 # Run this code to see a table of isX() behaviors
@@ -489,7 +489,7 @@ def printTable():
 printTable()
 ```
 
-### **2. String edits: lower\(\), upper\(\), replace\(\), strip\(\)**
+### **2. String edits: lower(), upper(), replace(), strip()**
 
 ```python
 print("This is nice. Yes!".lower())
@@ -505,7 +505,7 @@ print(t)
 print(s) # note that s is unmodified (strings are immutable!)
 ```
 
-### **3. Substring search: count\(\), startswith\(\), endswith\(\), find\(\), index\(\)**
+### **3. Substring search: count(), startswith(), endswith(), find(), index()**
 
 ```python
 print("This is a history test".count("is")) # 3
@@ -547,7 +547,7 @@ grade = 87.385
 print("Your current grade is %f!" % grade)
 ```
 
-### **4. format a float with %.\[precision\]f**
+### **4. format a float with %.\[precision]f**
 
 You can control how many fractional digits of a float are included in the string by changing the number to the right of the decimal point.
 
@@ -568,7 +568,7 @@ exclamation = "Wow"
 print("There are %d dogs and %d cats. %s!!!" % (dogs, cats, exclamation))
 ```
 
-### **6. format right-aligned with %\[minWidth\]**
+### **6. format right-aligned with %\[minWidth]**
 
 ```python
 dogs = 42
@@ -577,7 +577,7 @@ print("%10s %10s" % ("dogs", "cats"))
 print("%10d %10d" % (dogs, cats))
 ```
 
-### **7. format left-aligned with %-\[minWidth\]**
+### **7. format left-aligned with %-\[minWidth]**
 
 ```python
 dogs = 42
@@ -622,4 +622,3 @@ assert(contentsRead == contentsToWrite)
 
 print("Open the file foo.txt and verify its contents.")
 ```
-

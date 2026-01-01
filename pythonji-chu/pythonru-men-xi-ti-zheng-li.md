@@ -27,4 +27,3 @@ python3代码挑战平台，也是很有意思的一个平台
 ## 再推荐几个可以自行研究
 
 [Exercism](https://exercism.io) [codewars](https://www.codewars.com/?language=python) [codesignal](https://codesignal.com/)
-

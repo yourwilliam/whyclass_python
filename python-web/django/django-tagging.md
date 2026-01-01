@@ -91,11 +91,9 @@ def index(request):
 ```markup
 <aside class="widget widget_tag_cloud">
     <h4 class="widget-title">Search by Tags</h4>
-    {% raw %}
-{% for tag in tags%}
+    {% for tag in tags%}
         <a href="#" class="ed_btn ed_orange">{{tag.name}}</a>
     {% endfor %}
-{% endraw %}
 </aside>
 ```
 
@@ -147,11 +145,9 @@ urlpatterns = [
 ```markup
 <aside class="widget widget_tag_cloud">
     <h4 class="widget-title">Search by Tags</h4>
-    {% raw %}
-{% for tag in tags%}
+    {% for tag in tags%}
         <a href="/blog/tag/{{tag.name}}" class="ed_btn ed_orange">{{tag.name}}</a>
     {% endfor %}
-{% endraw %}
 </aside>
 ```
 

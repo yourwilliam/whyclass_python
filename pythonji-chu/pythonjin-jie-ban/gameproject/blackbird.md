@@ -199,4 +199,3 @@ sprite_strip = mode.scaleImage(bird_image, image_scale)
 ![](http://ossp.pengjunjie.com/mweb/15758808375371.jpg)
 
 ### 其他游戏
-

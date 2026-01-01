@@ -6,7 +6,7 @@ django 的 admin控制台还是比较方便的，配置化也比较方便管理�
 
 ## django-admin-bootstrapped 安装
 
-* `pip install django-admin-bootstrapped` \(virtualenv highly suggested\)
+* `pip install django-admin-bootstrapped` (virtualenv highly suggested)
 * 在install\_apps 中添加django\_admin\_bootstrapped。注意需要在django.contrib.admin前添加
 
 ```python
@@ -41,4 +41,3 @@ INSTALLED_APPS = (
 [xadmin](https://github.com/sshwsfc/xadmin) 一个中国人写的admin客户端，很久没有维护了
 
 [django-suit](https://github.com/darklow/django-suit/tree/v2) 也是做的比较好的，一年左右没有维护了，手机端适配做得一般般
-

@@ -1,12 +1,12 @@
 # dictionary和json类型转换
 
-Python之dict\(或对象\)与json之间的互相转化 在Python语言中，json数据与dict字典以及对象之间的转化，是必不可少的操作。
+Python之dict(或对象)与json之间的互相转化 在Python语言中，json数据与dict字典以及对象之间的转化，是必不可少的操作。
 
 在Python中自带json库。通过import json导入。
 
 在json模块有2个方法，
 
-loads\(\)：将json数据转化成dict数据 dumps\(\)：将dict数据转化成json数据 load\(\)：读取json文件数据，转成dict数据 dump\(\)：将dict数据转化成json数据后写入json文件 下面是具体的示例：
+loads()：将json数据转化成dict数据 dumps()：将dict数据转化成json数据 load()：读取json文件数据，转成dict数据 dump()：将dict数据转化成json数据后写入json文件 下面是具体的示例：
 
 dict字典转json数据
 
@@ -80,4 +80,3 @@ if __name__ == '__main__':
 ```
 
 > 转自——[https://blog.csdn.net/qq\_33689414/article/details/78307018](https://blog.csdn.net/qq_33689414/article/details/78307018)
-

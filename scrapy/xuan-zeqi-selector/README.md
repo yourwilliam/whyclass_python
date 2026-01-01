@@ -19,7 +19,7 @@ Scrapy选择器构建于 [lxml](http://lxml.de/) 库之上，这意味着它们�
 
 ### 构造选择器(selectors)
 
-Scrapy selector是以 _文字(text)_ 或 [TextResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.TextResponse) 构造的 [Selector](./#scrapy.selector.Selector) 实例。 其根据输入的类型自动选择最优的分析方法(XML vs HTML):
+Scrapy selector是以 _文字(text)_ 或 [TextResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.TextResponse) 构造的 [Selector](./#scrapy.selector.Selector) 实例。 其根据输入的类型自动选择最优的分析方法(XML vs HTML):
 
 ```
 >>> from scrapy.selector import Selector
@@ -53,7 +53,7 @@ Scrapy selector是以 _文字(text)_ 或 [TextResponse](https://github.com/yourw
 
 我们将使用 `Scrapy shell` (提供交互测试)和位于Scrapy文档服务器的一个样例页面，来解释如何使用选择器：
 
-> [http://doc.scrapy.org/en/latest/\_static/selectors-sample1.html](http://doc.scrapy.org/en/latest/\_static/selectors-sample1.html) 这里是它的HTML源码:
+> [http://doc.scrapy.org/en/latest/\_static/selectors-sample1.html](http://doc.scrapy.org/en/latest/_static/selectors-sample1.html) 这里是它的HTML源码:
 
 ```
 <html>
@@ -357,7 +357,7 @@ current scope: [u'http://schema.org/Rating']
 
 ### Some XPath tips
 
-Here are some tips that you may find useful when using XPath with Scrapy selectors, based on [this post from ScrapingHub’s blog](http://blog.scrapinghub.com/2014/07/17/xpath-tips-from-the-web-scraping-trenches/). If you are not much familiar with XPath yet, you may want to take a look first at this [XPath tutorial](http://www.zvon.org/comp/r/tut-XPath\_1.html).
+Here are some tips that you may find useful when using XPath with Scrapy selectors, based on [this post from ScrapingHub’s blog](http://blog.scrapinghub.com/2014/07/17/xpath-tips-from-the-web-scraping-trenches/). If you are not much familiar with XPath yet, you may want to take a look first at this [XPath tutorial](http://www.zvon.org/comp/r/tut-XPath_1.html).
 
 #### Using text nodes in a condition [¶](./#using-text-nodes-in-a-condition)
 
@@ -481,13 +481,13 @@ This is cleaner than using the verbose XPath trick shown above. Just remember to
 
 * /class/ `scrapy.selector.` `Selector` ( /response=None/, /text=None/, /type=None/ ) (#scrapy.selector.Selector)
 * [Selector](./#scrapy.selector.Selector) 的实例是对选择某些内容响应的封装。
-* `response` 是 [HtmlResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.HtmlResponse) 或 [XmlResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.XmlResponse) 的一个对象，将被用来选择和提取数据。
+* `response` 是 [HtmlResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.HtmlResponse) 或 [XmlResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.XmlResponse) 的一个对象，将被用来选择和提取数据。
 * `text` 是在 `response` 不可用时的一个unicode字符串或utf-8编码的文字。将 `text` 和 `response` 一起使用是未定义行为。
 * `type` 定义了选择器类型，可以是 `"html"`, `"xml"` or `None` (默认).
 * 如果 `type` 是 `None` ，选择器会根据 `response` 类型(参见下面)自动选择最佳的类型，或者在和 `text` 一起使用时，默认为 `"html"` 。
 * 如果 `type` 是 `None` ，并传递了一个 `response` ，选择器类型将从response类型中推导如下：
-  * `"html"` for [HtmlResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.HtmlResponse) type
-  * `"xml"` for [XmlResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.XmlResponse) type
+  * `"html"` for [HtmlResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.HtmlResponse) type
+  * `"xml"` for [XmlResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.XmlResponse) type
   * `"html"` for anything else
 
 其他情况下，如果设定了 `type` ，选择器类型将被强制设定，而不进行检测。
@@ -534,7 +534,7 @@ This is cleaner than using the verbose XPath trick shown above. Just remember to
 
 #### 在HTML响应上的选择器样例
 
-这里是一些 [Selector](./#scrapy.selector.Selector) 的样例，用来说明一些概念。 在所有的例子中，我们假设已经有一个通过 [HtmlResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.HtmlResponse) 对象实例化的 [Selector](./#scrapy.selector.Selector) ，如下:
+这里是一些 [Selector](./#scrapy.selector.Selector) 的样例，用来说明一些概念。 在所有的例子中，我们假设已经有一个通过 [HtmlResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.HtmlResponse) 对象实例化的 [Selector](./#scrapy.selector.Selector) ，如下:
 
 ```
 sel = Selector(html_response)
@@ -562,7 +562,7 @@ for node in sel.xpath("//p"):
 
 #### 在XML响应上的选择器样例 [¶](./#xml)
 
-这里是一些样例，用来说明一些概念。在两个例子中，我们假设已经有一个通过 [XmlResponse](https://github.com/yourwilliam/whyclass\_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.XmlResponse) 对象实例化的 [Selector](./#scrapy.selector.Selector) ，如下:
+这里是一些样例，用来说明一些概念。在两个例子中，我们假设已经有一个通过 [XmlResponse](https://github.com/yourwilliam/whyclass_python/tree/a3962ecb50b8f53a1ef4966bfd77ff3d5ce0167a/scrapy/request-response.html#scrapy.http.XmlResponse) 对象实例化的 [Selector](./#scrapy.selector.Selector) ，如下:
 
 ```
 sel = Selector(xml_response)
@@ -574,7 +574,7 @@ sel = Selector(xml_response)
 sel.xpath("//product")
 ```
 
-1. 从 [Google Base XML feed](https://support.google.com/merchants/answer/160589?hl=en\&amp;ref\_topic=2473799) 中提取所有的价钱，这需要注册一个命名空间:
+1. 从 [Google Base XML feed](https://support.google.com/merchants/answer/160589?hl=en\&amp;ref_topic=2473799) 中提取所有的价钱，这需要注册一个命名空间:
 
 ```
 sel.register_namespace("g", "http://base.google.com/ns/1.0")
@@ -583,7 +583,7 @@ sel.xpath("//g:price").extract()
 
 #### 移除命名空间 [¶](./#removing-namespaces)
 
-在处理爬虫项目时，完全去掉命名空间而仅仅处理元素名字，写更多简单/实用的XPath会方便很多。你可以为此使用 [Selector.remove\_namespaces()](./#scrapy.selector.Selector.remove\_namespaces) 方法。
+在处理爬虫项目时，完全去掉命名空间而仅仅处理元素名字，写更多简单/实用的XPath会方便很多。你可以为此使用 [Selector.remove\_namespaces()](./#scrapy.selector.Selector.remove_namespaces) 方法。
 
 让我们来看一个例子，以Github博客的atom订阅来解释这个情况。
 
@@ -600,7 +600,7 @@ $ scrapy shell https://github.com/blog.atom
 []
 ```
 
-但一旦我们调用 [Selector.remove\_namespaces()](./#scrapy.selector.Selector.remove\_namespaces) 方法，所有的节点都可以直接通过他们的名字来访问:
+但一旦我们调用 [Selector.remove\_namespaces()](./#scrapy.selector.Selector.remove_namespaces) 方法，所有的节点都可以直接通过他们的名字来访问:
 
 ```
 >>> response.selector.remove_namespaces()

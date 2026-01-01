@@ -1,4 +1,4 @@
-# \[course\]06 —— sets
+# \[course]06 —— sets
 
 ## 1. **Quick Example**
 
@@ -108,7 +108,7 @@ print(s)
 
 ### 5. **Sets are Very Efficient**
 
-The whole point of having sets is because they are very efficient, in fact O\(1\), for most common operations including adding elements, removing elements, and checking for membership.
+The whole point of having sets is because they are very efficient, in fact O(1), for most common operations including adding elements, removing elements, and checking for membership.
 
 ## 5. **How Sets Work: Hashing**
 
@@ -116,9 +116,9 @@ Sets achieve their blazing speed using an algorithmic approach called **hashing*
 
 A **hash function** takes any value as input and returns an integer. The function returns the same integer each time it is called on a given value, and should generally return different integers for different values, though that does not always need to be the case. We actually don't need to build the hash function ourselves, as Python has one already, a built-in function called **hash**.
 
-Python stores items in a set by creating a **hash table**, which is a list of N lists \(called 'buckets'\). Python chooses the bucket for an element based on its hash value, using `hash(element) % n`. Values in each bucket are not sorted, but the size of each bucket is limited to some constant K.
+Python stores items in a set by creating a **hash table**, which is a list of N lists (called 'buckets'). Python chooses the bucket for an element based on its hash value, using `hash(element) % n`. Values in each bucket are not sorted, but the size of each bucket is limited to some constant K.
 
-We get O\(1\) \(constant-time\) adding like so: 1. Compute the bucket index `hash(element) % n` -- takes O\(1\). 2. Retrieve the bucket hashTable\[bucketIndex\] -- takes O\(1\). 3. Append the element to the bucket -- takes O\(1\). We get O\(1\) \(constant-time\) membership testing \('in'\) like so: 1. Compute the bucket index `hash(element) % n` -- takes O\(1\). 2. Retrieve the bucket hashTable\[bucketIndex\] -- takes O\(1\). 3. Check each value in the bucket if it equals the element -- takes O\(1\) because there are at most K values in the bucket, and K is a constant. Q: How do we guarantee that each bucket is no larger than size K? A: Good question! If we need to add a \(K+1\)th value to a bucket, instead we **resize** our hashtable, making it say twice as big, and then we **rehash** every value, basically adding it to the new hashtable. This takes O\(N\) time, but we do it very rarely, so the **amortized worst case** remains O\(1\).
+We get O(1) (constant-time) adding like so: 1. Compute the bucket index `hash(element) % n` -- takes O(1). 2. Retrieve the bucket hashTable\[bucketIndex] -- takes O(1). 3. Append the element to the bucket -- takes O(1). We get O(1) (constant-time) membership testing ('in') like so: 1. Compute the bucket index `hash(element) % n` -- takes O(1). 2. Retrieve the bucket hashTable\[bucketIndex] -- takes O(1). 3. Check each value in the bucket if it equals the element -- takes O(1) because there are at most K values in the bucket, and K is a constant. Q: How do we guarantee that each bucket is no larger than size K? A: Good question! If we need to add a (K+1)th value to a bucket, instead we **resize** our hashtable, making it say twice as big, and then we **rehash** every value, basically adding it to the new hashtable. This takes O(N) time, but we do it very rarely, so the **amortized worst case** remains O(1).
 
 A practical example of how sets are faster than lists is shown below:
 
@@ -161,7 +161,7 @@ print("Try a larger n to see an even greater savings!")
 
 ## 6. **Some Worked Examples Using Sets**
 
-### 1. **isPermutation\(L\)**
+### 1. **isPermutation(L)**
 
 ```python
 def isPermutation(L):
@@ -180,7 +180,7 @@ def testIsPermutation():
 testIsPermutation()
 ```
 
-### 2. **repeats\(L\)**
+### 2. **repeats(L)**
 
 ```python
 def repeats(L):
@@ -203,4 +203,3 @@ def testRepeats():
 
 testRepeats()
 ```
-

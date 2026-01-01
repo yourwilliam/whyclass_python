@@ -2,7 +2,7 @@
 
 ## 程序一：Dictionary Import
 
-```text
+```
 --username youyu --password ****** --filepath D:\share\dic.xlsx
 ```
 
@@ -10,7 +10,7 @@
 
 ## 程序二：Frequency Analysis
 
-```text
+```
 --username root --password ****** --table_name cet4freq --directory "D:\ydic"
 ```
 
@@ -18,9 +18,8 @@
 
 ## 程序三：ANKI TOOLS
 
-```text
+```
 --username root --password ****** --table_name dictest --filepath d:\share\anki.txt
 ```
 
 步骤： 1. 创建文件目录 d:\share ， 也可以自己创建 2. 在数据库中找到需要导出的字典库内容，选择相应的表名 3. 在run参数中添加上面参数，然后运行即可。
-

@@ -1,50 +1,42 @@
 # \[homework]course02 作业
 
-## \[homework]course02 作业
+## TODO 记得修改路径
 
-\##TODO 记得修改路径
-
-python 3.9及以下：
-
-下载 [collapsar\_week1\_linter.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_week1\_linter.py) 和 [collapsar\_hw\_week1\_work.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_hw\_week1\_work.py)文件。拷贝到week1的文件夹中。
-
-python 3.10 及以上:
-
-下载 [collapsar\_hw\_week1\_work.py](https://ossp.pengjunjie.com/collapsar-homework-3-10/collapsar\_hw\_week1\_work.py)
+下载 [collapsar\_week1\_linter.py](http://ossp.pengjunjie.com/collapsar_week1_linter.py) 和 [collapsar\_hw\_week1\_work.py](http://ossp.pengjunjie.com/collapsar_hw_week1_work.py)文件。拷贝到week1的文件夹中。
 
 其中collapsar\_week1\_linter.py文件不需要改动
 
 打开collapsar\_pre\_hw\_week1.py 文件
 
-### 作业
+## 作业
 
-#### 1. **Code Writing: isEvenPositiveInt**
+### 1. **Code Writing: isEvenPositiveInt**
 
 Write the function isEvenPositiveInt(n) which, given a value n, returns True if it is even, positive, and an integer, and False otherwise.
 
-#### 2. **nearestOdd(n)**
+### 2. **nearestOdd(n)**
 
 Write the function nearestOdd(n) that takes an int or float n, and returns as an int value the nearest odd number to n. In the case of a tie, return the smaller odd value. Note that the result must be an int, so nearestOdd(13.0) is the int 13, and not the float 13.0.
 
 Hint: Remember that the built-in round function works in surprising ways. Instead of round(n), you should use roundHalfUp(n) from this week's notes. That said, there are good ways to solve this problem without using rounding at all, if you prefer.
 
-#### 3. **Code Writing: getTheCents(n)**
+### 3. **Code Writing: getTheCents(n)**
 
 Write the function getTheCents(n) which takes a value n (which represents a payment in US dollars) and returns the number of cents in the payment. For example, if n is 2.45, the function should return 45. If n is an int, the function should return 0, as it has 0 cents; if it isn't a number, it should return None, because a non-number payment make no cents (ha!). If the payment has partial cents (for example, 3.953), it should be rounded up to the nearest cent (in this example, 96 cents).
 
-#### 4. **isPerfectSquare(n)**
+### 4. **isPerfectSquare(n)**
 
 Write the function isPerfectSquare(n) that takes a possibly-non-int value, and returns True if it is an int that is a perfect square (that is, if there exists an integer m such that m\*\*2 == n), and False otherwise. Do not crash on non-ints nor on negative ints.
 
-#### 5. **numberOfPoolBalls(rows)**
+### 5. **numberOfPoolBalls(rows)**
 
 Pool balls are arranged in rows where the first row contains 1 pool ball and each row contains 1 more pool ball than the previous row. Thus, for example, 3 rows contain 6 total pool balls (1+2+3). With this in mind, write the function numberOfPoolBalls(rows) that takes a non-negative int value, the number of rows, and returns another int value, the number of pool balls in that number of full rows. For example, numberOfPoolBalls(3) returns 6. We will not limit our analysis to a "rack" of 15 balls. Rather, our pool table can contain an unlimited number of rows. For this problem and the next, you should research Triangular Numbers.
 
-#### 6. **numberOfPoolBallRows(balls)**
+### 6. **numberOfPoolBallRows(balls)**
 
 This problem is the inverse of the previous problem. Write the function numberOfPoolBallRows(balls) that takes a non-negative int number of pool balls, and returns the smallest int number of rows required for the given number of pool balls. Thus, numberOfPoolBallRows(6) returns 3. Note that if any balls must be in a row, then you count that row, and so numberOfPoolBallRows(7) returns 4 (since the 4th row must have a single ball in it).
 
-#### 7. **colorBlender(rgb1, rgb2, midpoints, n)**
+### 7. **colorBlender(rgb1, rgb2, midpoints, n)**
 
 This problem implements a color blender, inspired by [this tool](https://meyerweb.com/eric/tools/color-blend/#:::hex). In particular, we will use it with integer RGB values (it also does hex values and RGB% values, but we will not use those modes). Note that RGB values contain 3 integers, each between 0 and 255, representing the amount of red, green, and blue respectively in the given color, where 255 is "entirely on" and 0 is "entirely off".
 
@@ -64,7 +56,7 @@ For example, following the case above: colorBlender(220020060, 189252201, 3, 1) 
 
 Hints: RGB values must be ints, not floats. Also, remember to use roundHalfUp(n) instead of round(n) when calculating midpoint colors.
 
-#### 8. **Bonus/Optional: bonusPlayThreeDiceYahtzee(dice)**
+### 8. **Bonus/Optional: bonusPlayThreeDiceYahtzee(dice)**
 
 In this exercise, we will write a simplified form of the dice game [Yahtzee](https://en.wikipedia.org/wiki/Yahtzee). In this version, the goal is to get 3 matching dice, and if you can't do that, then you hope to at least get 2 matching dice. The game is played like so:
 
@@ -85,9 +77,11 @@ Our goal is to write some Python code that plays this game. It's a large task, s
 
 Also note: we will represent a hand of 3 dice as a single 3-digit integer. So the hand 4-3-2 will be represented by the integer 432. With that, let's start writing some code. Be sure to write your functions in the same order as given here, since later functions will make use of earlier ones!
 
-1. **handToDice(hand)** Write the (very short) function handToRolls(hand) that takes a hand, which is a 3-digit integer, and returns 3 values, each of the 3 dice in the hand. For example:
+1.  **handToDice(hand)**
 
-```py
+    &#x20;Write the (very short) function handToRolls(hand) that takes a hand, which is a 3-digit integer, and returns 3 values, each of the 3 dice in the hand. For example:
+
+```python
 assert(handToDice(123) == (1,2,3))
 assert(handToDice(214) == (2,1,4))
 assert(handToDice(422) == (4,2,2))
@@ -95,9 +89,11 @@ assert(handToDice(422) == (4,2,2))
 
 **Hint:** You might find // and % useful here, and also getKthDigit.
 
-1. **diceToOrderedHand(a, b, c)** Write the function diceToOrderedHand(a, b, c) that takes 3 dice and returns them in a hand, which is a 3-digit integer. However, even if the dice are unordered, the resulting hand must be ordered so that the largest die is on the left and smallest die is on the right. For example:
+1.  **diceToOrderedHand(a, b, c)**
 
-```py
+    &#x20;Write the function diceToOrderedHand(a, b, c) that takes 3 dice and returns them in a hand, which is a 3-digit integer. However, even if the dice are unordered, the resulting hand must be ordered so that the largest die is on the left and smallest die is on the right. For example:
+
+```python
 assert(diceToOrderedHand(1,2,3) == 321)
 assert(diceToOrderedHand(6,5,4) == 654)
 assert(diceToOrderedHand(1,4,2) == 421)
@@ -115,7 +111,7 @@ With that, the function plays step2 of the given hand, using the given dice to g
 
 For example:
 
-```py
+```python
 assert(playStep2(413, 2312) == (421, 23))
 ```
 
@@ -123,7 +119,7 @@ Here, the hand is 413, and the future dice rolls are 2312. What happens? Well, t
 
 Here are some more examples. Be sure you carefully understand them:
 
-```py
+```python
 assert(playStep2(413, 2345) == (544, 23))
 assert(playStep2(544, 23) == (443, 2))
 assert(playStep2(544, 456) == (644, 45))
@@ -131,9 +127,11 @@ assert(playStep2(544, 456) == (644, 45))
 
 **Hint:** You may wish to use handToDice(hand) at the start to convert the hand into the 3 individual dice. **Hint:** Then, you may wish to use diceToOrderedHand(a, b, c) at the end to convert the 3 dice back into a sorted hand. **Hint:** Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 
-1. **score(hand)** Almost there... Now write the function score(hand) that takes a 3-digit integer hand, and returns the score for that hand as explained in step4 above. For example:
+1.  **score(hand)**
 
-```py
+    Almost there... Now write the function score(hand) that takes a 3-digit integer hand, and returns the score for that hand as explained in step4 above. For example:
+
+```python
 assert(score(432) == 4)
 assert(score(532) == 5)
 assert(score(443) == 10+4+4)
@@ -144,9 +142,11 @@ assert(score(555) == 20+5+5+5)
 
 **Hint:** The structure of this function is actually quite similar to the previous function.
 
-1. **bonusPlayThreeDiceYahtzee(dice)** Ok, we've made it to the last function: bonusPlayThreeDiceYahtzee(dice), the function that actually earns the 2.5 bonus points! This function takes one value, the dice with all the rolls for a game of 3-Dice Yahtzee. The function plays the game -- it does step1 and gets the first 3 dice (from the right), then it does step2 twice (by calling playStep2, which you already wrote), and then it computes the score (by calling score, which you already wrote). The function should return two values -- the resulting hand and the score for that hand. For example:
+1.  **bonusPlayThreeDiceYahtzee(dice)**
 
-```py
+    Ok, we've made it to the last function: bonusPlayThreeDiceYahtzee(dice), the function that actually earns the 2.5 bonus points! This function takes one value, the dice with all the rolls for a game of 3-Dice Yahtzee. The function plays the game -- it does step1 and gets the first 3 dice (from the right), then it does step2 twice (by calling playStep2, which you already wrote), and then it computes the score (by calling score, which you already wrote). The function should return two values -- the resulting hand and the score for that hand. For example:
+
+```python
 assert(bonusPlayThreeDiceYahtzee(2312413) == (432, 4))
 assert(bonusPlayThreeDiceYahtzee(2315413) == (532, 5))
 assert(bonusPlayThreeDiceYahtzee(2345413) == (443, 18))
@@ -155,7 +155,7 @@ assert(bonusPlayThreeDiceYahtzee(2333413) == (333, 29))
 assert(bonusPlayThreeDiceYahtzee(2333555) == (555, 35))
 ```
 
-#### 9. **Bonus/Optional: bonusFindIntRootsOfCubic(a,b,c,d)**
+### 9. **Bonus/Optional: bonusFindIntRootsOfCubic(a,b,c,d)**
 
 Write the function bonusFindIntRootsOfCubic(a,b,c,d) that takes the int or float coefficients a, b, c, d of a cubic equation of this form: ![-w174](http://ossp.pengjunjie.com/mweb/15709476372038.jpg)
 
@@ -169,6 +169,6 @@ where:
 
 This isn't quite as simple as it seems, because your solution for x will not only be approximate (and not exactly an int, so you'll have to do something about that), but it may not even be real! Though the solution is real, the intermediate steps may include some complex values, and in these cases the solution will include a (possibly-negligibly-small) imaginary value. So you'll have to convert from complex to real (try c.real if c is complex), and then convert from real to int.
 
-Great, now you have one root. What about the others? Well, we can divide the one root out and that will leave us with a quadratic equation, which of course is easily solved. A brief, clear explanation of this step is provided [here](https://en.wikipedia.org/wiki/Cubic\_function#Factorization). Don't forget to convert these to int values, too!
+Great, now you have one root. What about the others? Well, we can divide the one root out and that will leave us with a quadratic equation, which of course is easily solved. A brief, clear explanation of this step is provided [here](https://en.wikipedia.org/wiki/Cubic_function#Factorization). Don't forget to convert these to int values, too!
 
 So now you have all three int roots. Great job! All that's left is to sort them. Now, if this were later in the course, you could put them in a list and call a built-in function that will sort for you. But it's not, so you can't. Instead, figure out how to sort these values using the limited built-in functions and arithmetic available this week. Then just return these 3 values and you're done.

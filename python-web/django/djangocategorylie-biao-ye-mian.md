@@ -45,11 +45,9 @@ urlpatterns = [
 <aside class="widget widget_categories">
     <h4 class="widget-title">Search Categories</h4>
     <ul>
-        {% raw %}
-{% for category in categories %}
+        {% for category in categories %}
         <li><a href="/blog/category/{{category.id}}"><i class="fa fa-chevron-right"></i>{{category.title}}</a></li>
         {% endfor %}
-{% endraw %}
     </ul>
 </aside>
 ```
@@ -58,14 +56,12 @@ urlpatterns = [
 
 ```markup
 <div class="ed_blog_item ed_bottompadder50">
-    {% raw %}
-{% if article.header_image%}
+    {% if article.header_image%}
     <div class="ed_blog_image">
         <a href="/blog/{{article.id}}"><img src="{{article.header_image.url}}"
                                         alt="blog image"/></a>
     </div>
     {% endif %}
-{% endraw %}
     <div class="ed_blog_info">
         <h2><a href="/blog/{{article.id}}">{{article.title}}</a></h2>
         <ul>

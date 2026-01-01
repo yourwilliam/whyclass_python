@@ -1,6 +1,6 @@
 # Python基础类和对象
 
-> > > 转自：[一篇文章搞懂Python中的面向对象编程](http://yangcongchufang.com/高级python编程基础/python-object-class.html)
+> > > 转自：[一篇文章搞懂Python中的面向对象编程](http://yangcongchufang.com/%E9%AB%98%E7%BA%A7python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/python-object-class.html)
 
 面向对象的设计思想是从自然界中来的，因为在自然界中，类（Class）和实例（Instance）的概念是很自然的。Class是一种抽象概念，比如我们定义的Class——Student，是指学生这个概念，而实例（Instance）则是一个个具体的Student，比如，Bart Simpson和Lisa Simpson是两个具体的Student。
 
@@ -10,7 +10,7 @@
 
 ## 类和实例
 
-类\(`Class`\)和实例\(`Instance`\)是面向对象最重要的概念。
+类(`Class`)和实例(`Instance`)是面向对象最重要的概念。
 
 类是指抽象出的模板。实例则是根据类创建出来的具体的“对象”，每个对象都拥有从类中继承的相同的方法，但各自的数据可能不同。
 
@@ -129,7 +129,7 @@ class Student(object):
 Bart Simpson: 59
 ```
 
-实际代码，需要在Python3环境中测试，Python2.7会报错\(`NameError: global name 'name' is not defined`\)
+实际代码，需要在Python3环境中测试，Python2.7会报错(`NameError: global name 'name' is not defined`)
 
 ```python
 $ python3
@@ -194,7 +194,7 @@ AttributeError: 'Student' object has no attribute 'age'
 59
 ```
 
-如果想让内部属性不被外部访问，可以把属性的名称前加上两个下划线`__`，在Python中，实例的变量名如果以双下划线开头，就变成了一个私有变量\(`private`\)，只有内部可以访问，外部不能访问：
+如果想让内部属性不被外部访问，可以把属性的名称前加上两个下划线`__`，在Python中，实例的变量名如果以双下划线开头，就变成了一个私有变量(`private`)，只有内部可以访问，外部不能访问：
 
 ```python
 class Student(object):
@@ -256,7 +256,7 @@ Python的访问限制其实并不严格，主要靠自觉。
 
 在OOP程序设计中，当我们定义一个class的时候，可以从某个现有的class继承，新的class称为子类（Subclass），而被继承的class称为基类、父类或超类（Base class、Super class）。
 
-比如，我们已经编写了一个名为Animal的class，有一个run\(\)方法可以直接打印一句话，然后新建一个叫`Dog`的类，继承了`Animal`类：
+比如，我们已经编写了一个名为Animal的class，有一个run()方法可以直接打印一句话，然后新建一个叫`Dog`的类，继承了`Animal`类：
 
 ```python
 >>> class Animal(object):
@@ -273,7 +273,7 @@ running...
 
 对于Dog来说，Animal就是它的父类，对于Animal来说，Dog就是它的子类。
 
-子类获得了父类的全部功能。Dog\(\)里继承了run\(\)函数，可以给自己的实例里直接用。
+子类获得了父类的全部功能。Dog()里继承了run()函数，可以给自己的实例里直接用。
 
 那么问题来了，子类和父类如果定义的时候都有个`run()`，会发生什么？
 
@@ -371,16 +371,16 @@ Tortoise is running slowly...
 
 Tortoise作为Animal的子类，不必对`run_twice()`做任何修改。实际上，任何依赖`Animal`作为参数的函数或者方法都可以不加修改地正常运行，原因在于多态。
 
-多态的好处就是，当我们需要传入Dog、Cat、Tortoise……时，我们只需要接收Animal类型就可以了，因为Dog、Cat、Tortoise……都是Animal类型，然后，按照Animal类型进行操作即可。由于Animal类型有run\(\)方法，因此，传入的任意类型，只要是Animal类或者子类，就会自动调用实际类型的run\(\)方法，这就是多态的意思：
+多态的好处就是，当我们需要传入Dog、Cat、Tortoise……时，我们只需要接收Animal类型就可以了，因为Dog、Cat、Tortoise……都是Animal类型，然后，按照Animal类型进行操作即可。由于Animal类型有run()方法，因此，传入的任意类型，只要是Animal类或者子类，就会自动调用实际类型的run()方法，这就是多态的意思：
 
-对于一个变量，我们只需要知道它是Animal类型，无需确切地知道它的子类型，就可以放心地调用run\(\)方法，而具体调用的run\(\)方法是作用在Animal、Dog、Cat还是Tortoise对象上，由运行时该对象的确切类型决定，这就是多态真正的威力：调用方只管调用，不管细节，而当我们新增一种Animal的子类时，只要确保run\(\)方法编写正确，不用管原来的代码是如何调用的。这就是著名的“开闭”原则：
+对于一个变量，我们只需要知道它是Animal类型，无需确切地知道它的子类型，就可以放心地调用run()方法，而具体调用的run()方法是作用在Animal、Dog、Cat还是Tortoise对象上，由运行时该对象的确切类型决定，这就是多态真正的威力：调用方只管调用，不管细节，而当我们新增一种Animal的子类时，只要确保run()方法编写正确，不用管原来的代码是如何调用的。这就是著名的“开闭”原则：
 
 * 对扩展开放：允许新增Animal子类；
-* 对修改封闭：不需要修改依赖Animal类型的run\_twice\(\)等函数。
+* 对修改封闭：不需要修改依赖Animal类型的run\_twice()等函数。
 
-对于静态语言（例如Java）来说，如果需要传入Animal类型，则传入的对象必须是Animal类型或者它的子类，否则，将无法调用run\(\)方法。
+对于静态语言（例如Java）来说，如果需要传入Animal类型，则传入的对象必须是Animal类型或者它的子类，否则，将无法调用run()方法。
 
-对于Python这样的动态语言来说，则不一定需要传入Animal类型。我们只需要保证传入的对象有一个run\(\)方法就可以了：
+对于Python这样的动态语言来说，则不一定需要传入Animal类型。我们只需要保证传入的对象有一个run()方法就可以了：
 
 ```python
 class Timer(object):
@@ -390,7 +390,7 @@ class Timer(object):
 
 这就是动态语言的“鸭子类型”，它并不要求严格的继承体系，一个对象只要“看起来像鸭子，走起路来像鸭子”，那它就可以被看做是鸭子。
 
-Python的“file-like object“就是一种鸭子类型。对真正的文件对象，它有一个read\(\)方法，返回其内容。但是，许多对象，只要有read\(\)方法，都被视为“file-like object“。许多函数接收的参数就是“file-like object“，你不一定要传入真正的文件对象，完全可以传入任何实现了read\(\)方法的对象。
+Python的“file-like object“就是一种鸭子类型。对真正的文件对象，它有一个read()方法，返回其内容。但是，许多对象，只要有read()方法，都被视为“file-like object“。许多函数接收的参数就是“file-like object“，你不一定要传入真正的文件对象，完全可以传入任何实现了read()方法的对象。
 
 总结一下：
 
@@ -424,7 +424,7 @@ Python的“file-like object“就是一种鸭子类型。对真正的文件对�
 >>>
 ```
 
-type\(\)经常被用来做类型比较：
+type()经常被用来做类型比较：
 
 ```python
 >>> type(123) == type(456)
@@ -501,7 +501,7 @@ dir('ABC')
 [........,'__add__',.....,'__len__',...,'lower','upper'...]
 ```
 
-类似**xxx**的属性和方法在Python中都是有特殊用途的，比如**len**方法返回长度。在Python中，如果你调用len\(\)函数试图获取一个对象的长度，实际上，在len\(\)函数内部，它自动去调用该对象的**len**\(\)方法，所以，下面的代码是等价的：
+类似**xxx**的属性和方法在Python中都是有特殊用途的，比如**len**方法返回长度。在Python中，如果你调用len()函数试图获取一个对象的长度，实际上，在len()函数内部，它自动去调用该对象的**len**()方法，所以，下面的代码是等价的：
 
 ```python
 >>> len('ABC')
@@ -510,7 +510,7 @@ dir('ABC')
 3
 ```
 
-我们自己写的类，如果也想用len\(myObj\)的话，就自己写一个**len**\(\)方法：
+我们自己写的类，如果也想用len(myObj)的话，就自己写一个**len**()方法：
 
 ```python
 >>> class MyDog(object):
@@ -594,9 +594,9 @@ def readImage(fp):
     return None
 ```
 
-假设我们希望从文件流fp中读取图像，我们首先要判断该fp对象是否存在read方法，如果存在，则该对象是一个流，如果不存在，则无法读取。hasattr\(\)就派上了用场。
+假设我们希望从文件流fp中读取图像，我们首先要判断该fp对象是否存在read方法，如果存在，则该对象是一个流，如果不存在，则无法读取。hasattr()就派上了用场。
 
-请注意，在Python这类动态语言中，根据鸭子类型，有read\(\)方法，不代表该fp对象就是一个文件流，它也可能是网络流，也可能是内存中的一个字节流，但只要read\(\)方法返回的是有效的图像数据，就不影响读取图像的功能。
+请注意，在Python这类动态语言中，根据鸭子类型，有read()方法，不代表该fp对象就是一个文件流，它也可能是网络流，也可能是内存中的一个字节流，但只要read()方法返回的是有效的图像数据，就不影响读取图像的功能。
 
 如果你成功看到这部分，你可以跟自己说：“来了，这份感觉终于来了，我的人生开始赢了。”
 
@@ -683,7 +683,7 @@ s = Student()
 s.score = 9999
 ```
 
-这显然不合逻辑。为了限制score的范围，可以通过一个set\_score\(\)方法来设置成绩，再通过一个get\_score\(\)来获取成绩，这样，在set\_score\(\)方法里，就可以检查参数：
+这显然不合逻辑。为了限制score的范围，可以通过一个set\_score()方法来设置成绩，再通过一个get\_score()来获取成绩，这样，在set\_score()方法里，就可以检查参数：
 
 ```python
 class Student(object):
@@ -988,9 +988,9 @@ Chain().users('michael').repos
 
 * `__call__`
 
-一个对象实例可以有自己的属性和方法，当我们调用实例方法时，我们用instance.method\(\)来调用。能不能直接在实例本身上调用呢？在Python中，答案是肯定的。
+一个对象实例可以有自己的属性和方法，当我们调用实例方法时，我们用instance.method()来调用。能不能直接在实例本身上调用呢？在Python中，答案是肯定的。
 
-任何类，只需要定义一个**call**\(\)方法，就可以直接对实例进行调用。请看示例：
+任何类，只需要定义一个**call**()方法，就可以直接对实例进行调用。请看示例：
 
 ```python
 class Student(object):
@@ -1178,15 +1178,15 @@ Hello, world.
 
 要创建一个`class`对象，`type()`函数依次传入3个参数：
 
-> type\(‘Hello’, \(object,\), dict\(hello=fn\)\)
+> type(‘Hello’, (object,), dict(hello=fn))
 
 1. class名称；
 2. 继承父类的集合，注意Python支持多重继承，别忘了tuple的单元素写法；
 3. class的方法名称与函数绑定，这里我们把函数fn绑定到方法名hello上。
 
-通过type\(\)函数创建的类和直接写class是完全一样的，因为Python解释器遇到class定义时，仅仅是扫描一下class定义的语法，然后调用type\(\)函数创建出class。
+通过type()函数创建的类和直接写class是完全一样的，因为Python解释器遇到class定义时，仅仅是扫描一下class定义的语法，然后调用type()函数创建出class。
 
-正常情况下，我们都用class Xxx…来定义类，但是，type\(\)函数也允许我们动态创建出类来，也就是说，动态语言本身支持运行期动态创建类，这和静态语言有非常大的不同，要在静态语言运行期创建类，必须构造源代码字符串再调用编译器，或者借助一些工具生成字节码实现，本质上都是动态编译，会非常复杂。
+正常情况下，我们都用class Xxx…来定义类，但是，type()函数也允许我们动态创建出类来，也就是说，动态语言本身支持运行期动态创建类，这和静态语言有非常大的不同，要在静态语言运行期创建类，必须构造源代码字符串再调用编译器，或者借助一些工具生成字节码实现，本质上都是动态编译，会非常复杂。
 
 除了使用`type()`动态创建类以外，要控制类的创建行为，还可以使用`metaclass`。
 
@@ -1225,4 +1225,3 @@ class MyList(list, metaclass=ListMetaclass):
 2. 类的名字；
 3. 类继承的父类集合；
 4. 类的方法集合。
-

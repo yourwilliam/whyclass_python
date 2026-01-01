@@ -1,6 +1,6 @@
-# \[course\]04 —— 画图 2
+# \[course]04 —— 画图 2
 
-## 1. **Draw a Rectangle with create\_rectangle\(left, top, right, bottom\)**
+## 1. **Draw a Rectangle with create\_rectangle(left, top, right, bottom)**
 
 ```python
 def draw(canvas, width, height):
@@ -35,7 +35,7 @@ def draw(canvas, width, height):
 
 ## 3.**Draw Other Shapes and Text**
 
-```text
+```
 def draw(canvas, width, height):
     # ovals provide the coordinates of the bounding box
     canvas.create_oval(100, 50, 300, 150, fill="yellow")
@@ -89,7 +89,7 @@ def draw(canvas, width, height):
 
 ## 5. **Draw Centered Shapes**
 
-```text
+```
 def draw(canvas, width, height):
     margin = 10
     # Approach #1: Add margin to top/left, subtract margin from bottom/right:
@@ -160,8 +160,8 @@ Copy
 **Trig 101**
 
 * Circle centered at origin ![](http://ossp.pengjunjie.com/mweb/trig1.jpg)
-* Circle centered at \(cx, cy\) ![](http://ossp.pengjunjie.com/mweb/trig2.jpg)
-* Circle centered at \(cx, cy\) in Python graphics \("up is down!"\) ![](http://ossp.pengjunjie.com/mweb/trig3.jpg) **Example:**
+* Circle centered at (cx, cy) ![](http://ossp.pengjunjie.com/mweb/trig2.jpg)
+* Circle centered at (cx, cy) in Python graphics ("up is down!") ![](http://ossp.pengjunjie.com/mweb/trig3.jpg) **Example:**
 
 ```python
 import math
@@ -244,4 +244,3 @@ def draw(canvas, width, height):
 ```
 
 **Result:** ![](http://ossp.pengjunjie.com/mweb/graphics-clocksExample.png)
-

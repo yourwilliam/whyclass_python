@@ -27,4 +27,3 @@ pip install scrapy
 ```bash
 pip install Twisted-19.2.0-cp37-cp37m-win32.whl
 ```
-

@@ -10,7 +10,6 @@
 
 可以通过xpath的console来检查xpath的路径
 
-语法是\`$x\('xpath'\)
+语法是\`$x('xpath')
 
 ![-w386](http://ossp.pengjunjie.com/mweb/15566937386596.jpg)
-

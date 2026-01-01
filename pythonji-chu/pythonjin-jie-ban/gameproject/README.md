@@ -1,2 +1,2 @@
-# \[GameProject\]
+# \[GameProject]
 

@@ -1,4 +1,4 @@
-# \[course\]03 —— 画图
+# \[course]03 —— 画图
 
 后面使用的标准画图插件可以直接参考 [tkinter类库](https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/index.html)
 
@@ -44,4 +44,3 @@ def draw(canvas, width, height):
 ```
 
 **Result:** ![](https://github.com/yourwilliam/whyclass_python/tree/2cec98155695708c8b7fedba13c254abab1dbb67/pythonjin-jie-ban/course03/media/15709505190826/graphics-line.png)
-

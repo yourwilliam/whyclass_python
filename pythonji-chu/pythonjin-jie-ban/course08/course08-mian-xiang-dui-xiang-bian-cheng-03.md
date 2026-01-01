@@ -1,6 +1,6 @@
-# \[course\]08 —— 面向对象编程03
+# \[course]08 —— 面向对象编程03
 
-## 1. **Type Testing \(type, isinstance\)**
+## 1. **Type Testing (type, isinstance)**
 
 ```python
 class A(object): pass
@@ -12,7 +12,7 @@ print(isinstance(a, A))  # True
 
 ## 2. **Special Methods**
 
-### 1. **Equality Testing \(eq\)**
+### 1. **Equality Testing (eq)**
 
 #### 1.The problem:\*\* Shouldn't `a1 == a2`?
 
@@ -57,7 +57,7 @@ print(a1 == a2)  # True
 print(a1 == 99)  # False (huzzah!)
 ```
 
-### 2. **Converting to Strings \(str and repr\)**
+### 2. **Converting to Strings (str and repr)**
 
 #### 1. **The problem:**
 
@@ -73,7 +73,7 @@ print(a) # prints <__main__.A object at 0x102916128> (yuck!)
 
 #### 2. **The partial solution: str**
 
-The `__str__` method tells Python how to convert the object to a string, but it is not used in some cases \(such as when the object is in a list\):
+The `__str__` method tells Python how to convert the object to a string, but it is not used in some cases (such as when the object is in a list):
 
 ```python
 class A(object):
@@ -88,7 +88,7 @@ print([a]) # prints [<__main__.A object at 0x102136278>] (yuck!)
 
 #### 3. **The better solution: repr**
 
-The `__repr__` method is used inside lists \(and other places\):
+The `__repr__` method is used inside lists (and other places):
 
 ```python
 # Note: repr should be a computer-readable form so that
@@ -105,7 +105,7 @@ print(a) # prints A(x=5) (better)
 print([a]) # [A(x=5)]
 ```
 
-### 3. **Using in Sets and Dictionaries \(hash and eq\)**
+### 3. **Using in Sets and Dictionaries (hash and eq)**
 
 **The problem:** Objects do not seem to hash right by default:
 
@@ -138,7 +138,7 @@ print(d[A(5)]) # crashes
 
 **The solution: hash and eq**
 
-The `__hash__` method tells Python how to hash the object. The properties you choose to hash on should be immutable types and should never change \(so `hash(obj)` is immutable\).
+The `__hash__` method tells Python how to hash the object. The properties you choose to hash on should be immutable types and should never change (so `hash(obj)` is immutable).
 
 ```python
 class A(object):
@@ -158,7 +158,7 @@ d[A(5)] = 42
 print(d[A(5)]) # works!
 ```
 
-**A better \(more generalizable\) solution** You can define the method `getHashables` that packages the things you want to hash into a tuple, and then you can use a more generic approach to `__hash__`:
+**A better (more generalizable) solution** You can define the method `getHashables` that packages the things you want to hash into a tuple, and then you can use a more generic approach to `__hash__`:
 
 ```python
 # Your getHashables method should return the values upon which
@@ -457,4 +457,3 @@ class NecroMonster(Monster):
 ## 5. **Additional Reading**
 
 For more on these topics, and many additional OOP-related topics, check the following links: [https://docs.python.org/3/tutorial/classes.html](https://docs.python.org/3/tutorial/classes.html) [https://docs.python.org/3/reference/datamodel.html](https://docs.python.org/3/reference/datamodel.html)
-

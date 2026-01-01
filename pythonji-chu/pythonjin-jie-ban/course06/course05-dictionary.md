@@ -1,4 +1,4 @@
-# \[course\]06 dictionary
+# \[course]06 dictionary
 
 ## 1. **Quick Example**
 
@@ -42,7 +42,7 @@ d = { }
 print(d)    # prints {}
 ```
 
-### 2. **Create a dictionary from a list of \(key, value\) pairs**
+### 2. **Create a dictionary from a list of (key, value) pairs**
 
 ```python
 pairs = [("cow", 5), ("dog", 98), ("cat", 1)]
@@ -144,7 +144,7 @@ As mentioned above, a dictionary's keys are stored as a set. This means that fin
 
 ## 6. **Some Worked Examples Using Dictionaries**
 
-* **mostFrequent\(L\)** 
+* **mostFrequent(L)**&#x20;
 
 ```python
 def mostFrequent(L):
@@ -171,7 +171,7 @@ def testMostFrequent():
 testMostFrequent()
 ```
 
-* **isAnagram\(s1, s2\)**   video
+* **isAnagram(s1, s2)**   video
 
 Here we rewrite [the 1d-list isAnagram example](http://www.cs.cmu.edu/~112/notes/notes-1d-lists-examples.html#anagrams) only using a dictionary instead.
 
@@ -196,4 +196,3 @@ def testIsAnagram():
 
 testIsAnagram()
 ```
-

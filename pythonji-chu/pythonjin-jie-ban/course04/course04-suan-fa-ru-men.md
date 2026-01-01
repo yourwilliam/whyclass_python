@@ -1,4 +1,4 @@
-# \[course\]04 —— 算法入门
+# \[course]04 —— 算法入门
 
 ## 1. **Optional Reading**
 
@@ -8,17 +8,17 @@
 
 ## 2. **Problem Solving with Programming**
 
-1. Understand the Problem \(read the prompt!\)
+1. Understand the Problem (read the prompt!)
    1. Define the problem _precisely_.
    2. Generate test cases based on the prompt, or carefully read through test cases if they're provided.
-   3. Make sure you can restate the problem in your own words, or explain it to someone else.    
-2. Devise a Plan \(solve the problem _without programming_!\)
+   3. Make sure you can restate the problem in your own words, or explain it to someone else.   &#x20;
+2. Devise a Plan (solve the problem _without programming_!)
    1. Identify what level of problem-solving will be required for the problem. Is the prompt asking you to...
       * **Translate** a provided algorithm into code? You can skip to the Step 3.
       * **Apply** a known algorithm pattern to the problem? You can skip to Step 2.4.
       * **Generate** an algorithm to solve a problem? Keep reading!
    2. Use problem-solving strategies to build an algorithmic approach. There are several strategies you can apply while trying to solve a problem. Here are three common programming strategies:
-      * **Induction**: Investigate several examples \(test cases\) to find a pattern that can be generalized into an algorithm.
+      * **Induction**: Investigate several examples (test cases) to find a pattern that can be generalized into an algorithm.
       * **Top-Down Design**: Break down a complex problem into several simpler problems, then solve each of the simpler problems individually. [See more here](http://www.cs.cmu.edu/~112/notes/notes-algorithmic-thinking.html#topDownDesign)
       * **Human Computer**: Pretend that you need to carry out the task by hand. Determine the steps you would take in order to complete the task.
    3. Compare possible alternative algorithms. Algorithms can be ranked based on many features, including:
@@ -26,15 +26,15 @@
       * **Simplicity**: How straightforward will the approach be to implement?
       * **Efficiency**: How much work will the algorithm need to do?
       * **Generality**: How well will this algorithm adapt to new inputs?
-      * **Future concerns \(after more CS courses\)**: usability, accessibility, security, privacy, testability, reliability, scalability, compatibility, extensibility, durability, maintainability, portability, provability, ...
+      * **Future concerns (after more CS courses)**: usability, accessibility, security, privacy, testability, reliability, scalability, compatibility, extensibility, durability, maintainability, portability, provability, ...
    4. Choose an algorithm and write your solution so it is amenable to being translated into code. You shouldn't write in code or even pseudocode yet, but you should use explicit, small, and clear steps that do not require human ingenuity, intuition, or memory.
-      * If you need to remember a thing, give it a name- those names will later become variables.   
-3. Carry out the Plan \(translate your solution into code\) 1. Write the test cases that you generated in Step 1. 2. Translate your manual solutions from above, step by step, into code. If you already know how to translate a step into code, do so! Otherwise:
+      * If you need to remember a thing, give it a name- those names will later become variables.  &#x20;
+3. Carry out the Plan (translate your solution into code) 1. Write the test cases that you generated in Step 1. 2. Translate your manual solutions from above, step by step, into code. If you already know how to translate a step into code, do so! Otherwise:
    * Review the relevant course materials to find a programming tool that approximately meets your need.
    * Experiment with that programming tool in the interpreter until you understand how it works.
    * Apply the new concept to the step in your algorithm.
      1. Run your function on a test input to make sure it works. If your code has a syntax or runtime error, use debugging to identify the problem and fix it.
-4. Review your Work \(test your code\) 1. Run your test cases on the code to make sure they all pass. If a test case fails, use debugging to identify the algorithmic problem and fix it. 2. Once all test cases pass, read over your code and make sure it makes sense based on common sense. 3. \(After the deadline\) Discuss and compare your solution with others to learn about alternative approaches to solving the problem.
+4. Review your Work (test your code) 1. Run your test cases on the code to make sure they all pass. If a test case fails, use debugging to identify the algorithmic problem and fix it. 2. Once all test cases pass, read over your code and make sure it makes sense based on common sense. 3. (After the deadline) Discuss and compare your solution with others to learn about alternative approaches to solving the problem.
 
 ## 3. **Programming Patterns**
 
@@ -130,4 +130,3 @@ def isPrime(n):
 ## 5. **Practice**
 
 * In the end, the best way to learn problem solving is to **practice with feedback**. If you're struggling with problem solving, ask a TA or a friend to sit with you while you while you work through designing algorithms for practice problems, or ask them to demonstrate how they approach problem solving themselves. Practice should eventually lead to better understanding of how to approach problem solving in general.
-

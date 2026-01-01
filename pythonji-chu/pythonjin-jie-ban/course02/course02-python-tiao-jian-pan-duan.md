@@ -1,4 +1,4 @@
-# \[course\]02 —— Python 条件判断
+# \[course]02 —— Python 条件判断
 
 > EX29
 
@@ -81,4 +81,3 @@ if people > buses:
 else:
     print("Fine, let's stay home then.")
 ```
-

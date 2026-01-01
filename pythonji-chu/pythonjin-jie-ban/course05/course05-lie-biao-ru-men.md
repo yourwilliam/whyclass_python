@@ -1,4 +1,4 @@
-# \[course\]05 —— 列表入门
+# \[course]05 —— 列表入门
 
 ## EX34 Accessing Elements of Lists
 
@@ -82,4 +82,3 @@ if not state:
 city = cities.get('TX', 'Does Not Exist') 
 print(f"The city for the state 'TX' is: {city}")
 ```
-

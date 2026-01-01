@@ -1,12 +1,12 @@
-# \[course\]07 游戏模块01-1
+# \[course]07 游戏模块01-1
 
 ## 安装准备
 
-拷贝[game\_graphics](http://ossp.pengjunjie.com/game_graphics.py)文件到week5文件夹中。
+拷贝[game\_graphics](course07-you-xi-mo-kuai-01.md)文件到week5文件夹中。
 
 安装依赖包：
 
-```text
+```
 pip install pillow -i https://mirrors.aliyun.com/pypi/simple
 pip install pyscreenshot -i https://mirrors.aliyun.com/pypi/simple
 pip install requests -i https://mirrors.aliyun.com/pypi/simple
@@ -58,9 +58,9 @@ MVC是三个单词的首字母缩写，它们是Model（模型）、View（视�
 
 这个模式认为，程序不论简单或复杂，从结构上看，都可以分成三层。
 
-1. 最上面的一层，是直接面向最终用户的**"视图层"（View）**。它是提供给用户的操作界面，是程序的外壳。用于界面设计人员进行图形界面设计。
-2. 最底下的一层，是核心的**"数据层"（Model）**，也就是程序需要操作的数据或信息。程序员编写程序应有的功能（实现算法等等）、数据库专家进行数据管理和数据库设计\(可以实现具体的功能\)。
-3. 中间的一层，就是**"控制层"（Controller）**，它负责根据用户从"视图层"输入的指令，选取"数据层"中的数据，然后对其进行相应的操作，产生最终结果。
+1. 最上面的一层，是直接面向最终用户&#x7684;**"视图层"（View）**。它是提供给用户的操作界面，是程序的外壳。用于界面设计人员进行图形界面设计。
+2. 最底下的一层，是核心&#x7684;**"数据层"（Model）**，也就是程序需要操作的数据或信息。程序员编写程序应有的功能（实现算法等等）、数据库专家进行数据管理和数据库设计(可以实现具体的功能)。
+3. 中间的一层，就&#x662F;**"控制层"（Controller）**，它负责根据用户从"视图层"输入的指令，选取"数据层"中的数据，然后对其进行相应的操作，产生最终结果。
 
 这三层是紧密联系在一起的，但又是互相独立的，每一层内部的变化不影响其他层。每一层都对外提供接口（Interface），供上面一层调用。这样一来，软件就可以实现模块化，修改外观或者变更数据都不用修改其他层，大大方便了维护和升级。
 
@@ -271,7 +271,7 @@ def redrawAll(app, canvas):
 runApp(width=400, height=400)
 ```
 
-作业：如何跟随鼠标移动 \(Tips:使用mouseMoved\)
+作业：如何跟随鼠标移动 (Tips:使用mouseMoved)
 
 ## EX8 根据时间移动
 
@@ -303,7 +303,7 @@ runApp(width=400, height=400)
 
 ## MVC中不要在view中修改models
 
-```text
+```
 from cmu_112_graphics import *
 from tkinter import *
 
@@ -322,7 +322,7 @@ runApp(width=400, height=400)
 
 **同样，不要在view中修改模型，即使是List**
 
-```text
+```
 # Since this version modifies a mutable value in the model,
 # the exception does not occur immediately on the line of the change,
 # but only after redrawAll has entirely finished.
@@ -342,4 +342,3 @@ def redrawAll(app, canvas):
 
 runApp(width=400, height=400)
 ```
-

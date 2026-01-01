@@ -1,6 +1,6 @@
 # 思维导图
 
-\[windows版本mindjet下载\][http://www.ddooo.com/softdown/130314.htm](http://www.ddooo.com/softdown/130314.htm) mac版本共享获取 —— 百度网盘
+\[windows版本mindjet下载][http://www.ddooo.com/softdown/130314.htm](http://www.ddooo.com/softdown/130314.htm) mac版本共享获取 —— 百度网盘
 
 ## 思维导图
 
@@ -19,4 +19,3 @@
 [mindjet](https://www.mindjet.com/cn/) mindjet是个人非常推荐的思维导图软件，界面比较清晰，同时操作手感比较好。最重要的是可以实现服务器端同步，将内容同步到不同的设备上。 新的版本的模板非常好，非常实用。
 
 [百度脑图](https://naotu.baidu.com/) 比较好用的网页版的脑图工具，方便做各个软件之间的切换。同时云端保存，更方便存放
-

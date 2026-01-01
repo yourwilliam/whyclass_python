@@ -1,4 +1,4 @@
-# Collapsar公开课-Git&Github
+# Collapsar公开课-Git\&Github
 
 ## 版本控制
 
@@ -86,7 +86,7 @@ Git 有三种状态，你的文件可能处于其中之一： 已提交（commit
 
 ### windows安装
 
-在 Windows 上安装 Git 也有几种安装方法。 官方版本可以在 Git 官方网站下载。 打开 [https://git-scm.com/download/win，下载会自动开始。](https://git-scm.com/download/win，下载会自动开始。) 要注意这是一个名为 Git for Windows 的项目（也叫做 msysGit），和 Git 是分别独立的项目；更多信息请访问 [http://msysgit.github.io/。](http://msysgit.github.io/。)
+在 Windows 上安装 Git 也有几种安装方法。 官方版本可以在 Git 官方网站下载。 打开 [https://git-scm.com/download/win，下载会自动开始。](https://git-scm.com/download/win%EF%BC%8C%E4%B8%8B%E8%BD%BD%E4%BC%9A%E8%87%AA%E5%8A%A8%E5%BC%80%E5%A7%8B%E3%80%82) 要注意这是一个名为 Git for Windows 的项目（也叫做 msysGit），和 Git 是分别独立的项目；更多信息请访问 [http://msysgit.github.io/。](http://msysgit.github.io/%E3%80%82)
 
 ## git的使用
 
@@ -155,7 +155,7 @@ $ git checkout testing
 
 那么，这样的实现方式会给我们带来什么好处呢？ 现在不妨再提交一次：
 
-```text
+```
 $ vim test.rb
 $ git commit -a -m 'made a change'
 ```
@@ -166,7 +166,7 @@ Figure 15. HEAD 分支随着提交操作自动向前移动
 
 如图所示，你的 `testing` 分支向前移动了，但是 `master` 分支却没有，它仍然指向运行 `git checkout` 时所指的对象。 这就有意思了，现在我们切换回 `master` 分支看看：
 
-```text
+```
 $ git checkout master
 ```
 
@@ -211,4 +211,3 @@ django [awesome-django](https://github.com/wsvincent/awesome-django)
 [https://git.yuketang.net](https://git.yuketang.net)
 
 使用过程： 1. 将代码克隆到本地 2. 自己建立分支 3. 分支提交，并提出合并请求
-

@@ -11,4 +11,3 @@ python cheatsheet
 访问之后看这个网站有很多的内容
 
 [python技术列表清单](https://perso.limsi.fr/pointal/liens:python_links)
-

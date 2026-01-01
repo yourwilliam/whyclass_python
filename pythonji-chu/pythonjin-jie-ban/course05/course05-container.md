@@ -1,4 +1,4 @@
-# \[course\]05 —— container
+# \[course]05 —— container
 
 ## 1. **Creating Lists**
 
@@ -14,7 +14,7 @@ print(type(b), len(b), b)
 print(a == b)
 ```
 
-### **List with One Element \(Singleton\)**
+### **List with One Element (Singleton)**
 
 ```python
 a = [ "hello" ]
@@ -80,7 +80,7 @@ print("a < c", (a < c))
 print("a < d", (a < d))
 ```
 
-### 3. **Accessing Elements \(Indexing and Slicing\)**
+### 3. **Accessing Elements (Indexing and Slicing)**
 
 ```python
 # Indexing and slicing for lists works the same way as it did for strings!
@@ -104,7 +104,7 @@ print("a[1:6:2] =", a[1:6:2])
 
 ### 4. **List Mutability and Aliasing**
 
-Unlike strings, lists are **mutable**. This means that they can be changed, without creating a new list. This also forces us to better understand **aliases**, when two variables reference the same value. Aliases are only interesting \(and challenging\) for mutable values like lists. **Note:** it will be especially helpful to use the Visualize feature in the following examples.
+Unlike strings, lists are **mutable**. This means that they can be changed, without creating a new list. This also forces us to better understand **aliases**, when two variables reference the same value. Aliases are only interesting (and challenging) for mutable values like lists. **Note:** it will be especially helpful to use the Visualize feature in the following examples.
 
 #### **Example:**
 
@@ -227,11 +227,11 @@ print(a, b, c, d, e)
 
 ### 6. **Destructive and Non-destructive Functions**
 
-Because lists are mutable, we can change them in two ways: **destructively** \(which modifies the original value directly\), and **non-destructively** \(which creates a new list and does not modify the original value\). This also affects how we write functions that use lists.
+Because lists are mutable, we can change them in two ways: **destructively** (which modifies the original value directly), and **non-destructively** (which creates a new list and does not modify the original value). This also affects how we write functions that use lists.
 
 #### **Destructive functions**
 
-```text
+```
 # A destructive function is written to directly change the provided list
 # It does not need to return anything, as the caller can access the original list
 def fill(a, value):
@@ -307,7 +307,7 @@ print("   c =", c)
 
 #### **Check for list membership: in**
 
-```text
+```
 a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
 print("a      =", a)
 print("2 in a =", (2 in a))
@@ -316,16 +316,16 @@ print("4 in a =", (4 in a))
 
 #### **Check for list non-membership: not in**
 
-```text
+```
 a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
 print("a          =", a)
 print("2 not in a =", (2 not in a))
 print("4 not in a =", (4 not in a))
 ```
 
-#### **Count occurrences in list: list.count\(item\)**
+#### **Count occurrences in list: list.count(item)**
 
-```text
+```
 a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
 print("a          =", a)
 print("a.count(1) =", a.count(1))
@@ -333,11 +333,11 @@ print("a.count(2) =", a.count(2))
 print("a.count(3) =", a.count(3))
 ```
 
-#### **Find index of item: list.index\(item\) and list.index\(item, start\)**
+#### **Find index of item: list.index(item) and list.index(item, start)**
 
 **Example**
 
-```text
+```
 a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
 print("a            =", a)
 print("a.index(6)   =", a.index(6))
@@ -348,16 +348,16 @@ print("a.index(2,4) =", a.index(2,4))
 
 **Problem: crashes when item is not in list**
 
-```text
+```
 a = [ 2, 3, 5, 2 ]
 print("a          =", a)
 print("a.index(9) =", a.index(9)) # crashes!
 print("This line will not run!")
 ```
 
-**Solution: use \(item in list\)**
+**Solution: use (item in list)**
 
-```text
+```
 a = [ 2, 3, 5, 2 ]
 print("a =", a)
 if (9 in a):
@@ -369,9 +369,9 @@ print("This line will run now!")
 
 ### 8. **Adding Elements**   video
 
-#### **Destructively \(Modifying Lists\)**
+#### **Destructively (Modifying Lists)**
 
-**Add an item with list.append\(item\)**
+**Add an item with list.append(item)**
 
 ```python
 a = [ 2, 3 ]
@@ -379,7 +379,7 @@ a.append(7)
 print(a)
 ```
 
-**Add a list of items with list += list2 or list.extend\(list2\)**
+**Add a list of items with list += list2 or list.extend(list2)**
 
 ```python
 a = [ 2, 3 ]
@@ -397,7 +397,7 @@ a.insert(2, 42)  # at index 2, insert 42
 print(a)
 ```
 
-#### **Non-Destructively \(Creating New Lists\)**
+#### **Non-Destructively (Creating New Lists)**
 
 **Add an item with list1 + list2**
 
@@ -408,7 +408,7 @@ print(a)
 print(b)
 ```
 
-**Insert an item at a given index \(with list slices\)**
+**Insert an item at a given index (with list slices)**
 
 ```python
 a = [ 2, 3 ]
@@ -437,9 +437,9 @@ print(b)
 
 ### 9. **Removing Elements**
 
-#### **Destructively \(Modifying Lists\)**
+#### **Destructively (Modifying Lists)**
 
-**Remove an item with list.remove\(item\)**
+**Remove an item with list.remove(item)**
 
 ```python
 a = [ 2, 3, 5, 3, 7, 6, 5, 11, 13 ]
@@ -452,7 +452,7 @@ a.remove(5)
 print("After another a.remove(5), a=", a)
 ```
 
-**Remove an item at a given index with list.pop\(index\)**
+**Remove an item at a given index with list.pop(index)**
 
 ```python
 a = [ 2, 3, 4, 5, 6, 7, 8 ]
@@ -475,9 +475,9 @@ print("   item =", item)
 print("   a =", a)
 ```
 
-#### **Non-Destructively \(Creating New Lists\)**
+#### **Non-Destructively (Creating New Lists)**
 
-**Remove an item at a given index \(with list slices\)**
+**Remove an item at a given index (with list slices)**
 
 ```python
 a = [ 2, 3, 5, 3, 7, 5, 11, 13 ]
@@ -565,7 +565,7 @@ print("And now a =", a)
 
 Lists have many built-in methods. It's common for these methods to be implemented both destructively and non-destructively.
 
-#### **Destructively with list.sort\(\) or list.reverse\(\)**
+#### **Destructively with list.sort() or list.reverse()**
 
 ```python
 a = [ 7, 2, 5, 3, 5, 11, 7 ]
@@ -581,7 +581,7 @@ for item in a:
 print(a)
 ```
 
-#### **Non-Destructively with sorted\(list\) and reversed\(list\)**
+#### **Non-Destructively with sorted(list) and reversed(list)**
 
 ```python
 a = [ 7, 2, 5, 3, 5, 11, 7 ]
@@ -603,7 +603,7 @@ print(a)
 
 For most list methods, see [this](https://docs.python.org/3/library/stdtypes.html#typesseq-mutable) table and [this](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) list of list methods.
 
-### 12. **Tuples \(Immutable Lists\)**
+### 12. **Tuples (Immutable Lists)**
 
 Tuples are exactly like lists, except they are **immutable**. We cannot change the values of a tuple.
 
@@ -628,9 +628,9 @@ t[0] = 42    # crash!
 print(t[0])
 ```
 
-#### **Parallel \(tuple\) assignment**
+#### **Parallel (tuple) assignment**
 
-```text
+```
 (x, y) = (1, 2)
 print(x)
 print(y)
@@ -655,7 +655,7 @@ print(type(t), t*5)
 
 List comprehensions are a handy way to create lists using simple loops all in one line.
 
-```text
+```
 # Long way
 a = []
 for i in range(10):
@@ -690,4 +690,3 @@ a = ["parsley", "is", "gharsley"] # by Ogden Nash!
 print("".join(a))  # prints: parsleyisgharsley
 print(" ".join(a)) # prints: parsley is gharsley
 ```
-

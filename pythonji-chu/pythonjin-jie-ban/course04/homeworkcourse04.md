@@ -1,22 +1,16 @@
 # \[homework]course04
 
-### 课前作业
+## 课前作业
 
-python 3.9及以下：
-
-下载 [collapsar\_week3\_linter.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_week3\_linter.py) 和 [collapsar\_hw\_week3.py](https://ossp.pengjunjie.com/collapsar-homework-3-9/collapsar\_hw\_week3.py)文件。拷贝到week3的文件夹中。
+下载 [youyulab\_week3\_linter.py](http://ossp.pengjunjie.com/youyulab_week3_linter.py) 和 [youyulab\_hw\_week3.py](http://ossp.pengjunjie.com/youyulab_hw_week3.py)文件。拷贝到week3的文件夹中。
 
 其中youyulab\_week3\_linter.py文件不需要改动
 
-python 3.10 及以上：
-
-下载 [collapsar\_hw\_week3.py](https://ossp.pengjunjie.com/collapsar-homework-3-10/collapsar\_hw\_week3.py)
-
 打开youyulab\_hw\_week3.py 文件
 
-### 作业内容
+## 作业内容
 
-#### 1. **patternedMessage(message, pattern)**&#x20;
+### 1. **patternedMessage(message, pattern)**
 
 Write the function patternedMessage(message, pattern) that takes two strings, a message and a pattern, and returns a string produced by replacing the non-whitespace characters in the pattern with the non-whitespace characters in the message. As a first example:
 
@@ -32,7 +26,7 @@ Hint: While you may solve this how you wish, our sample solution did not use rep
 
 Here are two more straightforward examples:
 
-```py
+```python
 assert(patternedMessage("abc def",   "***** ***** ****")   ==
        "abcde fabcd efab")
 assert(patternedMessage("abc def", "\n***** ***** ****\n") == 
@@ -41,7 +35,7 @@ assert(patternedMessage("abc def", "\n***** ***** ****\n") ==
 
 And here is one last example, just for fun:
 
-```py
+```python
 patternedMessage("Go Steelers!",
 """
                           oooo$$$$$$$$$$$$oooo
@@ -108,7 +102,7 @@ ers!GoSte     elers!GoSt      eelers!GoSt      eelers!GoSt    eelers!G
 
 **Hint:** You will almost surely want to print strings to help you debug here, but whitespace can be quite tricky in this problem. So... Instead of using `print(s)` in your debugging, use `print(repr(s))`. That way, you can easily see the whitespace. This can make a **huge** difference in how long this problem takes! We highly recommend using this advice.
 
-#### 2. **encodeRightLeftRouteCipher(message,rows)**
+### 2. **encodeRightLeftRouteCipher(message,rows)**
 
 Background: A right-left route cipher is a fairly simple way to encrypt a message. It takes two values, some plaintext and a number of rows, and it first constructs a grid with that number of rows and the minimum number of columns required, writing the message in successive columns. For example, if the message is WEATTACKATDAWN, with 4 rows, the grid would be:
 
@@ -134,11 +128,10 @@ With this in mind, write the function encodeRightLeftRouteCipher that takes an a
 
 Here are a few more examples to consider:
 
-```py
+```python
 assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",4) == "4WTAWNTAEACDzyAKT")
 assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",3) == "3WTCTWNDKTEAAAAz") 
-assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",5) == "5WADACEAKWNATTTz") 
- 
+assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",5) == "5WADACEAKWNATTTz")
 ```
 
 Be sure to take the time to fully understand each of those examples!
@@ -147,14 +140,19 @@ Be sure to take the time to fully understand each of those examples!
 
 **More complete hint:** let's do this example in a bit more detail, and we'll even provide an idea or two on how to simplify solving this:
 
-```py
-assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",3) == "3WTCTWNDKTEAAAAz") 
-   
+```python
+assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",3) == "3WTCTWNDKTEAAAAz")
 ```
 
-1. **Find the dimensions of the conceptual 2d grid** Since len('WEATTACKATDAWN') is 14, and we have 3 rows, we need math.ceil(14/3) or 5 columns.
-2. **Pad the string** We need 3\*5, or 15 letters. We have 14. We have to add one. So we now have 'WEATTACKATDAWNz'
-3. **Imagine the conceptual 2d grid** We do not create this part. We just imagine it. But this is the 2d grid we imagine:
+1.  **Find the dimensions of the conceptual 2d grid**
+
+    &#x20;Since len('WEATTACKATDAWN') is 14, and we have 3 rows, we need math.ceil(14/3) or 5 columns.
+2.  **Pad the string**
+
+    &#x20;We need 3\*5, or 15 letters. We have 14. We have to add one. So we now have 'WEATTACKATDAWNz'
+3.  **Imagine the conceptual 2d grid**
+
+    &#x20;We do not create this part. We just imagine it. But this is the 2d grid we imagine:
 
 ```
 W T C T W
@@ -162,32 +160,36 @@ E T K D N
 A A A A z
 ```
 
-1. **Label your rows and cols** To be sure we are visualizing the grid properly, let's add row and col labels, like so:
+1.  **Label your rows and cols**
+
+    &#x20;To be sure we are visualizing the grid properly, let's add row and col labels, like so:
 
 ```
            col0  col1  col2  col3  col4
     row0:    W     T     C     T     W
     row1:    E     T     K     D     N
     row2:    A     A     A     A     z
-    
 ```
 
-1. **Label the padded string with row, col, and i** Let's use these row and col labels, but write them over the padded string (instead of the conceptual 2d grid). We'll also include the index i, like so:
+1.  **Label the padded string with row, col, and i**
+
+    &#x20;Let's use these row and col labels, but write them over the padded string (instead of the conceptual 2d grid). We'll also include the index i, like so:
 
 ```
         row:  0  1  2  0  1  2  0  1  2  0  1  2  0  1  2
         col:  0  0  0  1  1  1  2  2  2  3  3  3  4  4  4
         i:    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14
               W  E  A  T  T  A  C  K  A  T  D  A  W  N  z
-    
 ```
 
-1. **Find a function f(row,col) --> i** Look at the patterns in the row, col, and i in the table we just made. See if you can find a function f(row, col) that takes any row and col (in the conceptual 2d grid) and returns the corresponding index i (in the padded string). Also, name this function something better than f.
+1.  **Find a function f(row,col) --> i**
 
-* Hint: from the table above, we see that the K is in row 1 and column 2, and the K is at index 7 in the padded string, so... `f(1,2) == 7`
-* Hint: see how the row in the table above repeats: 0, 1, 2, 0, 1, 2,... What does this have to do with the fact that we have 3 total rows?
+    &#x20;Look at the patterns in the row, col, and i in the table we just made. See if you can find a function f(row, col) that takes any row and col (in the conceptual 2d grid) and returns the corresponding index i (in the padded string). Also, name this function something better than f.
+2. Hint: from the table above, we see that the K is in row 1 and column 2, and the K is at index 7 in the padded string, so... `f(1,2) == 7`
+3. Hint: see how the row in the table above repeats: 0, 1, 2, 0, 1, 2,... What does this have to do with the fact that we have 3 total rows?
+4.  **Now, traverse the 2d grid top-to-bottom, left-to-right**
 
-1. **Now, traverse the 2d grid top-to-bottom, left-to-right** This step is not required, but it is super helpful. As only a temporary measure, we will solve a slightly easier version of the problem: we will simply ignore that every other row goes right-to-left. We'll make every row go left-to-right just for now. So use two loops, one going over every row, and inside that, one going over every column. For each row,col pair, use your function f() that you just wrote (and renamed) to find the index in the padded string. Remember that this was the conceptual grid:
+    &#x20;This step is not required, but it is super helpful. As only a temporary measure, we will solve a slightly easier version of the problem: we will simply ignore that every other row goes right-to-left. We'll make every row go left-to-right just for now. So use two loops, one going over every row, and inside that, one going over every column. For each row,col pair, use your function f() that you just wrote (and renamed) to find the index in the padded string. Remember that this was the conceptual grid:
 
 ```
 WTCTW
@@ -203,29 +205,35 @@ And so, when you are done with this step, you should have a string like this (wh
 WTCTWETKDNAAAAz
 ```
 
-1. **Now alternate left-to-right and right-to-left** Now make every-other-row go the other way. So the second row will change from ETKDN to NDKTE, like so:
+1.  **Now alternate left-to-right and right-to-left**
+
+    &#x20;Now make every-other-row go the other way. So the second row will change from ETKDN to NDKTE, like so:
 
 ```
 WTCTWNDKTEAAAAz
 ```
 
-1. **Add the rows as a prefix** Easy enough:
+1.  **Add the rows as a prefix**
+
+    Easy enough:
 
 ```
 3WTCTWNDKTEAAAAz
 ```
 
-1. **Return that string** We are done. To remind ourselves, here was the test case:
+1.  **Return that string**
+
+    We are done. To remind ourselves, here was the test case:
 
 ```
-assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",3) == "3WTCTWNDKTEAAAAz") 
+assert(encodeRightLeftRouteCipher("WEATTACKATDAWN",3) == "3WTCTWNDKTEAAAAz")
 ```
 
-#### 3.**decodeRightLeftRouteCipher(message)**
+### 3.**decodeRightLeftRouteCipher(message)**
 
 Write the function decodeRightLeftRouteCipher, which takes an encoding from the previous problem and runs it in reverse, returning the plaintext that generated the encoding. For example, decodeRightLeftRouteCipher("4WTAWNTAEACDzyAKT") returns "WEATTACKATDAWN".
 
-#### 4.**drawSimpleTortoiseProgram(program, canvas, width, height)**
+### 4.**drawSimpleTortoiseProgram(program, canvas, width, height)**
 
 In addition to the Tkinter which we all know and love, Python usually comes with another graphics package called "Turtle Graphics", which you can read about [here](https://docs.python.org/2/library/turtle.html). We will definitely not be using turtle graphics in this problem (and you may not do so in your solution!), but we will instead implement a small turtle-like (or maybe turtle-inspired) graphics language of our own. We'll call it Tortoise Graphics.
 
@@ -242,7 +250,7 @@ Note that the starter code includes the helpful function runDrawSimpleTortoisePr
 
 For example, this call:
 
-```py
+```python
 runDrawSimpleTortoiseProgram("""
 # This is a simple tortoise program
 color blue
@@ -277,7 +285,7 @@ produces this result in a 300x400 window: ![](http://ossp.pengjunjie.com/mweb/hw
 
 And this call:
 
-```py
+```python
 runDrawSimpleTortoiseProgram("""
 # Y
 color red
@@ -332,7 +340,7 @@ move 50
 
 produces this result in a 500x500 window: ![](http://ossp.pengjunjie.com/mweb/hw4-tortoise2.png)
 
-#### 5. **drawNiceRobot(canvas, width, height)**
+### 5. **drawNiceRobot(canvas, width, height)**
 
 Write a function drawNiceRobot(canvas, width, height) that (you guessed it!) draws a nice robot! This is not meant to be very difficult. We just want to see some really cool robots while grading your homework. Your function must make a drawing using Tkinter that meets the following criteria:
 

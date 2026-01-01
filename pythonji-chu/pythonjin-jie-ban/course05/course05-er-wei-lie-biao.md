@@ -1,4 +1,4 @@
-# \[course\]05 —— 二维列表
+# \[course]05 —— 二维列表
 
 ## 1. **Creating 2d Lists**
 
@@ -10,9 +10,9 @@ a = [ [ 2, 3, 4 ] , [ 5, 6, 7 ] ]
 print(a)
 ```
 
-### **Dynamic \(Variable-Length\) Allocation**
+### **Dynamic (Variable-Length) Allocation**
 
-#### **Wrong: Cannot use \* \(Shallow Copy\)**
+#### **Wrong: Cannot use \* (Shallow Copy)**
 
 ```python
 # Try, and FAIL, to create a variable-sized 2d list
@@ -66,7 +66,7 @@ print("And now see what happens after a[0][0]=42")
 print("   a =", a)
 ```
 
-#### **Best option: make2dList\(\)**
+#### **Best option: make2dList()**
 
 ```python
 def make2dList(rows, cols):
@@ -101,7 +101,7 @@ print("cols =", cols)
 
 ## 3. **Copying and Aliasing 2d Lists**
 
-### **Wrong: Cannot use copy.copy \(shallow copy\)**
+### **Wrong: Cannot use copy.copy (shallow copy)**
 
 ```python
 import copy
@@ -256,7 +256,7 @@ for row in range(rows):
 print("After:  a =", a)
 ```
 
-```text
+```
  Copy Visualize Run
 ```
 
@@ -294,7 +294,7 @@ colList = [ a[i][col] for i in range(len(a)) ]
 print(colList)
 ```
 
-## 7. **Non-Rectangular \("Ragged"\) 2d Lists**
+## 7. **Non-Rectangular ("Ragged") 2d Lists**
 
 ```python
 # 2d lists do not have to be rectangular
@@ -331,4 +331,3 @@ for i in range(len(a)):
         for k in range(len(a[i][j])):
             print("a[%d][%d][%d] = %d" % (i, j, k, a[i][j][k]))
 ```
-

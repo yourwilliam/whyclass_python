@@ -70,7 +70,7 @@ def blog_single(request, question_id):
 
 在django中使用Template和static来整理所有的页面相关内容。
 
-[html原始文件下载链接](http://ossp.pengjunjie.com/YouyuLab\_src\_static.zip)
+[html原始文件下载链接](http://ossp.pengjunjie.com/YouyuLab_src_static.zip)
 
 ```bash
 youyulab/
@@ -144,9 +144,7 @@ def blog_single(request, question_id):
 \`
 
 ```markup
-{% raw %}
 {% load static %}
-{% endraw %}
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
@@ -161,12 +159,10 @@ css文件修改这里
 
 ```markup
 <!--srart theme style -->
-<link href="{% raw %}
-{% static 'blog/css/main.css'%}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'blog/css/main.css'%}" rel="stylesheet" type="text/css"/>
 <!-- end theme style -->
 <!-- favicon links -->
-<link rel="shortcut icon" type="image/png" href="{% static 'blog/images/header/favicon.png' %}
-{% endraw %}" />
+<link rel="shortcut icon" type="image/png" href="{% static 'blog/images/header/favicon.png' %}" />
 </head>
 ```
 
@@ -174,8 +170,7 @@ js文件修改
 
 ```markup
 <!--main js file start--> 
-<script type="text/javascript" src="{% raw %}
-{% static 'blog/js/jquery-1.12.2.js' %}"></script>
+<script type="text/javascript" src="{% static 'blog/js/jquery-1.12.2.js' %}"></script>
 <script type="text/javascript" src="{% static 'blog/js/bootstrap.js' %}"></script>
 <script type="text/javascript" src="{% static 'blog/js/modernizr.js' %}"></script>
 <script type="text/javascript" src="{% static 'blog/js/owl.carousel.js' %}"></script>
@@ -187,8 +182,7 @@ js文件修改
 <script type="text/javascript" src="{% static 'blog/js/plugins/revel/revolution.extension.slideanims.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'blog/js/plugins/countto/jquery.countTo.js' %}"></script>
 <script type="text/javascript" src="{% static 'blog/js/plugins/countto/jquery.appear.js' %}"></script>
-<script type="text/javascript" src="{% static 'blog/js/custom.js' %}
-{% endraw %}"></script>
+<script type="text/javascript" src="{% static 'blog/js/custom.js' %}"></script>
 <!--main js file end-->
 ```
 
@@ -205,7 +199,6 @@ js文件修改
 在Template中修改，获取后端所有数据
 
 ```markup
-{% raw %}
 {% for article in articles %}
                     <div class="ed_blog_item ed_bottompadder50">
                         <div class="ed_blog_image">
@@ -223,7 +216,6 @@ js文件修改
                         </div>
                     </div>
                     {% endfor %}
-{% endraw %}
 ```
 
 修改这一段，再讲其他的静态数据删掉。 完成之后在运行一下看看效果 后台添加几篇文章试试看

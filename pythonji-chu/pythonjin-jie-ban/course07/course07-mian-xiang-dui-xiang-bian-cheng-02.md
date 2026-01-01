@@ -1,4 +1,4 @@
-# \[course\]07 —— 面向对象编程02
+# \[course]07 —— 面向对象编程02
 
 ## 1. **Writing Classes**
 
@@ -44,7 +44,7 @@ def constructor(dog, name, age):
     dog.age = age
 ```
 
-* Unfortunately, Python does not use 'constructor' as the constructor name. Instead, it uses '**init**' \(sorry about that\), like so:
+* Unfortunately, Python does not use 'constructor' as the constructor name. Instead, it uses '**init**' (sorry about that), like so:
 
 ```python
 def __init__(dog, name, age):
@@ -53,7 +53,7 @@ def __init__(dog, name, age):
     dog.age = age
 ```
 
-* Also, unfortunately, while we could name the instance 'dog' like we did, standard convention requires that we name it 'self' \(sorry again\), like so:
+* Also, unfortunately, while we could name the instance 'dog' like we did, standard convention requires that we name it 'self' (sorry again), like so:
 
 ```python
 def __init__(self, name, age):
@@ -183,20 +183,18 @@ d.bark(4) # Dot says: woof!woof!woof!woof!
 ## 6. **Advantages of Classes and Methods**
 
 * **Encapsulation**
-  * **Organizes code**
+  *   **Organizes code**
 
-      A class includes the data and methods for that class.
+      &#x20; A class includes the data and methods for that class.
+  *   **Promotes intuitive design**
 
-  * **Promotes intuitive design**
-
-      Well-designed classes should be _intuitive_, so the data and methods in the class match commonsense expectations.
-
+      &#x20; Well-designed classes should be _intuitive_, so the data and methods in the class match commonsense expectations.
   * **Restricts access**
-    * `len` is a function, so we can call `len(True)` \(which crashes\)
+    * `len` is a function, so we can call `len(True)` (which crashes)
     * `upper` is a method on strings but not booleans, so we cannot even call `True.upper()`
-* **Polymorphism**
+*   **Polymorphism**
 
-    Polymorphism: the same method name can run different code based on type, like so:
+    &#x20; Polymorphism: the same method name can run different code based on type, like so:
 
 ```python
 class Dog(object):
@@ -210,4 +208,3 @@ class Cat(object):
 for animal in [ Dog(), Cat() ]:
     animal.speak() # same method name, but one woofs and one meows!
 ```
-

@@ -1,4 +1,4 @@
-# \[course\]08 游戏模块02-1
+# \[course]08 游戏模块02-1
 
 这部分游戏主要跟图像和滚动相关，是对图像的一个衍生
 
@@ -188,7 +188,7 @@ MyApp(width=700, height=600)
 
 ## 图片转换
 
-transpose : Transpose image \(flip or rotate in 90 degree steps\)
+transpose : Transpose image (flip or rotate in 90 degree steps)
 
 ```python
 def transpose(self, method):
@@ -254,8 +254,6 @@ MyApp(width=700, height=600)
 
 雪碧图用于游戏中的角色运动。
 
-下载文件 [blackbird.jpg](http://ossp.pengjunjie.com/black_bird.jpg)
-
 ```python
 # This demos sprites using Pillow/PIL images
 # See here for more details:
@@ -293,4 +291,3 @@ MyApp(width=400, height=400)
 ```
 
 作业： 制作自己的雪碧图人物，可以在网上随便的搜索相应的图片模板
-

@@ -12,9 +12,9 @@ chrome查看情况 ![-w340](http://ossp.pengjunjie.com/mweb/15572084334174.jpg)
 
 在发现代码中没有找出来的时候，一般可以这几步来定位：
 
-### 1. 使用chrome的$x\(\)来定位
+### 1. 使用chrome的$x()来定位
 
-首先在chrome的console面板下使用$x\(\)来定位是否存在问题。如果chrome中就无法显示出来，说明xpath本身写的就有问题，如果有，那么就说明xpath是没有问题的
+首先在chrome的console面板下使用$x()来定位是否存在问题。如果chrome中就无法显示出来，说明xpath本身写的就有问题，如果有，那么就说明xpath是没有问题的
 
 ![-w630](http://ossp.pengjunjie.com/mweb/15572090194621.jpg)
 
@@ -24,7 +24,7 @@ chrome查看情况 ![-w340](http://ossp.pengjunjie.com/mweb/15572084334174.jpg)
 
 ### 3. 查看原因
 
-response.xpath\(\)的原理是针对response.body中的内容进行xpath的，chrome的xpath是通过展示出来的html来进行xpath的。这二者有时候是会有差别的，实际上有些网页的dom并不在response.body中，是通过javascript生成的dom，所以有时候查询不到。
+response.xpath()的原理是针对response.body中的内容进行xpath的，chrome的xpath是通过展示出来的html来进行xpath的。这二者有时候是会有差别的，实际上有些网页的dom并不在response.body中，是通过javascript生成的dom，所以有时候查询不到。
 
 很多时候在chrome的Elements里面的内容跟使用response中的html内容是有区别的，因为部分的HTML是由javascript生成的，所以在response做xpath的时候根本就看不到。
 
@@ -37,4 +37,3 @@ response.xpath\(\)的原理是针对response.body中的内容进行xpath的，ch
 很多时候在页面抓取的时候，需要仔细分析一下页面的组成。
 
 有很多网页的数据是通过请求来获取的，在XHR中可以查看，如果这种接口获取json的格式，爬取起来会比xpath更简单，所以每个爬取的网页需要根据具体问题具体分析。
-

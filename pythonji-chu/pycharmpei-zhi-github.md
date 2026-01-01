@@ -47,4 +47,3 @@ window使用settings
 完成后点击clone
 
 点击Open，new window 打开新的项目窗口
-

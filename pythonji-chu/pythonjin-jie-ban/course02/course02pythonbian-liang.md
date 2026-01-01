@@ -1,4 +1,4 @@
-# \[course\]02——Python变量
+# \[course]02——Python变量
 
 ## Variables and Names, Format String
 
@@ -36,7 +36,7 @@ Python中的变量：
 
 变量的命名规则 —— 请查看python cheatsheet
 
-1、模块 模块尽量使用小写命名，首字母保持小写，尽量不要用下划线\(除非多个单词，且数量不多的情况\)
+1、模块 模块尽量使用小写命名，首字母保持小写，尽量不要用下划线(除非多个单词，且数量不多的情况)
 
 ```python
 # 正确的模块名
@@ -47,7 +47,7 @@ import html_parser
 import Decoder
 ```
 
-2、类名 类名使用驼峰\(CamelCase\)命名风格，首字母大写，私有类可用一个下划线开头
+2、类名 类名使用驼峰(CamelCase)命名风格，首字母大写，私有类可用一个下划线开头
 
 ```python
 class Farm():
@@ -76,7 +76,7 @@ def run_with_env():
 
 私有函数在函数前加一个下划线\_
 
-```text
+```
 class Person():
 
     def _private_func():
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
 常量采用全大写，如有多个单词，使用下划线隔开
 
-```text
+```
 MAX_CLIENT = 100
 MAX_CONNECTION = 1000
 CONNECTION_TIMEOUT = 600
@@ -105,7 +105,7 @@ CONNECTION_TIMEOUT = 600
 
 常量使用以下划线分隔的大写命名
 
-```text
+```
 MAX_OVERFLOW = 100
 
 Class FooBar:
@@ -139,4 +139,3 @@ print('My name is {}.'.format(name))
 [python3 f-string格式化字符串的高级用法](https://mlln.cn/2018/05/19/python3%20f-string%E6%A0%BC%E5%BC%8F%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/) 上面这篇一定要看一下
 
 [Python3.6新的字符串格式化语法](https://imliyan.com/blogs/article/Python3.6%E6%96%B0%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%AF%AD%E6%B3%95/)
-

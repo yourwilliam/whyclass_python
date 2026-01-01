@@ -1,4 +1,4 @@
-# \[course\]03 —— Python循环
+# \[course]03 —— Python循环
 
 > EX32
 
@@ -71,7 +71,7 @@ for num in numbers:
 
 ## 1. **for循环和range**
 
-[range方法](https://devdocs.io/python~3.7/library/functions#range)的使用，第一个参数指定开始，第二个参数指定到哪里结束\(&lt;\)
+[range方法](https://devdocs.io/python~3.7/library/functions#range)的使用，第一个参数指定开始，第二个参数指定到哪里结束(<)
 
 ```python
 # A for loop repeats an action a specific number of times
@@ -123,7 +123,7 @@ print(sumToN(5) == 0+1+2+3+4+5)
 
 Copy Visualize Run
 
-**range的第三个参数代表步长\(step\)**
+**range的第三个参数代表步长(step)**
 
 ```python
 def sumEveryKthFromMToN(m, n, k):
@@ -424,4 +424,3 @@ for n in range(10):
     print(n, nthPrime(n))
 print("Done!")
 ```
-

@@ -43,9 +43,9 @@ with open('somefile.txt', 'rt') as f:
         ...
 ```
 
-## seek\(\)
+## seek()
 
-Python 文件 seek\(\) 方法用于移动文件读取指针到指定位置。
+Python 文件 seek() 方法用于移动文件读取指针到指定位置。
 
 ## python的文件写入
 
@@ -54,4 +54,3 @@ Python 文件 seek\(\) 方法用于移动文件读取指针到指定位置。
 ![-w533](http://ossp.pengjunjie.com/mweb/15603098999016.jpg)
 
 > > > 扩展阅读： [文件部分扩展阅读](https://python3-cookbook.readthedocs.io/zh_CN/latest/chapters/p05_files_and_io.html)
-
