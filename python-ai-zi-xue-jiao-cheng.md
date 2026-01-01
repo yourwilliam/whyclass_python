@@ -45,7 +45,27 @@
 
 
 
-##
+## 后续练习建议
+
+
+
+#### hackerrank
+
+{% embed url="https://www.hackerrank.com/dashboard" %}
+
+hackerrank 适合于非计算机专业的练习和学习，之前很多金融相关的公司，招收跟计算机有关的实习生都会用这个平台发练习邮件，学生要在1小时内完成这个上面的练习
+
+#### leetcode
+
+{% embed url="https://leetcode.cn/leetbook/" %}
+
+leetcode 有国内版和国际版，国外计算机相关的公司会用这个平台来做线上考试，也算是比较专业的计算机方向的学习课程。这个上面的题目可以好好刷一刷
+
+#### kaggle
+
+{% embed url="https://www.kaggle.com/learn" %}
+
+经济、建模、人工智能相关专业，这应该是最好的入门课程了，也是通用的人工智能算法竞赛平台，这个可以提前了解，一直跟踪上面的内容了，这个强烈建议一直跟着玩。
 
 
 
