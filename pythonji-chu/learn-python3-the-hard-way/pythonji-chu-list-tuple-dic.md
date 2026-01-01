@@ -439,11 +439,11 @@ TypeError: unhashable type: 'set'
 
     我们先看看定义的时候tuple包含的3个元素：
 
-    ![tuple-0](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Le53R7Ru_ySSwFmZyv0%2Fuploads%2FXGoSICM0vrXBTQQ4QMR2%2Ffile.png?alt=media)
+    ![tuple-0](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LdlwKjDdcB1WUF6sqWu%2Fuploads%2FIMgd11aGAvsI8ptsJ3EM%2Ffile.png?alt=media)
 
     当我们把list的元素`'A'`和`'B'`修改为`'X'`和`'Y'`后，tuple变为：
 
-    ![tuple-1](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Le53R7Ru_ySSwFmZyv0%2Fuploads%2FNTLhEr2vUilyqvSTd7Ru%2Ffile.png?alt=media)
+    ![tuple-1](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LdlwKjDdcB1WUF6sqWu%2Fuploads%2FtRxZc3cd5KJYigcRujXK%2Ffile.png?alt=media)
 
     表面上看，tuple的元素确实变了，但其实变的不是tuple的元素，而是list的元素。tuple一开始指向的list并没有改成别的list，所以，tuple所谓的“不变”是说，tuple的每个元素，指向永远不变。即指向`'a'`，就不能改成指向`'b'`，指向一个list，就不能改成指向其他对象，但指向的这个list本身是可变的！
 
